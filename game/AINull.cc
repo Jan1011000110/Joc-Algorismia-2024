@@ -7,7 +7,6 @@
  */
 #define PLAYER_NAME Null
 
-
 struct PLAYER_NAME : public Player {
 
   /**
