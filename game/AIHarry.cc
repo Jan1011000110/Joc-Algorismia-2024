@@ -6,7 +6,7 @@
  * Write the name of your player and save this file
  * with the same name and .cc extension.
  */
-#define PLAYER_NAME SocUnPajerin
+#define PLAYER_NAME Harry
 
 struct PLAYER_NAME : public Player {
 
@@ -22,6 +22,8 @@ struct PLAYER_NAME : public Player {
    * Types and attributes for your player can be defined here.
    */
 
+  const int INF = 1E9;
+
   const int NUM_ROUNDS = 200;
   const int BOARD_ROWS = 60;
   const int BOARD_COLS = 60;
@@ -36,12 +38,38 @@ struct PLAYER_NAME : public Player {
   const int ROUNDS_SPELL_RESTING_GHOST = 60;	
   const int ROUNDS_NO_ATTACK_GHOST = 5;
 
+  const int THRESHOLD_DIST = 5;
+
   const int NUM_INGREDIENTS = 15;
   const int NUM_GROUPS = 5;
   const int NUM_INGREDIENTS_IN_GROUP = NUM_INGREDIENTS/NUM_GROUPS;
 
   const vector<Dir> ALL_DIRS = {Down, DR, Right, RU, Up, UL, Left, LD};
   const vector<Dir> DIRS = {Down, Right, Up, Left};
+
+  map<Dir, Dir> INVERSE_DIR = {
+        {Down, Up},
+        {Up, Down},
+        {Left, Right},
+        {Right, Left},
+        {DR, UL},
+        {RU, LD},
+        {UL, DR},
+        {LD, RU}
+    };
+
+  
+  struct S {
+    int id;
+    int d;
+    Pos pos;
+    Dir from;
+    S() : id(-1), d(1E9) {}
+    S(int id_, int d_, Pos pos_, Dir from_) : id(id_), d(d_), pos(pos_), from(from_) {}
+    bool operator <(const S &other) {
+      return d < other.d;
+    }
+  };
 
   
   /**
@@ -89,8 +117,8 @@ struct PLAYER_NAME : public Player {
   }
 
 
-  bool valid_pos(Pos p, bool is_voldemort) {
-    return pos_ok(p) and (is_voldemort or cell(p).type == Corridor);
+  bool valid_pos(Pos p) {
+    return pos_ok(p) and cell(p).type == Corridor;
   }
 
   vector<Pos> get_books_pos() {
@@ -106,35 +134,99 @@ struct PLAYER_NAME : public Player {
     return books_pos;
   }
 
-  vector<vector<int>> BFS(vector<Pos> &pos, bool is_voldemort) {
-    vector<Dir> dirs = (is_voldemort ? ALL_DIRS : DIRS);
-    vector<vector<int>> dist(BOARD_ROWS, vector<int>(BOARD_COLS, -1));
-    queue<pair<Pos, int>> q;
-    for (Pos p : pos) {
-      q.push({p, 0});
-      dist[p.i][p.j] = 0;
+  vector<vector<S>> BFS(vector<int> ids, bool is_ghost) {
+    vector<Dir> dirs = (is_ghost ? ALL_DIRS : DIRS);
+    vector<vector<S>> M(BOARD_ROWS, vector<S>(BOARD_COLS));
+    queue<pair<Pos, S>> q;
+    for (int id : ids) {
+      Pos p = unit(id).pos;
+      q.push({p, S(id, 0, p, Up)});
     }
     while (not q.empty()) {
-      auto [p, d] = q.front();
+      auto [p, s] = q.front();
       q.pop();
       for (Dir dir : dirs) {
         Pos new_p = p + dir;
-        if (valid_pos(new_p, is_voldemort) and dist[new_p.i][new_p.j] == -1) {
-          dist[new_p.i][new_p.j] = d + 1;
-          q.push({new_p, d + 1});
+        if (valid_pos(new_p) and M[new_p.i][new_p.j].d == INF) {
+          M[new_p.i][new_p.j] = S(s.id, s.d + 1, s.pos, INVERSE_DIR[dir]);
+          q.push({new_p, M[new_p.i][new_p.j]});
         }
       }
     }
-    return dist;
+    return M;
   }
 
-  void move_wizards(vector<vector<int>> &dist_books) {
+  vector<vector<S>> BFS_books(vector<Pos> pos) {
+    vector<Dir> dirs = DIRS;
+    vector<vector<S>> M(BOARD_ROWS, vector<S>(BOARD_COLS));
+    queue<pair<Pos, S>> q;
+    for (Pos p : pos) {
+      q.push({p, S(-1, 0, p, Up)});
+    }
+    while (not q.empty()) {
+      auto [p, s] = q.front();
+      q.pop();
+      for (Dir dir : dirs) {
+        Pos new_p = p + dir;
+        if (valid_pos(new_p) and M[new_p.i][new_p.j].d == INF) {
+          M[new_p.i][new_p.j] = S(s.id, s.d + 1, s.pos, dir);
+          q.push({new_p, M[new_p.i][new_p.j]});
+        }
+      }
+    }
+    return M;
+  }
 
+  void move_wizards() {
+    vector<int> my_wizards = wizards(me());
+    vector<Pos> books_pos = get_books_pos();
+
+    map<int, bool> used;
+    vector<vector<S>> M = BFS_books(books_pos);
+    vector<S> candidates;
+    for (int wizard_id : my_wizards) {
+      Pos p = unit(wizard_id).pos;
+      candidates.push_back(S(wizard_id, M[p.i][p.j].d, M[p.i][p.j].pos, M[p.i][p.j].from));
+    }
+    sort(candidates.begin(), candidates.end());
+    for (S candidate : candidates) {
+      auto [wizard_id, d, pos, dir] = candidate;
+      if (not used[wizard_id]) {
+        used[wizard_id] = true;
+        move(wizard_id, INVERSE_DIR[dir]);
+      }
+    }
+  }
+
+  void move_ghost() {
+    vector<vector<S>> M = BFS({ghost(me())}, true);
+    int min_d = INF;
+    for (int i = 0; i < BOARD_ROWS; ++i) {
+      for (int j = 0; j < BOARD_COLS; ++j) {
+        min_d = min(min_d, M[i][j].d);
+      }
+    }
+    if (min_d > THRESHOLD_DIST) { // then get far away from voldemort
+      Pos p = pos_voldemort();
+      move(ghost(me()), INVERSE_DIR[M[p.i][p.j].from]);
+    }
+    else {
+      for (int i = 0; i < BOARD_ROWS; ++i) {
+        for (int j = 0; j < BOARD_COLS; ++j) {
+          if (M[i][j].d == min_d) {
+            Pos new_p = unit(ghost(me())).pos + INVERSE_DIR[M[i][j].from];
+            if (valid_pos(new_p)) {
+              move(ghost(me()), INVERSE_DIR[M[i][j].from]);
+            }
+          }
+        }
+      }
+    }
   }
 
   void move_units() {
-    vector<Pos> books_pos = get_books_pos();
-    vector<vector<int>> dist_books = BFS(books_pos, false);
+    move_ghost();
+    move_wizards();
   }
 
   /**
