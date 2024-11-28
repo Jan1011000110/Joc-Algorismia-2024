@@ -148,7 +148,7 @@ struct PLAYER_NAME : public Player {
       for (Dir dir : dirs) {
         Pos new_p = p + dir;
         if (valid_pos(new_p) and M[new_p.i][new_p.j].d == INF) {
-          M[new_p.i][new_p.j] = S(s.id, s.d + 1, s.pos, INVERSE_DIR[dir]);
+          M[new_p.i][new_p.j] = S(s.id, s.d + 1, s.pos, (s.d == 0 ? dir : s.from));
           q.push({new_p, M[new_p.i][new_p.j]});
         }
       }
@@ -157,16 +157,16 @@ struct PLAYER_NAME : public Player {
   }
 
   vector<vector<S>> BFS_books(vector<Pos> pos) {
-    vector<Dir> dirs = DIRS;
     vector<vector<S>> M(BOARD_ROWS, vector<S>(BOARD_COLS));
     queue<pair<Pos, S>> q;
+    int id = 0;
     for (Pos p : pos) {
-      q.push({p, S(-1, 0, p, Up)});
+      q.push({p, S(id++, 0, p, Up)});
     }
     while (not q.empty()) {
       auto [p, s] = q.front();
       q.pop();
-      for (Dir dir : dirs) {
+      for (Dir dir : DIRS) {
         Pos new_p = p + dir;
         if (valid_pos(new_p) and M[new_p.i][new_p.j].d == INF) {
           M[new_p.i][new_p.j] = S(s.id, s.d + 1, s.pos, dir);
@@ -181,19 +181,40 @@ struct PLAYER_NAME : public Player {
     vector<int> my_wizards = wizards(me());
     vector<Pos> books_pos = get_books_pos();
 
-    map<int, bool> used;
+    map<int, bool> used_book, used_wizard;
     vector<vector<S>> M = BFS_books(books_pos);
-    vector<S> candidates;
+    vector<pair<int, S>> candidates;
     for (int wizard_id : my_wizards) {
       Pos p = unit(wizard_id).pos;
-      candidates.push_back(S(wizard_id, M[p.i][p.j].d, M[p.i][p.j].pos, M[p.i][p.j].from));
+      candidates.emplace_back(wizard_id, M[p.i][p.j]);
     }
-    sort(candidates.begin(), candidates.end());
-    for (S candidate : candidates) {
-      auto [wizard_id, d, pos, dir] = candidate;
-      if (not used[wizard_id]) {
-        used[wizard_id] = true;
+    vector<int> order(candidates.size());
+    iota(order.begin(), order.end(), 0LL);
+    sort(order.begin(), order.end(), [&](int i, int j) {
+      return candidates[i].second < candidates[j].second;
+    });
+    //sort(candidates.begin(), candidates.end());
+    for (auto it : order) {
+      int i = order[it];
+      auto [wizard_id, s] = candidates[i];
+      auto [book_id, d, p, dir] = s;
+      if (not used_book[book_id]) {
+        used_book[book_id] = true;
+        used_wizard[wizard_id] = true;
+        //cerr << pos << endl;
+        //cerr << INVERSE_DIR[dir] << endl;
         move(wizard_id, INVERSE_DIR[dir]);
+      }
+    }
+    for (auto wizard_id : my_wizards) {
+      Pos p = unit(wizard_id).pos;
+      if (not used_wizard[wizard_id]) {
+        for (Dir dir : DIRS) {
+          Pos np = p + dir;
+          if (valid_pos(np) and cell(np).owner != me()) {
+            move(wizard_id, dir);
+          }
+        }
       }
     }
   }
@@ -201,9 +222,13 @@ struct PLAYER_NAME : public Player {
   void move_ghost() {
     vector<vector<S>> M = BFS({ghost(me())}, true);
     int min_d = INF;
+    Pos voldemort_p = pos_voldemort();
     for (int i = 0; i < BOARD_ROWS; ++i) {
       for (int j = 0; j < BOARD_COLS; ++j) {
-        min_d = min(min_d, M[i][j].d);
+        Pos p = Pos(i, j);
+        if (unit(cell(p).id).player != me() or p == voldemort_p) {
+          min_d = min(min_d, M[i][j].d);
+        }
       }
     }
     if (min_d > THRESHOLD_DIST) { // then get far away from voldemort
