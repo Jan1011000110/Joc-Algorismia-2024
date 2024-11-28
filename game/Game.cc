@@ -45,9 +45,15 @@ void Game::run (vector<string> names, istream& is, ostream& os, int seed) {
     }
 
     b.next(actions, os);
+    #ifndef GOFAST
     b.print_state(os);
+    #endif
     cerr << "info: end round " << round << endl;
   }
+
+  #ifdef GOFAST
+    b.print_state(os);
+  #endif
 
   b.print_results();
 

@@ -6,7 +6,7 @@
  * Write the name of your player and save this file
  * with the same name and .cc extension.
  */
-#define PLAYER_NAME Harry
+#define PLAYER_NAME Bot1
 
 struct PLAYER_NAME : public Player {
 
@@ -69,6 +69,12 @@ struct PLAYER_NAME : public Player {
     bool operator <(const S &other) {
       return d < other.d;
     }
+    friend bool operator <(const S &a, const S &b) {
+      return a < b;
+    }
+    friend S max(const S &a, const S &b) {
+      return a < b ? a : b;
+    }
   };
 
   
@@ -117,8 +123,8 @@ struct PLAYER_NAME : public Player {
   }
 
 
-  bool valid_pos(Pos p) {
-    return pos_ok(p) and cell(p).type == Corridor;
+  bool valid_pos(Pos p, bool is_vol) {
+    return pos_ok(p) and (is_vol or cell(p).type == Corridor);
   }
 
   vector<Pos> get_books_pos() {
@@ -134,8 +140,8 @@ struct PLAYER_NAME : public Player {
     return books_pos;
   }
 
-  vector<vector<S>> BFS(vector<int> ids, bool is_ghost) {
-    vector<Dir> dirs = (is_ghost ? ALL_DIRS : DIRS);
+  vector<vector<S>> BFS_id(vector<int> ids, bool all_dirs, bool is_vol) {
+    vector<Dir> dirs = (all_dirs ? ALL_DIRS : DIRS);
     vector<vector<S>> M(BOARD_ROWS, vector<S>(BOARD_COLS));
     queue<pair<Pos, S>> q;
     for (int id : ids) {
@@ -147,7 +153,7 @@ struct PLAYER_NAME : public Player {
       q.pop();
       for (Dir dir : dirs) {
         Pos new_p = p + dir;
-        if (valid_pos(new_p) and M[new_p.i][new_p.j].d == INF) {
+        if (valid_pos(new_p, is_vol) and M[new_p.i][new_p.j].d == INF) {
           M[new_p.i][new_p.j] = S(s.id, s.d + 1, s.pos, (s.d == 0 ? dir : s.from));
           q.push({new_p, M[new_p.i][new_p.j]});
         }
@@ -156,7 +162,8 @@ struct PLAYER_NAME : public Player {
     return M;
   }
 
-  vector<vector<S>> BFS_books(vector<Pos> pos) {
+  vector<vector<S>> BFS_pos(vector<Pos> pos, bool all_dirs, bool is_vol) {
+    vector<Dir> dirs = (all_dirs ? ALL_DIRS : DIRS);
     vector<vector<S>> M(BOARD_ROWS, vector<S>(BOARD_COLS));
     queue<pair<Pos, S>> q;
     int id = 0;
@@ -168,7 +175,7 @@ struct PLAYER_NAME : public Player {
       q.pop();
       for (Dir dir : DIRS) {
         Pos new_p = p + dir;
-        if (valid_pos(new_p) and M[new_p.i][new_p.j].d == INF) {
+        if (valid_pos(new_p, is_vol) and M[new_p.i][new_p.j].d == INF) {
           M[new_p.i][new_p.j] = S(s.id, s.d + 1, s.pos, dir);
           q.push({new_p, M[new_p.i][new_p.j]});
         }
@@ -178,73 +185,44 @@ struct PLAYER_NAME : public Player {
   }
 
   void move_wizards() {
+    // TODO: HELP NEARBY WIZARDS THAT ARE CONVERTING
     vector<int> my_wizards = wizards(me());
     vector<Pos> books_pos = get_books_pos();
-
-    map<int, bool> used_book, used_wizard;
-    vector<vector<S>> M = BFS_books(books_pos);
-    vector<pair<int, S>> candidates;
+    vector<bool> used_wizards(my_wizards.size(), false);
+    vector<vector<S>> M = BFS_pos(books_pos, false, false);
     for (int wizard_id : my_wizards) {
-      Pos p = unit(wizard_id).pos;
-      candidates.emplace_back(wizard_id, M[p.i][p.j]);
-    }
-    vector<int> order(candidates.size());
-    iota(order.begin(), order.end(), 0LL);
-    sort(order.begin(), order.end(), [&](int i, int j) {
-      return candidates[i].second < candidates[j].second;
-    });
-    //sort(candidates.begin(), candidates.end());
-    for (auto it : order) {
-      int i = order[it];
-      auto [wizard_id, s] = candidates[i];
-      auto [book_id, d, p, dir] = s;
-      if (not used_book[book_id]) {
-        used_book[book_id] = true;
-        used_wizard[wizard_id] = true;
-        //cerr << pos << endl;
-        //cerr << INVERSE_DIR[dir] << endl;
-        move(wizard_id, INVERSE_DIR[dir]);
+      if (used_wizards[wizard_id]) {
+        continue;
       }
-    }
-    for (auto wizard_id : my_wizards) {
       Pos p = unit(wizard_id).pos;
-      if (not used_wizard[wizard_id]) {
-        for (Dir dir : DIRS) {
-          Pos np = p + dir;
-          if (valid_pos(np) and cell(np).owner != me()) {
-            move(wizard_id, dir);
-          }
-        }
-      }
+      auto [book_id, d, book_p, dir] = M[p.i][p.j];
+      move(wizard_id, INVERSE_DIR[dir]);
+      used_wizards[wizard_id] = true;
     }
   }
 
   void move_ghost() {
-    vector<vector<S>> M = BFS({ghost(me())}, true);
-    int min_d = INF;
-    Pos voldemort_p = pos_voldemort();
-    for (int i = 0; i < BOARD_ROWS; ++i) {
-      for (int j = 0; j < BOARD_COLS; ++j) {
-        Pos p = Pos(i, j);
-        if (unit(cell(p).id).player != me() or p == voldemort_p) {
-          min_d = min(min_d, M[i][j].d);
-        }
+    vector<int> other_wizards;
+    for (int pl = 0; pl < 4; ++pl) {
+      if (pl != me()) {
+        vector<int> wz = wizards(pl);
+        for (auto id : wz) other_wizards.push_back(id);
       }
     }
-    if (min_d > THRESHOLD_DIST) { // then get far away from voldemort
-      Pos p = pos_voldemort();
-      move(ghost(me()), INVERSE_DIR[M[p.i][p.j].from]);
+    vector<vector<S>> M1 = BFS_id(other_wizards, false, false);
+    vector<vector<S>> M2 = BFS_pos({pos_voldemort()}, true, true);
+    vector<vector<S>> M(BOARD_ROWS, vector<S>(BOARD_COLS));
+    for (int i = 0; i < BOARD_ROWS; ++i) {
+      for (int j = 0; j < BOARD_COLS; ++j) {
+        M[i][j] = M1[i][j].d < M2[i][j].d ? M1[i][j] : M2[i][j];
+      }
     }
-    else {
-      for (int i = 0; i < BOARD_ROWS; ++i) {
-        for (int j = 0; j < BOARD_COLS; ++j) {
-          if (M[i][j].d == min_d) {
-            Pos new_p = unit(ghost(me())).pos + INVERSE_DIR[M[i][j].from];
-            if (valid_pos(new_p)) {
-              move(ghost(me()), INVERSE_DIR[M[i][j].from]);
-            }
-          }
-        }
+    // POSSIBLE PROBLEM, THE GHOST MAY NOT MOVE
+    Pos ghost_p = unit(ghost(me())).pos;
+    for (Dir dir : ALL_DIRS) {
+      Pos new_p = ghost_p + dir;
+      if (valid_pos(new_p, false) and cell(new_p).is_empty() and M[new_p.i][new_p.j].d > M[ghost_p.i][ghost_p.j].d) {
+        move(ghost(me()), dir);
       }
     }
   }

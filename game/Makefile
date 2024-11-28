@@ -21,7 +21,7 @@ ifeq ($(strip $(DEBUG)),1)
 	DEBUGFLAGS=-g -O0 -fno-inline -D_GLIBCXX_DEBUG 
 endif
 
-CXXFLAGS = -std=c++17 -Wall -Wno-unused-variable -fPIC $(PROFILEFLAGS) $(DEBUGFLAGS) -O$(strip $(OPTIMIZE))
+CXXFLAGS = -std=c++17 -Wall -Wno-unused-variable -fPIC $(GOFAST) $(DEBUGFLG) $(PROFILEFLAGS) $(DEBUGFLAGS) -O$(strip $(OPTIMIZE))
 LDFLAGS  = -std=c++11                            $(PROFILEFLAGS) $(DEBUGFLAGS) -O$(strip $(OPTIMIZE))
 
 
@@ -34,7 +34,10 @@ PLAYERS_OBJ = $(patsubst %.cc, %.o, $(PLAYERS_SRC)) $(EXTRA_OBJ) $(DUMMY_OBJ)
 
 OBJ = Structs.o Settings.o State.o Info.o Random.o Board.o Action.o Player.o Registry.o Utils.o 
 
-all: Game
+all: setup Game
+
+setup:
+	cp AIDummy.o.Linux64 AIDummy.o
 
 clean:
 	rm -rf Game  *.o *.exe Makefile.deps

@@ -601,8 +601,10 @@ void Board::next (const vector<Action>& act, ostream& os) {
 
   }
   
+  #ifndef GOFAST
   os << "commands" << endl;
   Action::print(commands_done, os);
+  #endif
 
   int b;
   move_voldemort(b, w_killed, g_killed);
@@ -1117,4 +1119,3 @@ void Board::generate_random_board ( ){
   p_voldemort = get_random_pos_where_regenerate_voldemort( );
   
 }
-
