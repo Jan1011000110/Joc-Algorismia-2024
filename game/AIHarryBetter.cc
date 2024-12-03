@@ -2,6 +2,9 @@
 
 #include <vector>
 
+#define sz(a) static_cast<int>(a.size())
+#define dbg(a) cerr << #a << " = " << a << endl;
+
 /**
  * Write the name of your player and save this file
  * with the same name and .cc extension.
@@ -38,7 +41,8 @@ struct PLAYER_NAME : public Player {
   const int ROUNDS_SPELL_RESTING_GHOST = 60;	
   const int ROUNDS_NO_ATTACK_GHOST = 5;
 
-  const int THRESHOLD_DIST = 7;
+  const int THRESHOLD_ESCAPE = 7;
+  const int THRESHOLD_ATTACK_GHOST = 5;
 
   const int NUM_INGREDIENTS = 15;
   const int NUM_GROUPS = 5;
@@ -82,6 +86,10 @@ struct PLAYER_NAME : public Player {
    * Helper functions
    */
 
+  int dist(Pos p, Pos q) {
+    return abs(p.i-q.i) + abs(p.j-q.j);
+  }
+
   bool f(int i, int target, vector<int> &groups, vector<int> &sum, vector<int> &cnt, vector<int> &a) {
     if (i == NUM_INGREDIENTS) {
       return true;
@@ -123,8 +131,12 @@ struct PLAYER_NAME : public Player {
   }
 
 
-  bool valid_pos(Pos p, bool is_vol) {
-    return pos_ok(p) and (is_vol or cell(p).type == Corridor);
+  bool valid_pos(Pos p) {
+    return pos_ok(p) and cell(p).type == Corridor;
+  }
+
+  bool empty_pos(Pos p) {
+    return valid_pos(p) and (cell(p).is_empty() or cell(p).book);
   }
 
   vector<Pos> get_books_pos() {
@@ -140,7 +152,7 @@ struct PLAYER_NAME : public Player {
     return books_pos;
   }
 
-  vector<vector<S>> BFS_id(vector<int> ids, bool all_dirs, bool is_vol) {
+  vector<vector<S>> BFS_id(vector<int> ids, bool all_dirs) {
     vector<Dir> dirs = (all_dirs ? ALL_DIRS : DIRS);
     vector<vector<S>> M(BOARD_ROWS, vector<S>(BOARD_COLS));
     queue<pair<Pos, S>> q;
@@ -153,7 +165,7 @@ struct PLAYER_NAME : public Player {
       q.pop();
       for (Dir dir : dirs) {
         Pos new_p = p + dir;
-        if (valid_pos(new_p, is_vol) and M[new_p.i][new_p.j].d == INF) {
+        if (valid_pos(new_p) and M[new_p.i][new_p.j].d == INF) {
           M[new_p.i][new_p.j] = S(s.id, s.d + 1, s.pos, (s.d == 0 ? dir : s.from));
           q.push({new_p, M[new_p.i][new_p.j]});
         }
@@ -162,7 +174,7 @@ struct PLAYER_NAME : public Player {
     return M;
   }
 
-  vector<vector<S>> BFS_pos(vector<Pos> pos, bool all_dirs, bool is_vol) {
+  vector<vector<S>> BFS_pos(vector<Pos> pos, bool all_dirs) {
     vector<Dir> dirs = (all_dirs ? ALL_DIRS : DIRS);
     vector<vector<S>> M(BOARD_ROWS, vector<S>(BOARD_COLS));
     queue<pair<Pos, S>> q;
@@ -175,7 +187,7 @@ struct PLAYER_NAME : public Player {
       q.pop();
       for (Dir dir : DIRS) {
         Pos new_p = p + dir;
-        if (valid_pos(new_p, is_vol) and M[new_p.i][new_p.j].d == INF) {
+        if (valid_pos(new_p) and M[new_p.i][new_p.j].d == INF) {
           M[new_p.i][new_p.j] = S(s.id, s.d + 1, s.pos, dir);
           q.push({new_p, M[new_p.i][new_p.j]});
         }
@@ -184,11 +196,39 @@ struct PLAYER_NAME : public Player {
     return M;
   }
 
+  bool try_move(int id, bool all_dirs, bool attack, bool get_closer, vector<vector<int>> &D) {
+    vector<Dir> dirs = (all_dirs ? ALL_DIRS : DIRS);
+    Pos p = unit(id).pos;
+    for (Dir dir : dirs) {
+      Pos new_p = p + dir;
+      if ((attack ? valid_pos(new_p) : empty_pos(new_p)) and (get_closer ? D[new_p.i][new_p.j] < D[p.i][p.j] : D[new_p.i][new_p.j] > D[p.i][p.j])) {
+        move(id, dir);
+        return true;
+      }
+    }
+    for (Dir dir : dirs) {
+      Pos new_p = p + dir;
+      if ((attack ? valid_pos(new_p) : empty_pos(new_p) and D[new_p.i][new_p.j] == D[p.i][p.j])) {
+        move(id, dir);
+        return true;
+      }
+    }
+    return false;
+  }
+
+
+  bool try_move(int id, bool all_dirs, bool attack, bool get_closer, vector<vector<S>> &M) {
+    vector<vector<int>> D(BOARD_ROWS, vector<int>(BOARD_COLS));
+    for (int i = 0; i < BOARD_ROWS; ++i) for (int j = 0; j < BOARD_COLS; ++j) D[i][j] = M[i][j].d;
+    return try_move(id, all_dirs, attack, get_closer, D);
+  }
+
   void move_wizards() {
     // TODO: HELP NEARBY WIZARDS THAT ARE CONVERTING
     vector<int> my_wizards = wizards(me());
-    int N = my_wizards.size();
-    vector<bool> used_wizards(N, false);
+    map<int, bool> used_wizards;
+
+    // MOVE WIZARDS IN CONVERTING PROCESS TO GOOD WIZARDS SO THEY HEAL, MAYBE MOVE GOOD WIZARDS TO GET CLOSER
     vector<int> bad_wizards, good_wizards;
     for (int wizard_id : my_wizards) {
       if (unit(wizard_id).is_in_conversion_process()) {
@@ -198,21 +238,62 @@ struct PLAYER_NAME : public Player {
         good_wizards.push_back(wizard_id);
       }
     }
-    vector<vector<S>> M_bad = BFS_id(good_wizards, false, false);
+    vector<vector<S>> M_good = BFS_id(good_wizards, false);
+    vector<vector<S>> M_bad = BFS_id(bad_wizards, false);
     for (int wizard_id : bad_wizards) {
-      
+      if (used_wizards.count(wizard_id)) {
+        continue;
+      }
+      Pos p = unit(wizard_id).pos;
+      bool reachable = unit(wizard_id).rounds_pending > M_good[p.i][p.j].d;
+      if (reachable and try_move(wizard_id, false, false, true, M_good)) {
+        used_wizards[wizard_id] = true;
+      }
     }
-    
-    vector<Pos> books_pos = get_books_pos();
-    vector<vector<S>> M_books = BFS_pos(books_pos, false, false);
+    for (int wizard_id : good_wizards) {
+      if (used_wizards.count(wizard_id)) {
+        continue;
+      }
+      Pos p = unit(wizard_id).pos;
+      auto [bad_id, d, bad_p, dir] = M_bad[p.i][p.j];
+      bool reachable = unit(bad_id).rounds_pending > M_bad[p.i][p.j].d;
+      if (reachable and try_move(wizard_id, false, true, true, M_bad)) {
+        used_wizards[wizard_id] = true;
+      }
+    }
+
+    // MOVE WIZARDS TO ATTACK GHOST  
+    vector<int> other_ghosts;
+    map<int, bool> attacked_ghosts;
+    for (int pl = 0; pl < 4; ++pl) if (pl != me()) other_ghosts.push_back(ghost(pl));
+    vector<vector<S>> M_ghosts = BFS_id(other_ghosts, false);
     for (int wizard_id : my_wizards) {
-      if (used_wizards[wizard_id]) {
+      if (used_wizards.count(wizard_id)) {
+        continue;
+      }
+      Pos p = unit(wizard_id).pos;
+      auto [ghost_id, d, ghost_p, dir] = M_ghosts[p.i][p.j];
+      bool reachable = d < THRESHOLD_ATTACK_GHOST and not attacked_ghosts.count(ghost_id);
+      if (reachable and unit(ghost_id).resting_rounds() == 0 and try_move(wizard_id, false, true, true, M_ghosts)) {
+        used_wizards[wizard_id] = true;
+        attacked_ghosts[ghost_id] = true;
+      }
+    }
+
+    // MOVE WIZARDS TO COLLECT BOOKS
+    // TODO: CHECK IF SOME ENEMY WIZARD WILL REACH BEFORE ME
+    vector<Pos> books_pos = get_books_pos();
+    vector<vector<S>> M_books = BFS_pos(books_pos, false);
+    for (int wizard_id : my_wizards) {
+      if (used_wizards.count(wizard_id)) {
         continue;
       }
       Pos p = unit(wizard_id).pos;
       auto [book_id, d, book_p, dir] = M_books[p.i][p.j];
-      move(wizard_id, INVERSE_DIR[dir]);
-      used_wizards[wizard_id] = true;
+      if (valid_pos(p + INVERSE_DIR[dir])) {
+        move(wizard_id, INVERSE_DIR[dir]);
+        used_wizards[wizard_id] = true;
+      }
     }
   }
 
@@ -224,21 +305,20 @@ struct PLAYER_NAME : public Player {
         for (auto id : wz) other_wizards.push_back(id);
       }
     }
-    vector<vector<S>> M_other = BFS_id(other_wizards, false, false);
-    vector<vector<S>> M_vol = BFS_pos({pos_voldemort()}, true, true);
-    vector<vector<S>> M(BOARD_ROWS, vector<S>(BOARD_COLS));
+    vector<vector<S>> M = BFS_id(other_wizards, false);
+    vector<vector<int>> D(BOARD_ROWS, vector<int>(BOARD_COLS));
     for (int i = 0; i < BOARD_ROWS; ++i) {
       for (int j = 0; j < BOARD_COLS; ++j) {
-        M[i][j] = M_other[i][j].d < M_vol[i][j].d ? M_other[i][j] : M_vol[i][j];
+        D[i][j] = min(M[i][j].d, dist(Pos(i, j), pos_voldemort()));
       }
     }
     // POSSIBLE PROBLEM, THE GHOST MAY NOT MOVE
-    Pos ghost_p = unit(ghost(me())).pos;
-    for (Dir dir : ALL_DIRS) {
-      Pos new_p = ghost_p + dir;
-      if (valid_pos(new_p, false) and cell(new_p).is_empty() and M[new_p.i][new_p.j].d > M[ghost_p.i][ghost_p.j].d) {
-        move(ghost(me()), dir);
-      }
+    Pos p = unit(ghost(me())).pos;
+    if (D[p.i][p.j] < THRESHOLD_ESCAPE) {
+      try_move(ghost(me()), true, false, false, D);
+    }
+    else {
+      // LOOK FOR BOOKS
     }
   }
 

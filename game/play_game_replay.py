@@ -5,7 +5,8 @@ import time
 
 # ===================== CONFIG ========================
 
-bots = ["Dummy", "Dummy", "Dummy", "Harry"]
+#bots = ["Dummy", "Dummy", "Dummy", "Harry"]
+bots = ["Ron2", "Harry3", "Harry2", "Harry"]
 
 fsanitize = False
 

@@ -6,13 +6,15 @@ import threading
 
 # ===================== CONFIG ========================
 
-bots = ["Dummy", "Dummy", "Martinet", "Harry"]
+#bots = ["Dummy", "Dummy", "Dummy", "Harry"]
+#bots = ["Ron2", "Null", "Null", "Harry"]
+bots = ["Null", "Harry3", "Harry2", "Harry"]
 
 in_file = "default.cnf" 
 out_file = "default.out"
 log_file = "/dev/null"
 
-THREAD_NUM = 10
+THREAD_NUM = 20
 
 # ===================== CONFIG ========================
 

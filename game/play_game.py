@@ -5,7 +5,7 @@ import time
 
 # ===================== CONFIG ========================
 
-bots = ["Dummy", "Dummy", "Dummy", "Harry"]
+bots = ["Null", "Null", "Harry", "Harry2"]
 
 in_file = "default.cnf" 
 out_file = "default.out"

@@ -9,7 +9,7 @@
  * Write the name of your player and save this file
  * with the same name and .cc extension.
  */
-#define PLAYER_NAME Harry
+#define PLAYER_NAME Harry3
 
 struct PLAYER_NAME : public Player {
 
@@ -196,19 +196,12 @@ struct PLAYER_NAME : public Player {
     return M;
   }
 
-  bool try_move(int id, bool all_dirs, bool attack, bool get_closer, vector<vector<int>> &D) {
+  bool try_move(int id, bool all_dirs, bool attack, vector<vector<int>> &D) {
     vector<Dir> dirs = (all_dirs ? ALL_DIRS : DIRS);
     Pos p = unit(id).pos;
     for (Dir dir : dirs) {
       Pos new_p = p + dir;
-      if ((attack ? valid_pos(new_p) : empty_pos(new_p)) and (get_closer ? D[new_p.i][new_p.j] < D[p.i][p.j] : D[new_p.i][new_p.j] > D[p.i][p.j])) {
-        move(id, dir);
-        return true;
-      }
-    }
-    for (Dir dir : dirs) {
-      Pos new_p = p + dir;
-      if ((attack ? valid_pos(new_p) : empty_pos(new_p) and D[new_p.i][new_p.j] == D[p.i][p.j])) {
+      if (attack ? valid_pos(new_p) : empty_pos(new_p) and D[new_p.i][new_p.j] < D[p.i][p.j]) {
         move(id, dir);
         return true;
       }
@@ -217,10 +210,10 @@ struct PLAYER_NAME : public Player {
   }
 
 
-  bool try_move(int id, bool all_dirs, bool attack, bool get_closer, vector<vector<S>> &M) {
+  bool try_move(int id, bool all_dirs, bool attack, vector<vector<S>> &M) {
     vector<vector<int>> D(BOARD_ROWS, vector<int>(BOARD_COLS));
     for (int i = 0; i < BOARD_ROWS; ++i) for (int j = 0; j < BOARD_COLS; ++j) D[i][j] = M[i][j].d;
-    return try_move(id, all_dirs, attack, get_closer, D);
+    return try_move(id, all_dirs, attack, D);
   }
 
   void move_wizards() {
@@ -246,7 +239,7 @@ struct PLAYER_NAME : public Player {
       }
       Pos p = unit(wizard_id).pos;
       bool reachable = unit(wizard_id).rounds_pending > M_good[p.i][p.j].d;
-      if (reachable and try_move(wizard_id, false, false, true, M_good)) {
+      if (reachable and try_move(wizard_id, false, false, M_good)) {
         used_wizards[wizard_id] = true;
       }
     }
@@ -257,26 +250,8 @@ struct PLAYER_NAME : public Player {
       Pos p = unit(wizard_id).pos;
       auto [bad_id, d, bad_p, dir] = M_bad[p.i][p.j];
       bool reachable = unit(bad_id).rounds_pending > M_bad[p.i][p.j].d;
-      if (reachable and try_move(wizard_id, false, true, true, M_bad)) {
+      if (reachable and try_move(wizard_id, false, true, M_bad)) {
         used_wizards[wizard_id] = true;
-      }
-    }
-
-    // MOVE WIZARDS TO ATTACK GHOST  
-    vector<int> other_ghosts;
-    map<int, bool> attacked_ghosts;
-    for (int pl = 0; pl < 4; ++pl) if (pl != me()) other_ghosts.push_back(ghost(pl));
-    vector<vector<S>> M_ghosts = BFS_id(other_ghosts, false);
-    for (int wizard_id : my_wizards) {
-      if (used_wizards.count(wizard_id)) {
-        continue;
-      }
-      Pos p = unit(wizard_id).pos;
-      auto [ghost_id, d, ghost_p, dir] = M_ghosts[p.i][p.j];
-      bool reachable = d < THRESHOLD_ATTACK_GHOST and not attacked_ghosts.count(ghost_id);
-      if (reachable and unit(ghost_id).resting_rounds() == 0 and try_move(wizard_id, false, true, true, M_ghosts)) {
-        used_wizards[wizard_id] = true;
-        attacked_ghosts[ghost_id] = true;
       }
     }
 
@@ -315,7 +290,7 @@ struct PLAYER_NAME : public Player {
     // POSSIBLE PROBLEM, THE GHOST MAY NOT MOVE
     Pos p = unit(ghost(me())).pos;
     if (D[p.i][p.j] < THRESHOLD_ESCAPE) {
-      try_move(ghost(me()), true, false, true, D);
+      try_move(ghost(me()), true, false, D);
     }
     else {
       // LOOK FOR BOOKS
