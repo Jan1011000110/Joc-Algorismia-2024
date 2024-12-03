@@ -1,3 +1,7 @@
+Game
+
+Seed 30
+
 HarryPotter 1.0
 
 NUM_PLAYERS			4

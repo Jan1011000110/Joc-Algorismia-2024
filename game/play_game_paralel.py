@@ -6,7 +6,7 @@ import threading
 
 # ===================== CONFIG ========================
 
-bots = ["Dummy", "Dummy", "Dummy", "Harry"]
+bots = ["Dummy", "Dummy", "Martinet", "Harry"]
 
 in_file = "default.cnf" 
 out_file = "default.out"
