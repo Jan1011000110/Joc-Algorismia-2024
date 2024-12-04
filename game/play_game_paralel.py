@@ -19,7 +19,7 @@ in_file = "default.cnf"
 out_file = "default.out"
 log_file = "/dev/null"
 
-THREAD_NUM = 20
+THREAD_NUM = 15
 
 # ===================== CONFIG ========================
 

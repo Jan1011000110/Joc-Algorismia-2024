@@ -1,4 +1,4 @@
-info: seed 991204
+info: seed 141220
 info: loading game
 info: loaded game
 info: loading player Dummy
@@ -14,26 +14,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.283333
-worth_fight = 0.264575
-worth_fight = 0.223607
-worth_fight = 0.327165
-worth_fight = 0.221359
-worth_fight = 0.223607
-worth_fight = 0.25
-worth_fight = 0.283333
-worth_fight = 0.216667
-worth_fight = 0.264575
-worth_fight = 0.223607
-worth_fight = 0.264575
-worth_fight = 0.202073
-worth_fight = 0.25
-worth_fight = 0.25
-worth_fight = 0.285774
-worth_fight = 0.247487
-worth_fight = 0.14596
-worth_fight = 0.247487
-worth_fight = 0.285774
 info:     end player 3
 info: end round 0
 info: start round 1
@@ -44,26 +24,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.283333
-worth_fight = 0.264575
-worth_fight = 0.253421
-worth_fight = 0.566667
-worth_fight = 0.202073
-worth_fight = 0.288675
-worth_fight = 0.353553
-worth_fight = 0.283333
-worth_fight = 0.223607
-worth_fight = 0.264575
-worth_fight = 0.288675
-worth_fight = 0.223607
-worth_fight = 0.221359
-worth_fight = 0.223607
-worth_fight = 0.25
-worth_fight = 0.216667
-worth_fight = 0.285774
-worth_fight = 0.14596
-worth_fight = 0.264575
-worth_fight = 0.247487
 info:     end player 3
 info: end round 1
 info: start round 2
@@ -74,26 +34,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.283333
-worth_fight = 0.264575
-worth_fight = 0.264575
-worth_fight = 0.353553
-worth_fight = 0.194145
-worth_fight = 0.288675
-worth_fight = 0.353553
-worth_fight = 0.400694
-worth_fight = 0.25
-worth_fight = 0.264575
-worth_fight = 0.288675
-worth_fight = 0.223607
-worth_fight = 0.221359
-worth_fight = 0.223607
-worth_fight = 0.25
-worth_fight = 0.25
-worth_fight = 0.285774
-worth_fight = 0.152753
-worth_fight = 0.253421
-worth_fight = 0.247487
 info:     end player 3
 info: end round 2
 info: start round 3
@@ -104,24 +44,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.277564
-worth_fight = 0.264575
-worth_fight = 0.229487
-worth_fight = 0.5
-worth_fight = 0.204751
-worth_fight = 0.255542
-worth_fight = 0.312974
-worth_fight = 0.345394
-worth_fight = 0.260214
-worth_fight = 0.282013
-worth_fight = 0.227756
-worth_fight = 0.217711
-worth_fight = 0.218447
-worth_fight = 0.254639
-worth_fight = 0.25
-worth_fight = 0.289562
-worth_fight = 0.160591
-worth_fight = 0.247487
 info:     end player 3
 info: end round 3
 info: start round 4
@@ -132,25 +54,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.283333
-worth_fight = 0.285774
-worth_fight = 0.233333
-worth_fight = 0.524771
-worth_fight = 0.229193
-worth_fight = 0.302976
-worth_fight = 0.371069
-worth_fight = 0.591437
-worth_fight = 0.566667
-worth_fight = 0.268328
-worth_fight = 0.288675
-worth_fight = 0.273938
-worth_fight = 0.247487
-worth_fight = 0.223607
-worth_fight = 0.295886
-worth_fight = 0.288675
-worth_fight = 0.262385
-worth_fight = 0.175783
-worth_fight = 0.285774
 info:     end player 3
 info: end round 4
 info: start round 5
@@ -161,24 +64,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.297692
-worth_fight = 0.297692
-worth_fight = 0.260513
-worth_fight = 0.603509
-worth_fight = 0.231173
-worth_fight = 0.306593
-worth_fight = 0.426745
-worth_fight = 0.39743
-worth_fight = 0.355292
-worth_fight = 0.348436
-worth_fight = 0.25846
-worth_fight = 0.2785
-worth_fight = 0.221543
-worth_fight = 0.298444
-worth_fight = 0.615385
-worth_fight = 0.17871
-worth_fight = 0.348436
-worth_fight = 0.28389
 info:     end player 3
 info: end round 5
 info: start round 6
@@ -189,23 +74,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.353941
-worth_fight = 0.353941
-worth_fight = 0.285022
-worth_fight = 0.214444
-worth_fight = 0.274929
-worth_fight = 0.542857
-worth_fight = 0.438947
-worth_fight = 0.256522
-worth_fight = 0.227049
-worth_fight = 0.26264
-worth_fight = 0.277615
-worth_fight = 0.22944
-worth_fight = 0.30327
-worth_fight = 0.383858
-worth_fight = 0.182896
-worth_fight = 0.358399
-worth_fight = 0.291099
 info:     end player 3
 info: end round 6
 info: start round 7
@@ -216,23 +84,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.292626
-worth_fight = 0.277718
-worth_fight = 0.216171
-worth_fight = 0.482171
-worth_fight = 0.548837
-worth_fight = 0.620997
-worth_fight = 0.23217
-worth_fight = 0.243832
-worth_fight = 0.249612
-worth_fight = 0.358533
-worth_fight = 0.23217
-worth_fight = 0.305712
-worth_fight = 0.639149
-worth_fight = 0.388087
-worth_fight = 0.182952
-worth_fight = 0.310499
-worth_fight = 0.293591
 info:     end player 3
 info: end round 7
 info: start round 8
@@ -243,24 +94,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.282587
-worth_fight = 0.280525
-worth_fight = 0.364818
-worth_fight = 0.220899
-worth_fight = 0.498551
-worth_fight = 0.565217
-worth_fight = 0.631884
-worth_fight = 0.362156
-worth_fight = 0.282609
-worth_fight = 0.289225
-worth_fight = 0.282587
-worth_fight = 0.296908
-worth_fight = 0.312399
-worth_fight = 0.457691
-worth_fight = 0.399669
-worth_fight = 0.185592
-worth_fight = 0.282587
-worth_fight = 0.296908
 info:     end player 3
 info: end round 8
 info: start round 9
@@ -271,24 +104,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.227841
-worth_fight = 0.250815
-worth_fight = 0.28757
-worth_fight = 0.560839
-worth_fight = 0.244733
-worth_fight = 0.507246
-worth_fight = 0.573913
-worth_fight = 0.227841
-worth_fight = 0.295536
-worth_fight = 0.28042
-worth_fight = 0.250815
-worth_fight = 0.260248
-worth_fight = 0.268997
-worth_fight = 0.438758
-worth_fight = 0.405818
-worth_fight = 0.184531
-worth_fight = 0.262588
-worth_fight = 0.294142
 info:     end player 3
 info: end round 9
 info: start round 10
@@ -299,24 +114,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.227216
-worth_fight = 0.280345
-worth_fight = 0.27208
-worth_fight = 0.383055
-worth_fight = 0.27362
-worth_fight = 0.507246
-worth_fight = 0.573913
-worth_fight = 0.254035
-worth_fight = 0.370498
-worth_fight = 0.237528
-worth_fight = 0.27208
-worth_fight = 0.286957
-worth_fight = 0.302807
-worth_fight = 0.413788
-worth_fight = 0.405818
-worth_fight = 0.185521
-worth_fight = 0.337857
-worth_fight = 0.293334
 info:     end player 3
 info: end round 10
 info: start round 11
@@ -327,24 +124,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.388803
-worth_fight = 0.254474
-worth_fight = 0.248918
-worth_fight = 0.354158
-worth_fight = 0.31575
-worth_fight = 0.50676
-worth_fight = 0.388803
-worth_fight = 0.293841
-worth_fight = 0.546753
-worth_fight = 0.257933
-worth_fight = 0.315668
-worth_fight = 0.286713
-worth_fight = 0.273377
-worth_fight = 0.367526
-worth_fight = 0.476184
-worth_fight = 0.185841
-worth_fight = 0.338574
-worth_fight = 0.212191
 info:     end player 3
 info: end round 11
 info: start round 12
@@ -355,24 +134,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.391855
-worth_fight = 0.415875
-worth_fight = 0.243293
-worth_fight = 0.24898
-worth_fight = 0.238488
-worth_fight = 0.386744
-worth_fight = 0.277083
-worth_fight = 0.554167
-worth_fight = 0.28093
-worth_fight = 0.546939
-worth_fight = 0.480272
-worth_fight = 0.315775
-worth_fight = 0.277083
-worth_fight = 0.386744
-worth_fight = 0.282316
-worth_fight = 0.190854
-worth_fight = 0.320315
-worth_fight = 0.28093
 info:     end player 3
 info: end round 12
 info: start round 13
@@ -383,25 +144,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.356802
-worth_fight = 0.583333
-worth_fight = 0.241595
-worth_fight = 0.234009
-worth_fight = 0.235461
-worth_fight = 0.311769
-worth_fight = 0.385087
-worth_fight = 0.544595
-worth_fight = 0.27897
-worth_fight = 0.54
-worth_fight = 0.473333
-worth_fight = 0.54
-worth_fight = 0.241667
-worth_fight = 0.381838
-worth_fight = 0.26163
-worth_fight = 0.644595
-worth_fight = 0.206033
-worth_fight = 0.317543
-worth_fight = 0.27897
 info:     end player 3
 info: end round 13
 info: start round 14
@@ -412,26 +154,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.558519
-worth_fight = 0.424264
-worth_fight = 0.268328
-worth_fight = 0.247487
-worth_fight = 0.220335
-worth_fight = 0.227216
-worth_fight = 0.327165
-worth_fight = 0.518519
-worth_fight = 0.34641
-worth_fight = 0.285774
-worth_fight = 0.530769
-worth_fight = 0.464103
-worth_fight = 0.375311
-worth_fight = 0.25
-worth_fight = 0.375311
-worth_fight = 0.24359
-worth_fight = 0.618519
-worth_fight = 0.233333
-worth_fight = 0.34641
-worth_fight = 0.204124
 info:     end player 3
 info: end round 14
 info: start round 15
@@ -442,27 +164,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.498305
-worth_fight = 0.564972
-worth_fight = 0.272872
-worth_fight = 0.226138
-worth_fight = 0.211939
-worth_fight = 0.228301
-worth_fight = 0.326187
-worth_fight = 0.369075
-worth_fight = 0.278145
-worth_fight = 0.439786
-worth_fight = 0.299153
-worth_fight = 0.600844
-worth_fight = 0.467511
-worth_fight = 0.37772
-worth_fight = 0.285082
-worth_fight = 0.267089
-worth_fight = 0.232167
-worth_fight = 0.588618
-worth_fight = 0.263935
-worth_fight = 0.345432
-worth_fight = 0.203432
 info:     end player 3
 info: end round 15
 info: start round 16
@@ -473,28 +174,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.511111
-worth_fight = 0.342767
-worth_fight = 0.268775
-worth_fight = 0.254919
-worth_fight = 0.279546
-worth_fight = 0.166075
-worth_fight = 0.224873
-worth_fight = 0.318358
-worth_fight = 0.36141
-worth_fight = 0.273297
-worth_fight = 0.288889
-worth_fight = 0.413478
-worth_fight = 0.27252
-worth_fight = 0.454352
-worth_fight = 0.368416
-worth_fight = 0.242094
-worth_fight = 0.26051
-worth_fight = 0.176801
-worth_fight = 0.577778
-worth_fight = 0.197897
-worth_fight = 0.337603
-worth_fight = 0.197897
 info:     end player 3
 info: end round 16
 info: start round 17
@@ -505,26 +184,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.443446
-worth_fight = 0.268397
-worth_fight = 0.305928
-worth_fight = 0.30082
-worth_fight = 0.160967
-worth_fight = 0.251063
-worth_fight = 0.416745
-worth_fight = 0.510112
-worth_fight = 0.257943
-worth_fight = 0.333004
-worth_fight = 0.425423
-worth_fight = 0.290406
-worth_fight = 0.274684
-worth_fight = 0.286443
-worth_fight = 0.305928
-worth_fight = 0.170173
-worth_fight = 0.576779
-worth_fight = 0.25082
-worth_fight = 0.347357
-worth_fight = 0.204793
 info:     end player 3
 info: end round 17
 info: start round 18
@@ -535,27 +194,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.533333
-worth_fight = 0.283052
-worth_fight = 0.235702
-worth_fight = 0.290541
-worth_fight = 0.283052
-worth_fight = 0.159062
-worth_fight = 0.533333
-worth_fight = 0.192296
-worth_fight = 0.649669
-worth_fight = 0.262055
-worth_fight = 0.272166
-worth_fight = 0.266667
-worth_fight = 0.39598
-worth_fight = 0.324834
-worth_fight = 0.246667
-worth_fight = 0.306051
-worth_fight = 0.168158
-worth_fight = 0.533333
-worth_fight = 0.246667
-worth_fight = 0.265347
-worth_fight = 0.201402
 info:     end player 3
 info: end round 18
 info: start round 19
@@ -566,28 +204,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.514943
-worth_fight = 0.325
-worth_fight = 0.276353
-worth_fight = 0.216092
-worth_fight = 0.325
-worth_fight = 0.255853
-worth_fight = 0.155297
-worth_fight = 0.514943
-worth_fight = 0.2041
-worth_fight = 0.65
-worth_fight = 0.276353
-worth_fight = 0.245025
-worth_fight = 0.288462
-worth_fight = 0.337236
-worth_fight = 0.375278
-worth_fight = 0.213286
-worth_fight = 0.265165
-worth_fight = 0.164178
-worth_fight = 0.375278
-worth_fight = 0.271795
-worth_fight = 0.255853
-worth_fight = 0.22192
 info:     end player 3
 info: end round 19
 info: start round 20
@@ -598,27 +214,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.315686
-worth_fight = 0.281332
-worth_fight = 0.209725
-worth_fight = 0.297266
-worth_fight = 0.260463
-worth_fight = 0.158095
-worth_fight = 0.463208
-worth_fight = 0.229706
-worth_fight = 0.664706
-worth_fight = 0.277893
-worth_fight = 0.234479
-worth_fight = 0.24456
-worth_fight = 0.345859
-worth_fight = 0.383768
-worth_fight = 0.218741
-worth_fight = 0.270364
-worth_fight = 0.167136
-worth_fight = 0.297266
-worth_fight = 0.24456
-worth_fight = 0.24364
-worth_fight = 0.281332
 info:     end player 3
 info: end round 20
 info: start round 21
@@ -629,27 +224,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.323577
-worth_fight = 0.289412
-worth_fight = 0.21964
-worth_fight = 0.294997
-worth_fight = 0.267943
-worth_fight = 0.162635
-worth_fight = 0.458921
-worth_fight = 0.267943
-worth_fight = 0.481178
-worth_fight = 0.304455
-worth_fight = 0.232964
-worth_fight = 0.289144
-worth_fight = 0.359854
-worth_fight = 0.304323
-worth_fight = 0.267943
-worth_fight = 0.275944
-worth_fight = 0.171936
-worth_fight = 0.373635
-worth_fight = 0.254455
-worth_fight = 0.250638
-worth_fight = 0.289412
 info:     end player 3
 info: end round 21
 info: start round 22
@@ -660,28 +234,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.306544
-worth_fight = 0.297783
-worth_fight = 0.24592
-worth_fight = 0.192915
-worth_fight = 0.24592
-worth_fight = 0.283964
-worth_fight = 0.163947
-worth_fight = 0.465487
-worth_fight = 0.262899
-worth_fight = 0.24592
-worth_fight = 0.281117
-worth_fight = 0.283964
-worth_fight = 0.4289
-worth_fight = 0.350418
-worth_fight = 0.209721
-worth_fight = 0.283964
-worth_fight = 0.265475
-worth_fight = 0.173892
-worth_fight = 0.356539
-worth_fight = 0.247783
-worth_fight = 0.24592
-worth_fight = 0.221624
 info:     end player 3
 info: end round 22
 info: start round 23
@@ -692,28 +244,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.301812
-worth_fight = 0.277273
-worth_fight = 0.280825
-worth_fight = 0.190783
-worth_fight = 0.280825
-worth_fight = 0.280825
-worth_fight = 0.162135
-worth_fight = 0.487879
-worth_fight = 0.229293
-worth_fight = 0.280825
-worth_fight = 0.277273
-worth_fight = 0.277273
-worth_fight = 0.297842
-worth_fight = 0.487879
-worth_fight = 0.207403
-worth_fight = 0.243939
-worth_fight = 0.301812
-worth_fight = 0.17197
-worth_fight = 0.349847
-worth_fight = 0.243939
-worth_fight = 0.243202
-worth_fight = 0.269643
 info:     end player 3
 info: end round 23
 info: start round 24
@@ -724,29 +254,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.303279
-worth_fight = 0.282908
-worth_fight = 0.27598
-worth_fight = 0.27598
-worth_fight = 0.190066
-worth_fight = 0.27977
-worth_fight = 0.27977
-worth_fight = 0.161525
-worth_fight = 0.343155
-worth_fight = 0.206624
-worth_fight = 0.27598
-worth_fight = 0.27598
-worth_fight = 0.413865
-worth_fight = 0.242647
-worth_fight = 0.343155
-worth_fight = 0.206624
-worth_fight = 0.296014
-worth_fight = 0.274251
-worth_fight = 0.176942
-worth_fight = 0.275112
-worth_fight = 0.242647
-worth_fight = 0.27977
-worth_fight = 0.274251
 info:     end player 3
 info: end round 24
 info: start round 25
@@ -757,26 +264,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.266205
-worth_fight = 0.271582
-worth_fight = 0.187627
-worth_fight = 0.276179
-worth_fight = 0.255692
-worth_fight = 0.159452
-worth_fight = 0.336935
-worth_fight = 0.187627
-worth_fight = 0.271582
-worth_fight = 0.271582
-worth_fight = 0.238249
-worth_fight = 0.336935
-worth_fight = 0.203972
-worth_fight = 0.476498
-worth_fight = 0.276471
-worth_fight = 0.187627
-worth_fight = 0.357731
-worth_fight = 0.238249
-worth_fight = 0.257818
-worth_fight = 0.247283
 info:     end player 3
 info: end round 25
 info: start round 26
@@ -787,28 +274,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.414163
-worth_fight = 0.282544
-worth_fight = 0.283333
-worth_fight = 0.31
-worth_fight = 0.194145
-worth_fight = 0.283333
-worth_fight = 0.264575
-worth_fight = 0.164992
-worth_fight = 0.325269
-worth_fight = 0.180739
-worth_fight = 0.283333
-worth_fight = 0.25
-worth_fight = 0.357957
-worth_fight = 0.353553
-worth_fight = 0.211058
-worth_fight = 0.433333
-worth_fight = 0.27377
-worth_fight = 0.194145
-worth_fight = 0.547541
-worth_fight = 0.25
-worth_fight = 0.283235
-worth_fight = 0.264575
 info:     end player 3
 info: end round 26
 info: start round 27
@@ -819,29 +284,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.404607
-worth_fight = 0.280425
-worth_fight = 0.276577
-worth_fight = 0.350155
-worth_fight = 0.190397
-worth_fight = 0.391138
-worth_fight = 0.262285
-worth_fight = 0.206983
-worth_fight = 0.161806
-worth_fight = 0.372282
-worth_fight = 0.166497
-worth_fight = 0.276577
-worth_fight = 0.243243
-worth_fight = 0.629344
-worth_fight = 0.228829
-worth_fight = 0.206983
-worth_fight = 0.41982
-worth_fight = 0.204596
-worth_fight = 0.206983
-worth_fight = 0.383206
-worth_fight = 0.243243
-worth_fight = 0.33036
-worth_fight = 0.158677
 info:     end player 3
 info: end round 27
 info: start round 28
@@ -852,30 +294,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.615346
-worth_fight = 0.212959
-worth_fight = 0.269578
-worth_fight = 0.418953
-worth_fight = 0.173636
-worth_fight = 0.269578
-worth_fight = 0.274543
-worth_fight = 0.224163
-worth_fight = 0.264969
-worth_fight = 0.163103
-worth_fight = 0.264969
-worth_fight = 0.163103
-worth_fight = 0.274543
-worth_fight = 0.271429
-worth_fight = 0.622489
-worth_fight = 0.254177
-worth_fight = 0.202763
-worth_fight = 0.472489
-worth_fight = 0.203345
-worth_fight = 0.202763
-worth_fight = 0.383858
-worth_fight = 0.202911
-worth_fight = 0.302911
-worth_fight = 0.178584
 info:     end player 3
 info: end round 28
 info: start round 29
@@ -886,31 +304,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.584629
-worth_fight = 0.23835
-worth_fight = 0.375683
-worth_fight = 0.584629
-worth_fight = 0.171606
-worth_fight = 0.271334
-worth_fight = 0.251206
-worth_fight = 0.251206
-worth_fight = 0.251206
-worth_fight = 0.171606
-worth_fight = 0.25251
-worth_fight = 0.171606
-worth_fight = 0.252314
-worth_fight = 0.306744
-worth_fight = 0.584629
-worth_fight = 0.237603
-worth_fight = 0.200393
-worth_fight = 0.221543
-worth_fight = 0.191862
-worth_fight = 0.189447
-worth_fight = 0.200393
-worth_fight = 0.376865
-worth_fight = 0.198981
-worth_fight = 0.261454
-worth_fight = 0.154876
 info:     end player 3
 info: end round 29
 info: start round 30
@@ -921,31 +314,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.582979
-worth_fight = 0.234143
-worth_fight = 0.374516
-worth_fight = 0.582979
-worth_fight = 0.183877
-worth_fight = 0.264823
-worth_fight = 0.234398
-worth_fight = 0.236865
-worth_fight = 0.234398
-worth_fight = 0.183877
-worth_fight = 0.27066
-worth_fight = 0.177189
-worth_fight = 0.35566
-worth_fight = 0.305791
-worth_fight = 0.582979
-worth_fight = 0.236865
-worth_fight = 0.209652
-worth_fight = 0.250582
-worth_fight = 0.199896
-worth_fight = 0.194931
-worth_fight = 0.199896
-worth_fight = 0.370213
-worth_fight = 0.198156
-worth_fight = 0.27066
-worth_fight = 0.139593
 info:     end player 3
 info: end round 30
 info: start round 31
@@ -956,32 +324,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.580759
-worth_fight = 0.229028
-worth_fight = 0.372947
-worth_fight = 0.560759
-worth_fight = 0.199226
-worth_fight = 0.269754
-worth_fight = 0.233614
-worth_fight = 0.26602
-worth_fight = 0.220253
-worth_fight = 0.220253
-worth_fight = 0.199226
-worth_fight = 0.250779
-worth_fight = 0.183262
-worth_fight = 0.372947
-worth_fight = 0.30451
-worth_fight = 0.560759
-worth_fight = 0.206058
-worth_fight = 0.199226
-worth_fight = 0.269754
-worth_fight = 0.190745
-worth_fight = 0.251654
-worth_fight = 0.199226
-worth_fight = 0.220253
-worth_fight = 0.26602
-worth_fight = 0.249744
-worth_fight = 0.205572
 info:     end player 3
 info: end round 31
 info: start round 32
@@ -992,33 +334,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.153254
-worth_fight = 0.149167
-worth_fight = 0.295673
-worth_fight = 0.225101
-worth_fight = 0.157697
-worth_fight = 0.216734
-worth_fight = 0.225101
-worth_fight = 0.229881
-worth_fight = 0.259924
-worth_fight = 0.138624
-worth_fight = 0.216734
-worth_fight = 0.196043
-worth_fight = 0.138624
-worth_fight = 0.196043
-worth_fight = 0.346625
-worth_fight = 0.259924
-worth_fight = 0.157697
-worth_fight = 0.201337
-worth_fight = 0.132722
-worth_fight = 0.258435
-worth_fight = 0.135577
-worth_fight = 0.251654
-worth_fight = 0.196043
-worth_fight = 0.245753
-worth_fight = 0.450202
-worth_fight = 0.205612
-worth_fight = 0.225193
 info:     end player 3
 info: end round 32
 info: start round 33
@@ -1029,33 +344,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.158889
-worth_fight = 0.150294
-worth_fight = 0.452545
-worth_fight = 0.293617
-worth_fight = 0.16378
-worth_fight = 0.247611
-worth_fight = 0.321817
-worth_fight = 0.231619
-worth_fight = 0.262763
-worth_fight = 0.139672
-worth_fight = 0.247611
-worth_fight = 0.197526
-worth_fight = 0.146489
-worth_fight = 0.218373
-worth_fight = 0.285857
-worth_fight = 0.232199
-worth_fight = 0.158889
-worth_fight = 0.203535
-worth_fight = 0.133725
-worth_fight = 0.368958
-worth_fight = 0.139672
-worth_fight = 0.251022
-worth_fight = 0.218373
-worth_fight = 0.233349
-worth_fight = 0.455118
-worth_fight = 0.207167
-worth_fight = 0.227435
 info:     end player 3
 info: end round 33
 info: start round 34
@@ -1066,33 +354,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.158406
-worth_fight = 0.149837
-worth_fight = 0.449431
-worth_fight = 0.266637
-worth_fight = 0.158406
-worth_fight = 0.202644
-worth_fight = 0.453125
-worth_fight = 0.230915
-worth_fight = 0.300102
-worth_fight = 0.139247
-worth_fight = 0.232458
-worth_fight = 0.196925
-worth_fight = 0.153943
-worth_fight = 0.196925
-worth_fight = 0.261612
-worth_fight = 0.230806
-worth_fight = 0.158406
-worth_fight = 0.232458
-worth_fight = 0.133319
-worth_fight = 0.226562
-worth_fight = 0.142524
-worth_fight = 0.251022
-worth_fight = 0.246858
-worth_fight = 0.300102
-worth_fight = 0.519792
-worth_fight = 0.206536
-worth_fight = 0.253179
 info:     end player 3
 info: end round 34
 info: start round 35
@@ -1103,33 +364,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.160001
-worth_fight = 0.151346
-worth_fight = 0.519266
-worth_fight = 0.269322
-worth_fight = 0.160001
-worth_fight = 0.303899
-worth_fight = 0.325058
-worth_fight = 0.23324
-worth_fight = 0.303899
-worth_fight = 0.140649
-worth_fight = 0.303899
-worth_fight = 0.190439
-worth_fight = 0.155493
-worth_fight = 0.208616
-worth_fight = 0.265409
-worth_fight = 0.271857
-worth_fight = 0.160001
-worth_fight = 0.235399
-worth_fight = 0.134661
-worth_fight = 0.269322
-worth_fight = 0.147514
-worth_fight = 0.264298
-worth_fight = 0.2199
-worth_fight = 0.526368
-worth_fight = 0.526368
-worth_fight = 0.208616
-worth_fight = 0.293639
 info:     end player 3
 info: end round 35
 info: start round 36
@@ -1140,31 +374,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.159535
-worth_fight = 0.150905
-worth_fight = 0.519266
-worth_fight = 0.268537
-worth_fight = 0.159535
-worth_fight = 0.302788
-worth_fight = 0.457778
-worth_fight = 0.23256
-worth_fight = 0.302788
-worth_fight = 0.147084
-worth_fight = 0.176385
-worth_fight = 0.164444
-worth_fight = 0.23256
-worth_fight = 0.302788
-worth_fight = 0.271857
-worth_fight = 0.159535
-worth_fight = 0.234539
-worth_fight = 0.140239
-worth_fight = 0.23256
-worth_fight = 0.15504
-worth_fight = 0.264298
-worth_fight = 0.198327
-worth_fight = 0.457778
-worth_fight = 0.208008
-worth_fight = 0.293639
 info:     end player 3
 info: end round 36
 info: start round 37
@@ -1175,33 +384,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.155953
-worth_fight = 0.155953
-worth_fight = 0.5
-worth_fight = 0.262508
-worth_fight = 0.155953
-worth_fight = 0.227935
-worth_fight = 0.313256
-worth_fight = 0.227339
-worth_fight = 0.294262
-worth_fight = 0.254839
-worth_fight = 0.151559
-worth_fight = 0.227339
-worth_fight = 0.171852
-worth_fight = 0.227339
-worth_fight = 0.255772
-worth_fight = 0.264575
-worth_fight = 0.160753
-worth_fight = 0.227935
-worth_fight = 0.143782
-worth_fight = 0.214337
-worth_fight = 0.160753
-worth_fight = 0.268977
-worth_fight = 0.185621
-worth_fight = 0.294262
-worth_fight = 0.254839
-worth_fight = 0.203338
-worth_fight = 0.285774
 info:     end player 3
 info: end round 37
 info: start round 38
@@ -1212,34 +394,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.15681
-worth_fight = 0.166937
-worth_fight = 0.436735
-worth_fight = 0.263951
-worth_fight = 0.15681
-worth_fight = 0.244371
-worth_fight = 0.228588
-worth_fight = 0.229515
-worth_fight = 0.476735
-worth_fight = 0.256606
-worth_fight = 0.161636
-worth_fight = 0.245071
-worth_fight = 0.228588
-worth_fight = 0.186642
-worth_fight = 0.204456
-worth_fight = 0.257813
-worth_fight = 0.199701
-worth_fight = 0.166937
-worth_fight = 0.244371
-worth_fight = 0.152392
-worth_fight = 0.215515
-worth_fight = 0.172797
-worth_fight = 0.34035
-worth_fight = 0.186642
-worth_fight = 0.256606
-worth_fight = 0.256606
-worth_fight = 0.204456
-worth_fight = 0.240664
 info:     end player 3
 info: end round 38
 info: start round 39
@@ -1250,34 +404,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.166233
-worth_fight = 0.178563
-worth_fight = 0.479352
-worth_fight = 0.262837
-worth_fight = 0.147702
-worth_fight = 0.252146
-worth_fight = 0.227623
-worth_fight = 0.228295
-worth_fight = 0.479352
-worth_fight = 0.255241
-worth_fight = 0.172067
-worth_fight = 0.216429
-worth_fight = 0.262837
-worth_fight = 0.203593
-worth_fight = 0.203593
-worth_fight = 0.294727
-worth_fight = 0.24334
-worth_fight = 0.172067
-worth_fight = 0.228295
-worth_fight = 0.160954
-worth_fight = 0.214605
-worth_fight = 0.185854
-worth_fight = 0.342205
-worth_fight = 0.194118
-worth_fight = 0.246244
-worth_fight = 0.262837
-worth_fight = 0.203593
-worth_fight = 0.241975
 info:     end player 3
 info: end round 39
 info: start round 40
@@ -1288,34 +414,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.178088
-worth_fight = 0.18536
-worth_fight = 0.489916
-worth_fight = 0.262138
-worth_fight = 0.140119
-worth_fight = 0.324532
-worth_fight = 0.227018
-worth_fight = 0.22753
-worth_fight = 0.346423
-worth_fight = 0.221053
-worth_fight = 0.18536
-worth_fight = 0.274184
-worth_fight = 0.271053
-worth_fight = 0.214035
-worth_fight = 0.227018
-worth_fight = 0.22753
-worth_fight = 0.214035
-worth_fight = 0.165791
-worth_fight = 0.29374
-worth_fight = 0.17161
-worth_fight = 0.242693
-worth_fight = 0.203052
-worth_fight = 0.335805
-worth_fight = 0.203052
-worth_fight = 0.274184
-worth_fight = 0.22753
-worth_fight = 0.214035
-worth_fight = 0.23745
 info:     end player 3
 info: end round 40
 info: start round 41
@@ -1326,34 +424,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.171914
-worth_fight = 0.185688
-worth_fight = 0.496296
-worth_fight = 0.262603
-worth_fight = 0.134125
-worth_fight = 0.563243
-worth_fight = 0.262603
-worth_fight = 0.294397
-worth_fight = 0.350934
-worth_fight = 0.221622
-worth_fight = 0.203411
-worth_fight = 0.540431
-worth_fight = 0.384131
-worth_fight = 0.227421
-worth_fight = 0.262603
-worth_fight = 0.243123
-worth_fight = 0.193945
-worth_fight = 0.166085
-worth_fight = 0.50991
-worth_fight = 0.178404
-worth_fight = 0.228039
-worth_fight = 0.214414
-worth_fight = 0.335002
-worth_fight = 0.227421
-worth_fight = 0.273528
-worth_fight = 0.294397
-worth_fight = 0.203411
-worth_fight = 0.236882
 info:     end player 3
 info: end round 41
 info: start round 42
@@ -1364,30 +434,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.166085
-worth_fight = 0.178404
-worth_fight = 0.492683
-worth_fight = 0.236557
-worth_fight = 0.14768
-worth_fight = 0.243123
-worth_fight = 0.376664
-worth_fight = 0.188288
-worth_fight = 0.193945
-worth_fight = 0.537343
-worth_fight = 0.214414
-worth_fight = 0.243123
-worth_fight = 0.214414
-worth_fight = 0.128449
-worth_fight = 0.160811
-worth_fight = 0.178404
-worth_fight = 0.262603
-worth_fight = 0.214414
-worth_fight = 0.379959
-worth_fight = 0.227421
-worth_fight = 0.332819
-worth_fight = 0.255907
-worth_fight = 0.193945
-worth_fight = 0.235338
 info:     end player 3
 info: end round 42
 info: start round 43
@@ -1398,35 +444,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.16335
-worth_fight = 0.175466
-worth_fight = 0.230658
-worth_fight = 0.231821
-worth_fight = 0.143846
-worth_fight = 0.307527
-worth_fight = 0.238542
-worth_fight = 0.23912
-worth_fight = 0.246583
-worth_fight = 0.292866
-worth_fight = 0.211302
-worth_fight = 0.190752
-worth_fight = 0.452399
-worth_fight = 0.400213
-worth_fight = 0.210884
-worth_fight = 0.25828
-worth_fight = 0.13045
-worth_fight = 0.143127
-worth_fight = 0.158163
-worth_fight = 0.288282
-worth_fight = 0.175466
-worth_fight = 0.25828
-worth_fight = 0.210884
-worth_fight = 0.390605
-worth_fight = 0.23912
-worth_fight = 0.261192
-worth_fight = 0.249792
-worth_fight = 0.190752
-worth_fight = 0.226199
 info:     end player 3
 info: end round 43
 info: start round 44
@@ -1437,34 +454,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.163991
-worth_fight = 0.176155
-worth_fight = 0.235342
-worth_fight = 0.226633
-worth_fight = 0.141917
-worth_fight = 0.221883
-worth_fight = 0.240059
-worth_fight = 0.27175
-worth_fight = 0.224413
-worth_fight = 0.338125
-worth_fight = 0.260547
-worth_fight = 0.1915
-worth_fight = 0.454945
-worth_fight = 0.211712
-worth_fight = 0.250901
-worth_fight = 0.120685
-worth_fight = 0.200701
-worth_fight = 0.158784
-worth_fight = 0.224413
-worth_fight = 0.176155
-worth_fight = 0.217568
-worth_fight = 0.211712
-worth_fight = 0.399974
-worth_fight = 0.259293
-worth_fight = 0.321695
-worth_fight = 0.251225
-worth_fight = 0.1915
-worth_fight = 0.227473
 info:     end player 3
 info: end round 44
 info: start round 45
@@ -1475,36 +464,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.164308
-worth_fight = 0.176496
-worth_fight = 0.248022
-worth_fight = 0.189633
-worth_fight = 0.142188
-worth_fight = 0.268182
-worth_fight = 0.232003
-worth_fight = 0.240523
-worth_fight = 0.263649
-worth_fight = 0.240523
-worth_fight = 0.294769
-worth_fight = 0.369697
-worth_fight = 0.191871
-worth_fight = 0.522871
-worth_fight = 0.328915
-worth_fight = 0.212121
-worth_fight = 0.268182
-worth_fight = 0.121025
-worth_fight = 0.201084
-worth_fight = 0.159091
-worth_fight = 0.240523
-worth_fight = 0.176496
-worth_fight = 0.259794
-worth_fight = 0.191871
-worth_fight = 0.393296
-worth_fight = 0.259794
-worth_fight = 0.322585
-worth_fight = 0.195148
-worth_fight = 0.191871
-worth_fight = 0.228102
 info:     end player 3
 info: end round 45
 info: start round 46
@@ -1515,37 +474,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.1639
-worth_fight = 0.176057
-worth_fight = 0.238466
-worth_fight = 0.158572
-worth_fight = 0.141942
-worth_fight = 0.265461
-worth_fight = 0.259149
-worth_fight = 0.199515
-worth_fight = 0.224255
-worth_fight = 0.252342
-worth_fight = 0.211594
-worth_fight = 0.257572
-worth_fight = 0.368116
-worth_fight = 0.191394
-worth_fight = 0.237435
-worth_fight = 0.320304
-worth_fight = 0.191394
-worth_fight = 0.267391
-worth_fight = 0.120587
-worth_fight = 0.22474
-worth_fight = 0.158696
-worth_fight = 0.22443
-worth_fight = 0.176057
-worth_fight = 0.22443
-worth_fight = 0.176057
-worth_fight = 0.265461
-worth_fight = 0.259149
-worth_fight = 0.265461
-worth_fight = 0.239925
-worth_fight = 0.200736
-worth_fight = 0.215461
 info:     end player 3
 info: end round 46
 info: start round 47
@@ -1556,37 +484,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.164104
-worth_fight = 0.176276
-worth_fight = 0.259471
-worth_fight = 0.158821
-worth_fight = 0.149805
-worth_fight = 0.263961
-worth_fight = 0.259471
-worth_fight = 0.209634
-worth_fight = 0.240223
-worth_fight = 0.237332
-worth_fight = 0.240223
-worth_fight = 0.273961
-worth_fight = 0.212987
-worth_fight = 0.191632
-worth_fight = 0.236094
-worth_fight = 0.289967
-worth_fight = 0.176276
-worth_fight = 0.251119
-worth_fight = 0.131329
-worth_fight = 0.198566
-worth_fight = 0.158893
-worth_fight = 0.224708
-worth_fight = 0.176276
-worth_fight = 0.224708
-worth_fight = 0.169863
-worth_fight = 0.263961
-worth_fight = 0.259471
-worth_fight = 0.304796
-worth_fight = 0.211857
-worth_fight = 0.191632
-worth_fight = 0.256348
 info:     end player 3
 info: end round 47
 info: start round 48
@@ -1597,36 +494,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.166703
-worth_fight = 0.179068
-worth_fight = 0.26358
-worth_fight = 0.20314
-worth_fight = 0.161409
-worth_fight = 0.271192
-worth_fight = 0.228267
-worth_fight = 0.219249
-worth_fight = 0.244028
-worth_fight = 0.242798
-worth_fight = 0.229109
-worth_fight = 0.281192
-worth_fight = 0.189485
-worth_fight = 0.194667
-worth_fight = 0.242562
-worth_fight = 0.179068
-worth_fight = 0.256152
-worth_fight = 0.207998
-worth_fight = 0.20314
-worth_fight = 0.161409
-worth_fight = 0.26358
-worth_fight = 0.179068
-worth_fight = 0.244028
-worth_fight = 0.166703
-worth_fight = 0.262252
-worth_fight = 0.26358
-worth_fight = 0.313146
-worth_fight = 0.228267
-worth_fight = 0.18638
-worth_fight = 0.262252
 info:     end player 3
 info: end round 48
 info: start round 49
@@ -1637,36 +504,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.178165
-worth_fight = 0.178165
-worth_fight = 0.262252
-worth_fight = 0.225997
-worth_fight = 0.165863
-worth_fight = 0.260959
-worth_fight = 0.225997
-worth_fight = 0.232548
-worth_fight = 0.242798
-worth_fight = 0.225997
-worth_fight = 0.227654
-worth_fight = 0.250089
-worth_fight = 0.262252
-worth_fight = 0.193686
-worth_fight = 0.241601
-worth_fight = 0.178165
-worth_fight = 0.254525
-worth_fight = 0.207998
-worth_fight = 0.225997
-worth_fight = 0.165863
-worth_fight = 0.262252
-worth_fight = 0.178165
-worth_fight = 0.214128
-worth_fight = 0.155801
-worth_fight = 0.241145
-worth_fight = 0.262252
-worth_fight = 0.241145
-worth_fight = 0.262252
-worth_fight = 0.178165
-worth_fight = 0.219608
 info:     end player 3
 info: end round 49
 info: start round 50
@@ -1677,36 +514,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.194264
-worth_fight = 0.178697
-worth_fight = 0.227794
-worth_fight = 0.266741
-worth_fight = 0.172196
-worth_fight = 0.231004
-worth_fight = 0.231004
-worth_fight = 0.223268
-worth_fight = 0.228511
-worth_fight = 0.231004
-worth_fight = 0.228511
-worth_fight = 0.246954
-worth_fight = 0.188817
-worth_fight = 0.203745
-worth_fight = 0.217793
-worth_fight = 0.194264
-worth_fight = 0.255483
-worth_fight = 0.229224
-worth_fight = 0.266741
-worth_fight = 0.172196
-worth_fight = 0.263034
-worth_fight = 0.194264
-worth_fight = 0.214767
-worth_fight = 0.156266
-worth_fight = 0.256423
-worth_fight = 0.263034
-worth_fight = 0.246954
-worth_fight = 0.263034
-worth_fight = 0.178697
-worth_fight = 0.226689
 info:     end player 3
 info: end round 50
 info: start round 51
@@ -1717,36 +524,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.194718
-worth_fight = 0.194718
-worth_fight = 0.228327
-worth_fight = 0.227852
-worth_fight = 0.172599
-worth_fight = 0.205756
-worth_fight = 0.228327
-worth_fight = 0.224611
-worth_fight = 0.199371
-worth_fight = 0.207352
-worth_fight = 0.295876
-worth_fight = 0.218568
-worth_fight = 0.268092
-worth_fight = 0.215269
-worth_fight = 0.196181
-worth_fight = 0.194718
-worth_fight = 0.385943
-worth_fight = 0.230042
-worth_fight = 0.26769
-worth_fight = 0.186428
-worth_fight = 0.229185
-worth_fight = 0.194718
-worth_fight = 0.244092
-worth_fight = 0.156631
-worth_fight = 0.247833
-worth_fight = 0.272903
-worth_fight = 0.218568
-worth_fight = 0.228327
-worth_fight = 0.194718
-worth_fight = 0.322232
 info:     end player 3
 info: end round 51
 info: start round 52
@@ -1757,36 +534,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.180188
-worth_fight = 0.195885
-worth_fight = 0.229696
-worth_fight = 0.250963
-worth_fight = 0.173634
-worth_fight = 0.221993
-worth_fight = 0.200886
-worth_fight = 0.212807
-worth_fight = 0.245555
-worth_fight = 0.205446
-worth_fight = 0.516344
-worth_fight = 0.200886
-worth_fight = 0.329677
-worth_fight = 0.195885
-worth_fight = 0.205446
-worth_fight = 0.195885
-worth_fight = 0.388681
-worth_fight = 0.238207
-worth_fight = 0.259343
-worth_fight = 0.187546
-worth_fight = 0.298111
-worth_fight = 0.195885
-worth_fight = 0.230916
-worth_fight = 0.15757
-worth_fight = 0.224598
-worth_fight = 0.274839
-worth_fight = 0.211753
-worth_fight = 0.251717
-worth_fight = 0.216559
-worth_fight = 0.435258
 info:     end player 3
 info: end round 52
 info: start round 53
@@ -1797,36 +544,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.180501
-worth_fight = 0.196225
-worth_fight = 0.230094
-worth_fight = 0.262069
-worth_fight = 0.168037
-worth_fight = 0.22619
-worth_fight = 0.19737
-worth_fight = 0.206386
-worth_fight = 0.216935
-worth_fight = 0.205802
-worth_fight = 0.517471
-worth_fight = 0.204597
-worth_fight = 0.330804
-worth_fight = 0.180501
-worth_fight = 0.205802
-worth_fight = 0.216935
-worth_fight = 0.403619
-worth_fight = 0.243838
-worth_fight = 0.254803
-worth_fight = 0.187871
-worth_fight = 0.258735
-worth_fight = 0.196225
-worth_fight = 0.318007
-worth_fight = 0.168037
-worth_fight = 0.22619
-worth_fight = 0.285402
-worth_fight = 0.214583
-worth_fight = 0.243838
-worth_fight = 0.245981
-worth_fight = 0.424138
 info:     end player 3
 info: end round 53
 info: start round 54
@@ -1837,36 +554,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.180104
-worth_fight = 0.195794
-worth_fight = 0.229589
-worth_fight = 0.265556
-worth_fight = 0.167668
-worth_fight = 0.231127
-worth_fight = 0.21606
-worth_fight = 0.220957
-worth_fight = 0.216458
-worth_fight = 0.20535
-worth_fight = 0.364897
-worth_fight = 0.184257
-worth_fight = 0.349375
-worth_fight = 0.173553
-worth_fight = 0.20535
-worth_fight = 0.245441
-worth_fight = 0.402609
-worth_fight = 0.250462
-worth_fight = 0.249485
-worth_fight = 0.187458
-worth_fight = 0.265106
-worth_fight = 0.195794
-worth_fight = 0.549375
-worth_fight = 0.180104
-worth_fight = 0.203704
-worth_fight = 0.284688
-worth_fight = 0.231127
-worth_fight = 0.250462
-worth_fight = 0.230781
-worth_fight = 0.411111
 info:     end player 3
 info: end round 54
 info: start round 55
@@ -1877,36 +564,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.195327
-worth_fight = 0.195327
-worth_fight = 0.264474
-worth_fight = 0.254178
-worth_fight = 0.173139
-worth_fight = 0.231127
-worth_fight = 0.24836
-worth_fight = 0.220062
-worth_fight = 0.244855
-worth_fight = 0.229041
-worth_fight = 0.257246
-worth_fight = 0.215942
-worth_fight = 0.347826
-worth_fight = 0.187011
-worth_fight = 0.204861
-worth_fight = 0.244995
-worth_fight = 0.547826
-worth_fight = 0.262074
-worth_fight = 0.24836
-worth_fight = 0.187011
-worth_fight = 0.229041
-worth_fight = 0.204861
-worth_fight = 0.547826
-worth_fight = 0.195327
-worth_fight = 0.202785
-worth_fight = 0.259902
-worth_fight = 0.262074
-worth_fight = 0.246691
-worth_fight = 0.297043
-worth_fight = 0.408355
 info:     end player 3
 info: end round 55
 info: start round 56
@@ -1917,35 +574,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.219478
-worth_fight = 0.208215
-worth_fight = 0.268804
-worth_fight = 0.256956
-worth_fight = 0.190073
-worth_fight = 0.237895
-worth_fight = 0.264706
-worth_fight = 0.226187
-worth_fight = 0.249739
-worth_fight = 0.232791
-worth_fight = 0.268804
-worth_fight = 0.208215
-worth_fight = 0.358434
-worth_fight = 0.208215
-worth_fight = 0.209804
-worth_fight = 0.303167
-worth_fight = 0.394872
-worth_fight = 0.268804
-worth_fight = 0.256956
-worth_fight = 0.190073
-worth_fight = 0.208215
-worth_fight = 0.219478
-worth_fight = 0.394872
-worth_fight = 0.198525
-worth_fight = 0.211375
-worth_fight = 0.248865
-worth_fight = 0.264973
-worth_fight = 0.283587
-worth_fight = 0.558434
 info:     end player 3
 info: end round 56
 info: start round 57
@@ -1956,33 +584,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.230707
-worth_fight = 0.196747
-worth_fight = 0.231933
-worth_fight = 0.256818
-worth_fight = 0.196747
-worth_fight = 0.214798
-worth_fight = 0.296548
-worth_fight = 0.222783
-worth_fight = 0.246636
-worth_fight = 0.174398
-worth_fight = 0.217512
-worth_fight = 0.332537
-worth_fight = 0.217512
-worth_fight = 0.174398
-worth_fight = 0.194049
-worth_fight = 0.367133
-worth_fight = 0.192935
-worth_fight = 0.250516
-worth_fight = 0.180981
-worth_fight = 0.20635
-worth_fight = 0.217512
-worth_fight = 0.367133
-worth_fight = 0.20635
-worth_fight = 0.221024
-worth_fight = 0.230707
-worth_fight = 0.264174
-worth_fight = 0.19947
 info:     end player 3
 info: end round 57
 info: start round 58
@@ -1993,34 +594,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.236272
-worth_fight = 0.201493
-worth_fight = 0.234469
-worth_fight = 0.300423
-worth_fight = 0.201493
-worth_fight = 0.217799
-worth_fight = 0.281178
-worth_fight = 0.27036
-worth_fight = 0.294139
-worth_fight = 0.263086
-worth_fight = 0.178605
-worth_fight = 0.252585
-worth_fight = 0.222759
-worth_fight = 0.172549
-worth_fight = 0.196171
-worth_fight = 0.378263
-worth_fight = 0.283982
-worth_fight = 0.253256
-worth_fight = 0.185347
-worth_fight = 0.236272
-worth_fight = 0.222759
-worth_fight = 0.378263
-worth_fight = 0.236272
-worth_fight = 0.222759
-worth_fight = 0.236272
-worth_fight = 0.217799
-worth_fight = 0.227508
-worth_fight = 0.339642
 info:     end player 3
 info: end round 58
 info: start round 59
@@ -2031,36 +604,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.23324
-worth_fight = 0.198907
-worth_fight = 0.233393
-worth_fight = 0.231433
-worth_fight = 0.198907
-worth_fight = 0.233393
-worth_fight = 0.279534
-worth_fight = 0.265409
-worth_fight = 0.289851
-worth_fight = 0.250306
-worth_fight = 0.176313
-worth_fight = 0.249344
-worth_fight = 0.155493
-worth_fight = 0.2199
-worth_fight = 0.170334
-worth_fight = 0.20863
-worth_fight = 0.342389
-worth_fight = 0.155493
-worth_fight = 0.229851
-worth_fight = 0.252093
-worth_fight = 0.182968
-worth_fight = 0.269322
-worth_fight = 0.2199
-worth_fight = 0.164925
-worth_fight = 0.269322
-worth_fight = 0.2199
-worth_fight = 0.23324
-worth_fight = 0.216526
-worth_fight = 0.264726
-worth_fight = 0.296517
 info:     end player 3
 info: end round 59
 info: start round 60
@@ -2071,36 +614,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.232954
-worth_fight = 0.198663
-worth_fight = 0.234469
-worth_fight = 0.234469
-worth_fight = 0.198663
-worth_fight = 0.234469
-worth_fight = 0.242688
-worth_fight = 0.226451
-worth_fight = 0.289446
-worth_fight = 0.249944
-worth_fight = 0.190206
-worth_fight = 0.249038
-worth_fight = 0.15116
-worth_fight = 0.219631
-worth_fight = 0.176096
-worth_fight = 0.20836
-worth_fight = 0.341922
-worth_fight = 0.15116
-worth_fight = 0.268992
-worth_fight = 0.253256
-worth_fight = 0.178454
-worth_fight = 0.262779
-worth_fight = 0.198663
-worth_fight = 0.159805
-worth_fight = 0.268992
-worth_fight = 0.219631
-worth_fight = 0.232954
-worth_fight = 0.217799
-worth_fight = 0.21224
-worth_fight = 0.258888
 info:     end player 3
 info: end round 60
 info: start round 61
@@ -2111,36 +624,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.235563
-worth_fight = 0.200889
-worth_fight = 0.229747
-worth_fight = 0.229747
-worth_fight = 0.184791
-worth_fight = 0.202617
-worth_fight = 0.235474
-worth_fight = 0.269202
-worth_fight = 0.299803
-worth_fight = 0.253245
-worth_fight = 0.210694
-worth_fight = 0.251827
-worth_fight = 0.152853
-worth_fight = 0.200889
-worth_fight = 0.192336
-worth_fight = 0.235563
-worth_fight = 0.351681
-worth_fight = 0.152853
-worth_fight = 0.272004
-worth_fight = 0.248155
-worth_fight = 0.192248
-worth_fight = 0.283136
-worth_fight = 0.184791
-worth_fight = 0.161595
-worth_fight = 0.272004
-worth_fight = 0.222091
-worth_fight = 0.235563
-worth_fight = 0.229747
-worth_fight = 0.213246
-worth_fight = 0.268152
 info:     end player 3
 info: end round 61
 info: start round 62
@@ -2151,36 +634,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.237039
-worth_fight = 0.185949
-worth_fight = 0.230088
-worth_fight = 0.202919
-worth_fight = 0.175037
-worth_fight = 0.237039
-worth_fight = 0.408756
-worth_fight = 0.271613
-worth_fight = 0.274278
-worth_fight = 0.255112
-worth_fight = 0.237039
-worth_fight = 0.256227
-worth_fight = 0.153811
-worth_fight = 0.185949
-worth_fight = 0.212014
-worth_fight = 0.237039
-worth_fight = 0.354092
-worth_fight = 0.158026
-worth_fight = 0.237039
-worth_fight = 0.204378
-worth_fight = 0.204399
-worth_fight = 0.301891
-worth_fight = 0.173109
-worth_fight = 0.162607
-worth_fight = 0.273709
-worth_fight = 0.237039
-worth_fight = 0.273709
-worth_fight = 0.230088
-worth_fight = 0.205624
-worth_fight = 0.274278
 info:     end player 3
 info: end round 62
 info: start round 63
@@ -2191,36 +644,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.238904
-worth_fight = 0.174471
-worth_fight = 0.232765
-worth_fight = 0.255399
-worth_fight = 0.176156
-worth_fight = 0.275863
-worth_fight = 0.415837
-worth_fight = 0.274659
-worth_fight = 0.276637
-worth_fight = 0.230689
-worth_fight = 0.275863
-worth_fight = 0.257866
-worth_fight = 0.155021
-worth_fight = 0.174471
-worth_fight = 0.238904
-worth_fight = 0.275863
-worth_fight = 0.357137
-worth_fight = 0.163887
-worth_fight = 0.215746
-worth_fight = 0.207919
-worth_fight = 0.227416
-worth_fight = 0.304528
-worth_fight = 0.163887
-worth_fight = 0.163887
-worth_fight = 0.275863
-worth_fight = 0.217731
-worth_fight = 0.271195
-worth_fight = 0.232765
-worth_fight = 0.241124
-worth_fight = 0.275863
 info:     end player 3
 info: end round 63
 info: start round 64
@@ -2231,36 +654,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.21235
-worth_fight = 0.162865
-worth_fight = 0.2235
-worth_fight = 0.240679
-worth_fight = 0.165346
-worth_fight = 0.274142
-worth_fight = 0.433094
-worth_fight = 0.233735
-worth_fight = 0.274142
-worth_fight = 0.29087
-worth_fight = 0.269088
-worth_fight = 0.240679
-worth_fight = 0.154055
-worth_fight = 0.173383
-worth_fight = 0.274142
-worth_fight = 0.210865
-worth_fight = 0.274753
-worth_fight = 0.162865
-worth_fight = 0.21235
-worth_fight = 0.306243
-worth_fight = 0.257673
-worth_fight = 0.274142
-worth_fight = 0.154055
-worth_fight = 0.167877
-worth_fight = 0.237414
-worth_fight = 0.241031
-worth_fight = 0.274142
-worth_fight = 0.2235
-worth_fight = 0.24087
-worth_fight = 0.237414
 info:     end player 3
 info: end round 64
 info: start round 65
@@ -2271,36 +664,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.194459
-worth_fight = 0.159975
-worth_fight = 0.244246
-worth_fight = 0.241626
-worth_fight = 0.169123
-worth_fight = 0.218461
-worth_fight = 0.421826
-worth_fight = 0.234958
-worth_fight = 0.238163
-worth_fight = 0.244246
-worth_fight = 0.270147
-worth_fight = 0.273448
-worth_fight = 0.15454
-worth_fight = 0.17393
-worth_fight = 0.270147
-worth_fight = 0.270147
-worth_fight = 0.275007
-worth_fight = 0.158775
-worth_fight = 0.238163
-worth_fight = 0.421826
-worth_fight = 0.222405
-worth_fight = 0.238163
-worth_fight = 0.152166
-worth_fight = 0.168407
-worth_fight = 0.224542
-worth_fight = 0.246538
-worth_fight = 0.238163
-worth_fight = 0.235028
-worth_fight = 0.248657
-worth_fight = 0.213019
 info:     end player 3
 info: end round 65
 info: start round 66
@@ -2311,36 +674,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.179873
-worth_fight = 0.160181
-worth_fight = 0.218837
-worth_fight = 0.254379
-worth_fight = 0.180278
-worth_fight = 0.244027
-worth_fight = 0.422667
-worth_fight = 0.234611
-worth_fight = 0.212829
-worth_fight = 0.218837
-worth_fight = 0.269846
-worth_fight = 0.234611
-worth_fight = 0.154402
-worth_fight = 0.173774
-worth_fight = 0.381619
-worth_fight = 0.269846
-worth_fight = 0.23795
-worth_fight = 0.158633
-worth_fight = 0.274761
-worth_fight = 0.29887
-worth_fight = 0.287644
-worth_fight = 0.224342
-worth_fight = 0.152363
-worth_fight = 0.168256
-worth_fight = 0.212829
-worth_fight = 0.285045
-worth_fight = 0.23795
-worth_fight = 0.235346
-worth_fight = 0.249107
-worth_fight = 0.194285
 info:     end player 3
 info: end round 66
 info: start round 67
@@ -2351,38 +684,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.185206
-worth_fight = 0.149307
-worth_fight = 0.201898
-worth_fight = 0.22259
-worth_fight = 0.189766
-worth_fight = 0.209192
-worth_fight = 0.252393
-worth_fight = 0.176321
-worth_fight = 0.231576
-worth_fight = 0.211167
-worth_fight = 0.279328
-worth_fight = 0.267218
-worth_fight = 0.283622
-worth_fight = 0.157395
-worth_fight = 0.185206
-worth_fight = 0.377903
-worth_fight = 0.267218
-worth_fight = 0.236092
-worth_fight = 0.161958
-worth_fight = 0.233884
-worth_fight = 0.176321
-worth_fight = 0.384791
-worth_fight = 0.279559
-worth_fight = 0.211167
-worth_fight = 0.142668
-worth_fight = 0.172417
-worth_fight = 0.211167
-worth_fight = 0.208772
-worth_fight = 0.236092
-worth_fight = 0.272615
-worth_fight = 0.242105
-worth_fight = 0.192768
 info:     end player 3
 info: end round 67
 info: start round 68
@@ -2393,38 +694,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.201768
-worth_fight = 0.147494
-worth_fight = 0.247311
-worth_fight = 0.201768
-worth_fight = 0.187461
-worth_fight = 0.270887
-worth_fight = 0.209828
-worth_fight = 0.191566
-worth_fight = 0.369189
-worth_fight = 0.211616
-worth_fight = 0.255466
-worth_fight = 0.267928
-worth_fight = 0.284626
-worth_fight = 0.167297
-worth_fight = 0.193178
-worth_fight = 0.378907
-worth_fight = 0.234595
-worth_fight = 0.236594
-worth_fight = 0.172784
-worth_fight = 0.234595
-worth_fight = 0.191566
-worth_fight = 0.405785
-worth_fight = 0.4759
-worth_fight = 0.211616
-worth_fight = 0.140935
-worth_fight = 0.1856
-worth_fight = 0.211616
-worth_fight = 0.289372
-worth_fight = 0.211616
-worth_fight = 0.25293
-worth_fight = 0.23795
-worth_fight = 0.201768
 info:     end player 3
 info: end round 68
 info: start round 69
@@ -2435,37 +704,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.21296
-worth_fight = 0.14834
-worth_fight = 0.284049
-worth_fight = 0.203049
-worth_fight = 0.192973
-worth_fight = 0.473438
-worth_fight = 0.273339
-worth_fight = 0.193842
-worth_fight = 0.406771
-worth_fight = 0.238096
-worth_fight = 0.245993
-worth_fight = 0.236719
-worth_fight = 0.28763
-worth_fight = 0.168359
-worth_fight = 0.203049
-worth_fight = 0.381911
-worth_fight = 0.27493
-worth_fight = 0.224479
-worth_fight = 0.173881
-worth_fight = 0.236719
-worth_fight = 0.204327
-worth_fight = 0.495775
-worth_fight = 0.21296
-worth_fight = 0.142024
-worth_fight = 0.186778
-worth_fight = 0.21296
-worth_fight = 0.303425
-worth_fight = 0.21296
-worth_fight = 0.254535
-worth_fight = 0.247887
-worth_fight = 0.21296
 info:     end player 3
 info: end round 69
 info: start round 70
@@ -2476,37 +714,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.236365
-worth_fight = 0.145079
-worth_fight = 0.284049
-worth_fight = 0.201573
-worth_fight = 0.192973
-worth_fight = 0.468542
-worth_fight = 0.401876
-worth_fight = 0.193842
-worth_fight = 0.368542
-worth_fight = 0.272931
-worth_fight = 0.236365
-worth_fight = 0.267604
-worth_fight = 0.284169
-worth_fight = 0.162145
-worth_fight = 0.211412
-worth_fight = 0.37845
-worth_fight = 0.272931
-worth_fight = 0.236365
-worth_fight = 0.172617
-worth_fight = 0.239353
-worth_fight = 0.216722
-worth_fight = 0.495775
-worth_fight = 0.222847
-worth_fight = 0.139155
-worth_fight = 0.18542
-worth_fight = 0.222847
-worth_fight = 0.303425
-worth_fight = 0.222847
-worth_fight = 0.236365
-worth_fight = 0.247887
-worth_fight = 0.222847
 info:     end player 3
 info: end round 70
 info: start round 71
@@ -2517,37 +724,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.272997
-worth_fight = 0.141526
-worth_fight = 0.283052
-worth_fight = 0.211462
-worth_fight = 0.192296
-worth_fight = 0.331423
-worth_fight = 0.402036
-worth_fight = 0.19409
-worth_fight = 0.368702
-worth_fight = 0.309351
-worth_fight = 0.236422
-worth_fight = 0.267684
-worth_fight = 0.284282
-worth_fight = 0.172658
-worth_fight = 0.236422
-worth_fight = 0.378563
-worth_fight = 0.272997
-worth_fight = 0.252746
-worth_fight = 0.185465
-worth_fight = 0.254331
-worth_fight = 0.216999
-worth_fight = 0.493333
-worth_fight = 0.236422
-worth_fight = 0.135974
-worth_fight = 0.201621
-worth_fight = 0.236422
-worth_fight = 0.301699
-worth_fight = 0.252746
-worth_fight = 0.211462
-worth_fight = 0.246667
-worth_fight = 0.236422
 info:     end player 3
 info: end round 71
 info: start round 72
@@ -2558,37 +734,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.274139
-worth_fight = 0.136798
-worth_fight = 0.284767
-worth_fight = 0.237411
-worth_fight = 0.193461
-worth_fight = 0.333401
-worth_fight = 0.28626
-worth_fight = 0.195313
-worth_fight = 0.26269
-worth_fight = 0.29575
-worth_fight = 0.246616
-worth_fight = 0.269083
-worth_fight = 0.28626
-worth_fight = 0.186241
-worth_fight = 0.237411
-worth_fight = 0.380541
-worth_fight = 0.210861
-worth_fight = 0.274139
-worth_fight = 0.202465
-worth_fight = 0.264527
-worth_fight = 0.218367
-worth_fight = 0.35181
-worth_fight = 0.237411
-worth_fight = 0.131822
-worth_fight = 0.223833
-worth_fight = 0.237411
-worth_fight = 0.248762
-worth_fight = 0.274139
-worth_fight = 0.193845
-worth_fight = 0.248767
-worth_fight = 0.253803
 info:     end player 3
 info: end round 72
 info: start round 73
@@ -2599,36 +744,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.240076
-worth_fight = 0.146588
-worth_fight = 0.253898
-worth_fight = 0.240076
-worth_fight = 0.199174
-worth_fight = 0.33873
-worth_fight = 0.291589
-worth_fight = 0.188008
-worth_fight = 0.291589
-worth_fight = 0.289518
-worth_fight = 0.227093
-worth_fight = 0.40944
-worth_fight = 0.291589
-worth_fight = 0.188331
-worth_fight = 0.21473
-worth_fight = 0.38587
-worth_fight = 0.238082
-worth_fight = 0.240076
-worth_fight = 0.204737
-worth_fight = 0.267897
-worth_fight = 0.207851
-worth_fight = 0.21473
-worth_fight = 0.140837
-worth_fight = 0.226345
-worth_fight = 0.21473
-worth_fight = 0.260654
-worth_fight = 0.256652
-worth_fight = 0.196021
-worth_fight = 0.366375
-worth_fight = 0.277215
 info:     end player 3
 info: end round 73
 info: start round 74
@@ -2639,37 +754,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.237158
-worth_fight = 0.140378
-worth_fight = 0.226353
-worth_fight = 0.253532
-worth_fight = 0.198524
-worth_fight = 0.273846
-worth_fight = 0.202059
-worth_fight = 0.187347
-worth_fight = 0.235392
-worth_fight = 0.268725
-worth_fight = 0.226353
-worth_fight = 0.403605
-worth_fight = 0.285754
-worth_fight = 0.268725
-worth_fight = 0.202249
-worth_fight = 0.21212
-worth_fight = 0.380035
-worth_fight = 0.233317
-worth_fight = 0.237158
-worth_fight = 0.223595
-worth_fight = 0.268725
-worth_fight = 0.20712
-worth_fight = 0.21212
-worth_fight = 0.110074
-worth_fight = 0.253532
-worth_fight = 0.21212
-worth_fight = 0.230668
-worth_fight = 0.270169
-worth_fight = 0.21212
-worth_fight = 0.364718
-worth_fight = 0.273846
 info:     end player 3
 info: end round 74
 info: start round 75
@@ -2680,34 +764,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.231481
-worth_fight = 0.117431
-worth_fight = 0.231515
-worth_fight = 0.262475
-worth_fight = 0.206939
-worth_fight = 0.280556
-worth_fight = 0.219603
-worth_fight = 0.250937
-worth_fight = 0.211343
-worth_fight = 0.594444
-worth_fight = 0.427778
-worth_fight = 0.396765
-worth_fight = 0.231481
-worth_fight = 0.209383
-worth_fight = 0.561111
-worth_fight = 0.246978
-worth_fight = 0.231481
-worth_fight = 0.231481
-worth_fight = 0.35475
-worth_fight = 0.206939
-worth_fight = 0.209383
-worth_fight = 0.10056
-worth_fight = 0.262475
-worth_fight = 0.209383
-worth_fight = 0.237969
-worth_fight = 0.28501
-worth_fight = 0.266057
-worth_fight = 0.262475
 info:     end player 3
 info: end round 75
 info: start round 76
@@ -2718,33 +774,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.219184
-worth_fight = 0.104493
-worth_fight = 0.231736
-worth_fight = 0.23104
-worth_fight = 0.207158
-worth_fight = 0.245055
-worth_fight = 0.29974
-worth_fight = 0.211545
-worth_fight = 0.533119
-worth_fight = 0.426453
-worth_fight = 0.559786
-worth_fight = 0.23104
-worth_fight = 0.200086
-worth_fight = 0.559786
-worth_fight = 0.284703
-worth_fight = 0.219184
-worth_fight = 0.208983
-worth_fight = 0.280158
-worth_fight = 0.219184
-worth_fight = 0.200086
-worth_fight = 0.113291
-worth_fight = 0.245055
-worth_fight = 0.200086
-worth_fight = 0.238281
-worth_fight = 0.261974
-worth_fight = 0.266406
-worth_fight = 0.282965
 info:     end player 3
 info: end round 76
 info: start round 77
@@ -2755,33 +784,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.207981
-worth_fight = 0.117568
-worth_fight = 0.231736
-worth_fight = 0.207981
-worth_fight = 0.231609
-worth_fight = 0.281608
-worth_fight = 0.346338
-worth_fight = 0.211545
-worth_fight = 0.489796
-worth_fight = 0.423129
-worth_fight = 0.393478
-worth_fight = 0.207981
-worth_fight = 0.203246
-worth_fight = 0.556463
-worth_fight = 0.282784
-worth_fight = 0.207981
-worth_fight = 0.191315
-worth_fight = 0.260718
-worth_fight = 0.24388
-worth_fight = 0.203246
-worth_fight = 0.138489
-worth_fight = 0.229932
-worth_fight = 0.203246
-worth_fight = 0.208467
-worth_fight = 0.24388
-worth_fight = 0.299169
-worth_fight = 0.260718
 info:     end player 3
 info: end round 77
 info: start round 78
@@ -2792,34 +794,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.200337
-worth_fight = 0.143984
-worth_fight = 0.232167
-worth_fight = 0.209245
-worth_fight = 0.23329
-worth_fight = 0.396442
-worth_fight = 0.246993
-worth_fight = 0.396442
-worth_fight = 0.211939
-worth_fight = 0.533987
-worth_fight = 0.42732
-worth_fight = 0.560653
-worth_fight = 0.219458
-worth_fight = 0.221363
-worth_fight = 0.560653
-worth_fight = 0.285203
-worth_fight = 0.200337
-worth_fight = 0.192477
-worth_fight = 0.283319
-worth_fight = 0.283319
-worth_fight = 0.221363
-worth_fight = 0.138746
-worth_fight = 0.231329
-worth_fight = 0.211939
-worth_fight = 0.269917
-worth_fight = 0.262302
-worth_fight = 0.277493
-worth_fight = 0.259571
 info:     end player 3
 info: end round 78
 info: start round 79
@@ -2830,35 +804,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.219155
-worth_fight = 0.142548
-worth_fight = 0.256982
-worth_fight = 0.215705
-worth_fight = 0.267439
-worth_fight = 0.316842
-worth_fight = 0.34091
-worth_fight = 0.34091
-worth_fight = 0.209825
-worth_fight = 0.278474
-worth_fight = 0.293769
-worth_fight = 0.548786
-worth_fight = 0.227373
-worth_fight = 0.242285
-worth_fight = 0.241166
-worth_fight = 0.203522
-worth_fight = 0.257817
-worth_fight = 0.219155
-worth_fight = 0.205667
-worth_fight = 0.275239
-worth_fight = 0.24106
-worth_fight = 0.242285
-worth_fight = 0.137363
-worth_fight = 0.257817
-worth_fight = 0.219155
-worth_fight = 0.265689
-worth_fight = 0.257817
-worth_fight = 0.278474
-worth_fight = 0.256982
 info:     end player 3
 info: end round 79
 info: start round 80
@@ -2869,35 +814,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.241646
-worth_fight = 0.142172
-worth_fight = 0.295954
-worth_fight = 0.227839
-worth_fight = 0.266765
-worth_fight = 0.275092
-worth_fight = 0.313614
-worth_fight = 0.371187
-worth_fight = 0.209271
-worth_fight = 0.258345
-worth_fight = 0.241758
-worth_fight = 0.550183
-worth_fight = 0.258345
-worth_fight = 0.274
-worth_fight = 0.216147
-worth_fight = 0.193386
-worth_fight = 0.24166
-worth_fight = 0.241646
-worth_fight = 0.216147
-worth_fight = 0.280123
-worth_fight = 0.241758
-worth_fight = 0.274
-worth_fight = 0.137
-worth_fight = 0.258345
-worth_fight = 0.229245
-worth_fight = 0.264583
-worth_fight = 0.279044
-worth_fight = 0.241758
-worth_fight = 0.256304
 info:     end player 3
 info: end round 80
 info: start round 81
@@ -2908,35 +824,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.274262
-worth_fight = 0.142307
-worth_fight = 0.262814
-worth_fight = 0.227043
-worth_fight = 0.267042
-worth_fight = 0.244981
-worth_fight = 0.441128
-worth_fight = 0.371675
-worth_fight = 0.209471
-worth_fight = 0.278069
-worth_fight = 0.278069
-worth_fight = 0.547795
-worth_fight = 0.257442
-worth_fight = 0.298956
-worth_fight = 0.240815
-worth_fight = 0.193725
-worth_fight = 0.257442
-worth_fight = 0.274262
-worth_fight = 0.205368
-worth_fight = 0.278069
-worth_fight = 0.277779
-worth_fight = 0.294697
-worth_fight = 0.111933
-worth_fight = 0.227043
-worth_fight = 0.241876
-worth_fight = 0.264982
-worth_fight = 0.257442
-worth_fight = 0.340209
-worth_fight = 0.256548
 info:     end player 3
 info: end round 81
 info: start round 82
@@ -2947,33 +834,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.292305
-worth_fight = 0.141258
-worth_fight = 0.367893
-worth_fight = 0.232899
-worth_fight = 0.294053
-worth_fight = 0.285241
-worth_fight = 0.498696
-worth_fight = 0.367893
-worth_fight = 0.220947
-worth_fight = 0.267745
-worth_fight = 0.565362
-worth_fight = 0.232899
-worth_fight = 0.382862
-worth_fight = 0.232899
-worth_fight = 0.280049
-worth_fight = 0.264082
-worth_fight = 0.294053
-worth_fight = 0.210665
-worth_fight = 0.264082
-worth_fight = 0.326807
-worth_fight = 0.13612
-worth_fight = 0.210665
-worth_fight = 0.27224
-worth_fight = 0.261894
-worth_fight = 0.247026
-worth_fight = 0.216014
-worth_fight = 0.227772
 info:     end player 3
 info: end round 82
 info: start round 83
@@ -2984,35 +844,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.32701
-worth_fight = 0.13947
-worth_fight = 0.361447
-worth_fight = 0.22987
-worth_fight = 0.305581
-worth_fight = 0.260648
-worth_fight = 0.48961
-worth_fight = 0.29512
-worth_fight = 0.218074
-worth_fight = 0.263682
-worth_fight = 0.248775
-worth_fight = 0.207925
-worth_fight = 0.596877
-worth_fight = 0.22987
-worth_fight = 0.277281
-worth_fight = 0.260648
-worth_fight = 0.292487
-worth_fight = 0.207925
-worth_fight = 0.260648
-worth_fight = 0.282677
-worth_fight = 0.278139
-worth_fight = 0.377599
-worth_fight = 0.134397
-worth_fight = 0.207925
-worth_fight = 0.268794
-worth_fight = 0.25663
-worth_fight = 0.243814
-worth_fight = 0.211472
-worth_fight = 0.237054
 info:     end player 3
 info: end round 83
 info: start round 84
@@ -3023,35 +854,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.293085
-worth_fight = 0.137121
-worth_fight = 0.25625
-worth_fight = 0.230108
-worth_fight = 0.318986
-worth_fight = 0.260917
-worth_fight = 0.490323
-worth_fight = 0.259011
-worth_fight = 0.230108
-worth_fight = 0.264
-worth_fight = 0.321578
-worth_fight = 0.20814
-worth_fight = 0.598214
-worth_fight = 0.230108
-worth_fight = 0.393449
-worth_fight = 0.260917
-worth_fight = 0.290877
-worth_fight = 0.20814
-worth_fight = 0.260917
-worth_fight = 0.34671
-worth_fight = 0.393851
-worth_fight = 0.360042
-worth_fight = 0.132308
-worth_fight = 0.214827
-worth_fight = 0.251907
-worth_fight = 0.257402
-worth_fight = 0.244066
-worth_fight = 0.195161
-worth_fight = 0.251907
 info:     end player 3
 info: end round 84
 info: start round 85
@@ -3062,34 +864,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.297166
-worth_fight = 0.135025
-worth_fight = 0.257241
-worth_fight = 0.230355
-worth_fight = 0.410935
-worth_fight = 0.244328
-worth_fight = 0.347235
-worth_fight = 0.219654
-worth_fight = 0.208364
-worth_fight = 0.264332
-worth_fight = 0.215425
-worth_fight = 0.581149
-worth_fight = 0.230355
-worth_fight = 0.395402
-worth_fight = 0.261198
-worth_fight = 0.270049
-worth_fight = 0.208364
-worth_fight = 0.261198
-worth_fight = 0.283516
-worth_fight = 0.55773
-worth_fight = 0.332241
-worth_fight = 0.135025
-worth_fight = 0.238161
-worth_fight = 0.238161
-worth_fight = 0.447816
-worth_fight = 0.244328
-worth_fight = 0.245026
-worth_fight = 0.252608
 info:     end player 3
 info: end round 85
 info: start round 86
@@ -3100,34 +874,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.286585
-worth_fight = 0.132663
-worth_fight = 0.250993
-worth_fight = 0.232035
-worth_fight = 0.541987
-worth_fight = 0.156969
-worth_fight = 0.496104
-worth_fight = 0.18759
-worth_fight = 0.193064
-worth_fight = 0.266586
-worth_fight = 0.233996
-worth_fight = 0.568653
-worth_fight = 0.232035
-worth_fight = 0.395402
-worth_fight = 0.263103
-worth_fight = 0.24819
-worth_fight = 0.232035
-worth_fight = 0.263103
-worth_fight = 0.286426
-worth_fight = 0.194696
-worth_fight = 0.322422
-worth_fight = 0.137671
-worth_fight = 0.265326
-worth_fight = 0.221988
-worth_fight = 0.354958
-worth_fight = 0.24611
-worth_fight = 0.247936
-worth_fight = 0.24819
 info:     end player 3
 info: end round 86
 info: start round 87
@@ -3138,34 +884,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.269051
-worth_fight = 0.113455
-worth_fight = 0.255921
-worth_fight = 0.218233
-worth_fight = 0.511842
-worth_fight = 0.159173
-worth_fight = 0.49625
-worth_fight = 0.187639
-worth_fight = 0.190248
-worth_fight = 0.266651
-worth_fight = 0.197429
-worth_fight = 0.269051
-worth_fight = 0.551842
-worth_fight = 0.232083
-worth_fight = 0.231592
-worth_fight = 0.263158
-worth_fight = 0.237281
-worth_fight = 0.263158
-worth_fight = 0.269051
-worth_fight = 0.350902
-worth_fight = 0.288531
-worth_fight = 0.145304
-worth_fight = 0.282568
-worth_fight = 0.232083
-worth_fight = 0.314787
-worth_fight = 0.251674
-worth_fight = 0.24802
-worth_fight = 0.251674
 info:     end player 3
 info: end round 87
 info: start round 88
@@ -3176,33 +894,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.254498
-worth_fight = 0.146935
-worth_fight = 0.259915
-worth_fight = 0.26572
-worth_fight = 0.369406
-worth_fight = 0.160959
-worth_fight = 0.50303
-worth_fight = 0.17177
-worth_fight = 0.192383
-worth_fight = 0.269683
-worth_fight = 0.27207
-worth_fight = 0.377104
-worth_fight = 0.26572
-worth_fight = 0.269683
-worth_fight = 0.222318
-worth_fight = 0.234343
-worth_fight = 0.293869
-worth_fight = 0.290425
-worth_fight = 0.452428
-worth_fight = 0.293869
-worth_fight = 0.153468
-worth_fight = 0.292103
-worth_fight = 0.26572
-worth_fight = 0.320434
-worth_fight = 0.27207
-worth_fight = 0.40303
-worth_fight = 0.248559
 info:     end player 3
 info: end round 88
 info: start round 89
@@ -3213,32 +904,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.239241
-worth_fight = 0.153019
-worth_fight = 0.258861
-worth_fight = 0.248125
-worth_fight = 0.308861
-worth_fight = 0.164657
-worth_fight = 0.501804
-worth_fight = 0.191888
-worth_fight = 0.207188
-worth_fight = 0.265257
-worth_fight = 0.248125
-worth_fight = 0.368189
-worth_fight = 0.265257
-worth_fight = 0.265257
-worth_fight = 0.22193
-worth_fight = 0.22193
-worth_fight = 0.28651
-worth_fight = 0.617722
-worth_fight = 0.271273
-worth_fight = 0.160487
-worth_fight = 0.271273
-worth_fight = 0.265257
-worth_fight = 0.318944
-worth_fight = 0.265257
-worth_fight = 0.401804
-worth_fight = 0.248125
 info:     end player 3
 info: end round 89
 info: start round 90
@@ -3249,32 +914,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.232306
-worth_fight = 0.164265
-worth_fight = 0.267308
-worth_fight = 0.250196
-worth_fight = 0.256976
-worth_fight = 0.168532
-worth_fight = 0.358971
-worth_fight = 0.21037
-worth_fight = 0.232306
-worth_fight = 0.267471
-worth_fight = 0.288902
-worth_fight = 0.448741
-worth_fight = 0.267471
-worth_fight = 0.267471
-worth_fight = 0.223782
-worth_fight = 0.223782
-worth_fight = 0.303831
-worth_fight = 0.507662
-worth_fight = 0.634615
-worth_fight = 0.259726
-worth_fight = 0.173151
-worth_fight = 0.299905
-worth_fight = 0.267471
-worth_fight = 0.288902
-worth_fight = 0.288261
-worth_fight = 0.250196
 info:     end player 3
 info: end round 90
 info: start round 91
@@ -3285,31 +924,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.221023
-worth_fight = 0.172782
-worth_fight = 0.299859
-worth_fight = 0.251696
-worth_fight = 0.258442
-worth_fight = 0.167798
-worth_fight = 0.361971
-worth_fight = 0.170635
-worth_fight = 0.259173
-worth_fight = 0.237302
-worth_fight = 0.290634
-worth_fight = 0.365492
-worth_fight = 0.237302
-worth_fight = 0.237302
-worth_fight = 0.251696
-worth_fight = 0.225124
-worth_fight = 0.390256
-worth_fight = 0.361971
-worth_fight = 0.633051
-worth_fight = 0.24435
-worth_fight = 0.299267
-worth_fight = 0.269075
-worth_fight = 0.290634
-worth_fight = 0.333687
-worth_fight = 0.251696
 info:     end player 3
 info: end round 91
 info: start round 92
@@ -3320,31 +934,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.24031
-worth_fight = 0.174594
-worth_fight = 0.302406
-worth_fight = 0.254887
-worth_fight = 0.281906
-worth_fight = 0.300759
-worth_fight = 0.254887
-worth_fight = 0.261891
-worth_fight = 0.24031
-worth_fight = 0.294319
-worth_fight = 0.453072
-worth_fight = 0.217369
-worth_fight = 0.24031
-worth_fight = 0.272486
-worth_fight = 0.227978
-worth_fight = 0.368353
-worth_fight = 0.340069
-worth_fight = 0.607407
-worth_fight = 0.234243
-worth_fight = 0.185185
-worth_fight = 0.302406
-worth_fight = 0.292596
-worth_fight = 0.294319
-worth_fight = 0.340069
-worth_fight = 0.254887
 info:     end player 3
 info: end round 92
 info: start round 93
@@ -3355,30 +944,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.241505
-worth_fight = 0.172287
-worth_fight = 0.258431
-worth_fight = 0.295781
-worth_fight = 0.281112
-worth_fight = 0.262257
-worth_fight = 0.256154
-worth_fight = 0.231147
-worth_fight = 0.27384
-worth_fight = 0.312257
-worth_fight = 0.218449
-worth_fight = 0.241505
-worth_fight = 0.241505
-worth_fight = 0.288235
-worth_fight = 0.229111
-worth_fight = 0.457847
-worth_fight = 0.342603
-worth_fight = 0.190978
-worth_fight = 0.195355
-worth_fight = 0.218449
-worth_fight = 0.258431
-worth_fight = 0.288235
-worth_fight = 0.288235
-worth_fight = 0.256154
 info:     end player 3
 info: end round 93
 info: start round 94
@@ -3389,28 +954,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.218901
-worth_fight = 0.172786
-worth_fight = 0.231817
-worth_fight = 0.283006
-worth_fight = 0.281986
-worth_fight = 0.296393
-worth_fight = 0.296393
-worth_fight = 0.274407
-worth_fight = 0.296339
-worth_fight = 0.218901
-worth_fight = 0.242004
-worth_fight = 0.242004
-worth_fight = 0.279961
-worth_fight = 0.229585
-worth_fight = 0.263006
-worth_fight = 0.191572
-worth_fight = 0.195921
-worth_fight = 0.201359
-worth_fight = 0.183268
-worth_fight = 0.242004
-worth_fight = 0.279961
-worth_fight = 0.242004
 info:     end player 3
 info: end round 94
 info: start round 95
@@ -3421,29 +964,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.201185
-worth_fight = 0.211619
-worth_fight = 0.296137
-worth_fight = 0.245361
-worth_fight = 0.264773
-worth_fight = 0.296137
-worth_fight = 0.211619
-worth_fight = 0.27417
-worth_fight = 0.296137
-worth_fight = 0.218712
-worth_fight = 0.241795
-worth_fight = 0.241795
-worth_fight = 0.264773
-worth_fight = 0.229387
-worth_fight = 0.330863
-worth_fight = 0.341821
-worth_fight = 0.191572
-worth_fight = 0.191572
-worth_fight = 0.187294
-worth_fight = 0.177796
-worth_fight = 0.241795
-worth_fight = 0.264773
-worth_fight = 0.218712
 info:     end player 3
 info: end round 95
 info: start round 96
@@ -3454,30 +974,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.186178
-worth_fight = 0.163338
-worth_fight = 0.254934
-worth_fight = 0.346993
-worth_fight = 0.262841
-worth_fight = 0.227198
-worth_fight = 0.195226
-worth_fight = 0.272536
-worth_fight = 0.25826
-worth_fight = 0.217409
-worth_fight = 0.240354
-worth_fight = 0.240354
-worth_fight = 0.262841
-worth_fight = 0.22802
-worth_fight = 0.340163
-worth_fight = 0.339326
-worth_fight = 0.191572
-worth_fight = 0.20826
-worth_fight = 0.174883
-worth_fight = 0.172173
-worth_fight = 0.240354
-worth_fight = 0.262841
-worth_fight = 0.32936
-worth_fight = 0.199987
 info:     end player 3
 info: end round 96
 info: start round 97
@@ -3488,30 +984,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.174883
-worth_fight = 0.179511
-worth_fight = 0.240354
-worth_fight = 0.346993
-worth_fight = 0.262841
-worth_fight = 0.243101
-worth_fight = 0.179511
-worth_fight = 0.272536
-worth_fight = 0.272536
-worth_fight = 0.199987
-worth_fight = 0.240354
-worth_fight = 0.272536
-worth_fight = 0.262841
-worth_fight = 0.208153
-worth_fight = 0.518045
-worth_fight = 0.339326
-worth_fight = 0.191572
-worth_fight = 0.20826
-worth_fight = 0.165423
-worth_fight = 0.164731
-worth_fight = 0.240354
-worth_fight = 0.277748
-worth_fight = 0.322187
-worth_fight = 0.186178
 info:     end player 3
 info: end round 97
 info: start round 98
@@ -3522,30 +994,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.161321
-worth_fight = 0.16875
-worth_fight = 0.243333
-worth_fight = 0.355802
-worth_fight = 0.237023
-worth_fight = 0.267506
-worth_fight = 0.159099
-worth_fight = 0.281745
-worth_fight = 0.275914
-worth_fight = 0.18156
-worth_fight = 0.275914
-worth_fight = 0.290689
-worth_fight = 0.266837
-worth_fight = 0.210733
-worth_fight = 0.475
-worth_fight = 0.344486
-worth_fight = 0.195027
-worth_fight = 0.212017
-worth_fight = 0.153447
-worth_fight = 0.150935
-worth_fight = 0.220103
-worth_fight = 0.281745
-worth_fight = 0.312731
-worth_fight = 0.170546
 info:     end player 3
 info: end round 98
 info: start round 99
@@ -3556,30 +1004,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.160712
-worth_fight = 0.159099
-worth_fight = 0.243122
-worth_fight = 0.353925
-worth_fight = 0.283596
-worth_fight = 0.247895
-worth_fight = 0.159099
-worth_fight = 0.290406
-worth_fight = 0.275675
-worth_fight = 0.180875
-worth_fight = 0.275675
-worth_fight = 0.290406
-worth_fight = 0.266554
-worth_fight = 0.230646
-worth_fight = 0.408333
-worth_fight = 0.34412
-worth_fight = 0.194291
-worth_fight = 0.211216
-worth_fight = 0.152867
-worth_fight = 0.14391
-worth_fight = 0.219912
-worth_fight = 0.290406
-worth_fight = 0.475
-worth_fight = 0.169902
 info:     end player 3
 info: end round 99
 info: start round 100
@@ -3590,29 +1014,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.162356
-worth_fight = 0.152529
-worth_fight = 0.233285
-worth_fight = 0.358993
-worth_fight = 0.287179
-worth_fight = 0.333079
-worth_fight = 0.16078
-worth_fight = 0.294137
-worth_fight = 0.26082
-worth_fight = 0.182725
-worth_fight = 0.278829
-worth_fight = 0.294137
-worth_fight = 0.270286
-worth_fight = 0.26082
-worth_fight = 0.482132
-worth_fight = 0.348938
-worth_fight = 0.196279
-worth_fight = 0.213377
-worth_fight = 0.154431
-worth_fight = 0.13924
-worth_fight = 0.294137
-worth_fight = 0.340919
-worth_fight = 0.171641
 info:     end player 3
 info: end round 100
 info: start round 101
@@ -3623,29 +1024,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.154431
-worth_fight = 0.144871
-worth_fight = 0.232489
-worth_fight = 0.253846
-worth_fight = 0.287179
-worth_fight = 0.3313
-worth_fight = 0.151942
-worth_fight = 0.293012
-worth_fight = 0.259931
-worth_fight = 0.171641
-worth_fight = 0.277878
-worth_fight = 0.300142
-worth_fight = 0.269161
-worth_fight = 0.259931
-worth_fight = 0.412836
-worth_fight = 0.347485
-worth_fight = 0.182725
-worth_fight = 0.196279
-worth_fight = 0.147564
-worth_fight = 0.133262
-worth_fight = 0.293012
-worth_fight = 0.33906
-worth_fight = 0.162356
 info:     end player 3
 info: end round 101
 info: start round 102
@@ -3656,30 +1034,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.15408
-worth_fight = 0.14135
-worth_fight = 0.14135
-worth_fight = 0.260499
-worth_fight = 0.253041
-worth_fight = 0.286374
-worth_fight = 0.332437
-worth_fight = 0.148249
-worth_fight = 0.278485
-worth_fight = 0.260499
-worth_fight = 0.17125
-worth_fight = 0.245601
-worth_fight = 0.260499
-worth_fight = 0.26988
-worth_fight = 0.260499
-worth_fight = 0.436803
-worth_fight = 0.348413
-worth_fight = 0.182309
-worth_fight = 0.195832
-worth_fight = 0.147228
-worth_fight = 0.130023
-worth_fight = 0.293731
-worth_fight = 0.327383
-worth_fight = 0.161986
 info:     end player 3
 info: end round 102
 info: start round 103
@@ -3690,30 +1044,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.15408
-worth_fight = 0.135332
-worth_fight = 0.135332
-worth_fight = 0.25962
-worth_fight = 0.253041
-worth_fight = 0.404994
-worth_fight = 0.330679
-worth_fight = 0.14135
-worth_fight = 0.277546
-worth_fight = 0.299784
-worth_fight = 0.17125
-worth_fight = 0.244772
-worth_fight = 0.277546
-worth_fight = 0.346978
-worth_fight = 0.299784
-worth_fight = 0.434317
-worth_fight = 0.346978
-worth_fight = 0.182309
-worth_fight = 0.195832
-worth_fight = 0.147228
-worth_fight = 0.130023
-worth_fight = 0.366223
-worth_fight = 0.327383
-worth_fight = 0.161986
 info:     end player 3
 info: end round 103
 info: start round 104
@@ -3724,29 +1054,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.148446
-worth_fight = 0.139567
-worth_fight = 0.134091
-worth_fight = 0.301385
-worth_fight = 0.25596
-worth_fight = 0.409123
-worth_fight = 0.380594
-worth_fight = 0.139567
-worth_fight = 0.28543
-worth_fight = 0.302454
-worth_fight = 0.163326
-worth_fight = 0.222588
-worth_fight = 0.24608
-worth_fight = 0.604907
-worth_fight = 0.302454
-worth_fight = 0.309883
-worth_fight = 0.349243
-worth_fight = 0.172666
-worth_fight = 0.183817
-worth_fight = 0.142384
-worth_fight = 0.134091
-worth_fight = 0.638241
-worth_fight = 0.155354
 info:     end player 3
 info: end round 104
 info: start round 105
@@ -3757,28 +1064,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.149231
-worth_fight = 0.129925
-worth_fight = 0.32007
-worth_fight = 0.257843
-worth_fight = 0.411786
-worth_fight = 0.381937
-worth_fight = 0.13483
-worth_fight = 0.302161
-worth_fight = 0.429078
-worth_fight = 0.16419
-worth_fight = 0.21366
-worth_fight = 0.261679
-worth_fight = 0.606808
-worth_fight = 0.303404
-worth_fight = 0.440141
-worth_fight = 0.411786
-worth_fight = 0.173579
-worth_fight = 0.184789
-worth_fight = 0.143137
-worth_fight = 0.132309
-worth_fight = 0.640141
-worth_fight = 0.156176
 info:     end player 3
 info: end round 105
 info: start round 106
@@ -3789,27 +1074,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.156176
-worth_fight = 0.129925
-worth_fight = 0.450549
-worth_fight = 0.257843
-worth_fight = 0.379839
-worth_fight = 0.1375
-worth_fight = 0.26063
-worth_fight = 0.450549
-worth_fight = 0.173579
-worth_fight = 0.197018
-worth_fight = 0.26063
-worth_fight = 0.426979
-worth_fight = 0.450549
-worth_fight = 0.470506
-worth_fight = 0.582353
-worth_fight = 0.184789
-worth_fight = 0.198496
-worth_fight = 0.149231
-worth_fight = 0.13483
-worth_fight = 0.426979
-worth_fight = 0.16419
 info:     end player 3
 info: end round 106
 info: start round 107
@@ -3820,28 +1084,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.156478
-worth_fight = 0.135102
-worth_fight = 0.636788
-worth_fight = 0.258537
-worth_fight = 0.412766
-worth_fight = 0.379566
-worth_fight = 0.140619
-worth_fight = 0.232993
-worth_fight = 0.636788
-worth_fight = 0.173916
-worth_fight = 0.184197
-worth_fight = 0.260494
-worth_fight = 0.426707
-worth_fight = 0.450277
-worth_fight = 0.536788
-worth_fight = 0.517073
-worth_fight = 0.185147
-worth_fight = 0.19888
-worth_fight = 0.14952
-worth_fight = 0.135102
-worth_fight = 0.367649
-worth_fight = 0.164508
 info:     end player 3
 info: end round 107
 info: start round 108
@@ -3852,26 +1094,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.15592
-worth_fight = 0.140619
-worth_fight = 0.633904
-worth_fight = 0.34674
-worth_fight = 0.266952
-worth_fight = 0.140619
-worth_fight = 0.21186
-worth_fight = 0.633904
-worth_fight = 0.173296
-worth_fight = 0.172983
-worth_fight = 0.232081
-worth_fight = 0.405811
-worth_fight = 0.365985
-worth_fight = 0.533904
-worth_fight = 0.184487
-worth_fight = 0.198171
-worth_fight = 0.148987
-worth_fight = 0.135102
-worth_fight = 0.34674
-worth_fight = 0.163921
 info:     end player 3
 info: end round 108
 info: start round 109
@@ -3882,25 +1104,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.151822
-worth_fight = 0.14246
-worth_fight = 0.650164
-worth_fight = 0.373431
-worth_fight = 0.275082
-worth_fight = 0.136871
-worth_fight = 0.250055
-worth_fight = 0.650164
-worth_fight = 0.176593
-worth_fight = 0.193691
-worth_fight = 0.283535
-worth_fight = 0.459735
-worth_fight = 0.550164
-worth_fight = 0.616831
-worth_fight = 0.187997
-worth_fight = 0.201942
-worth_fight = 0.145622
-worth_fight = 0.136871
-worth_fight = 0.158887
 info:     end player 3
 info: end round 109
 info: start round 110
@@ -3911,27 +1114,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.14434
-worth_fight = 0.140722
-worth_fight = 0.409232
-worth_fight = 0.521698
-worth_fight = 0.521698
-worth_fight = 0.236038
-worth_fight = 0.130283
-worth_fight = 0.279218
-worth_fight = 0.451659
-worth_fight = 0.175038
-worth_fight = 0.197437
-worth_fight = 0.270747
-worth_fight = 0.246247
-worth_fight = 0.319371
-worth_fight = 0.261185
-worth_fight = 0.368896
-worth_fight = 0.186342
-worth_fight = 0.200163
-worth_fight = 0.138891
-worth_fight = 0.135201
-worth_fight = 0.150484
 info:     end player 3
 info: end round 110
 info: start round 111
@@ -3942,29 +1124,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.137461
-worth_fight = 0.131641
-worth_fight = 0.145835
-worth_fight = 0.145835
-worth_fight = 0.500915
-worth_fight = 0.500915
-worth_fight = 0.149267
-worth_fight = 0.307337
-worth_fight = 0.134149
-worth_fight = 0.267876
-worth_fight = 0.152953
-worth_fight = 0.175229
-worth_fight = 0.211404
-worth_fight = 0.345827
-worth_fight = 0.244108
-worth_fight = 0.152953
-worth_fight = 0.258915
-worth_fight = 0.44712
-worth_fight = 0.187327
-worth_fight = 0.202337
-worth_fight = 0.13246
-worth_fight = 0.139627
-worth_fight = 0.143074
 info:     end player 3
 info: end round 111
 info: start round 112
@@ -3975,29 +1134,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.132632
-worth_fight = 0.131348
-worth_fight = 0.152612
-worth_fight = 0.163828
-worth_fight = 0.354843
-worth_fight = 0.501824
-worth_fight = 0.152612
-worth_fight = 0.307533
-worth_fight = 0.139315
-worth_fight = 0.346023
-worth_fight = 0.152612
-worth_fight = 0.175456
-worth_fight = 0.231688
-worth_fight = 0.492663
-worth_fight = 0.227501
-worth_fight = 0.156577
-worth_fight = 0.241301
-worth_fight = 0.447361
-worth_fight = 0.18757
-worth_fight = 0.202599
-worth_fight = 0.128135
-worth_fight = 0.14551
-worth_fight = 0.137639
 info:     end player 3
 info: end round 112
 info: start round 113
@@ -4008,27 +1144,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.138692
-worth_fight = 0.13686
-worth_fight = 0.153014
-worth_fight = 0.164102
-worth_fight = 0.356117
-worth_fight = 0.543625
-worth_fight = 0.153014
-worth_fight = 0.448226
-worth_fight = 0.139682
-worth_fight = 0.156989
-worth_fight = 0.19614
-worth_fight = 0.259468
-worth_fight = 0.2281
-worth_fight = 0.161291
-worth_fight = 0.241937
-worth_fight = 0.633887
-worth_fight = 0.211855
-worth_fight = 0.232075
-worth_fight = 0.133989
-worth_fight = 0.145893
-worth_fight = 0.143927
 info:     end player 3
 info: end round 113
 info: start round 114
@@ -4039,29 +1154,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.136055
-worth_fight = 0.133563
-worth_fight = 0.149328
-worth_fight = 0.160098
-worth_fight = 0.292327
-worth_fight = 0.586603
-worth_fight = 0.164052
-worth_fight = 0.286188
-worth_fight = 0.136317
-worth_fight = 0.493663
-worth_fight = 0.168314
-worth_fight = 0.207828
-worth_fight = 0.299517
-worth_fight = 0.330217
-worth_fight = 0.259389
-worth_fight = 0.17794
-worth_fight = 0.244554
-worth_fight = 0.286188
-worth_fight = 0.227664
-worth_fight = 0.254536
-worth_fight = 0.131442
-worth_fight = 0.142379
-worth_fight = 0.141191
 info:     end player 3
 info: end round 114
 info: start round 115
@@ -4072,26 +1164,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.140872
-worth_fight = 0.133738
-worth_fight = 0.149524
-worth_fight = 0.164125
-worth_fight = 0.326995
-worth_fight = 0.168389
-worth_fight = 0.136496
-worth_fight = 0.349304
-worth_fight = 0.178019
-worth_fight = 0.22715
-worth_fight = 0.266995
-worth_fight = 0.49399
-worth_fight = 0.259505
-worth_fight = 0.189515
-worth_fight = 0.244663
-worth_fight = 0.253961
-worth_fight = 0.29965
-worth_fight = 0.135748
-worth_fight = 0.142566
-worth_fight = 0.146624
 info:     end player 3
 info: end round 115
 info: start round 116
@@ -4102,27 +1174,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.146982
-worth_fight = 0.139795
-worth_fight = 0.158023
-worth_fight = 0.14572
-worth_fight = 0.293364
-worth_fight = 0.178307
-worth_fight = 0.338748
-worth_fight = 0.142937
-worth_fight = 0.350145
-worth_fight = 0.189822
-worth_fight = 0.227704
-worth_fight = 0.378429
-worth_fight = 0.331288
-worth_fight = 0.259925
-worth_fight = 0.203902
-worth_fight = 0.277872
-worth_fight = 0.25458
-worth_fight = 0.293964
-worth_fight = 0.141216
-worth_fight = 0.149914
-worth_fight = 0.153518
 info:     end player 3
 info: end round 116
 info: start round 117
@@ -4133,28 +1184,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.148706
-worth_fight = 0.141555
-worth_fight = 0.151801
-worth_fight = 0.156476
-worth_fight = 0.343624
-worth_fight = 0.595173
-worth_fight = 0.192401
-worth_fight = 0.343624
-worth_fight = 0.151801
-worth_fight = 0.300638
-worth_fight = 0.206672
-worth_fight = 0.210302
-worth_fight = 0.385491
-worth_fight = 0.304213
-worth_fight = 0.224676
-worth_fight = 0.243806
-worth_fight = 0.420851
-worth_fight = 0.230374
-worth_fight = 0.257566
-worth_fight = 0.142872
-worth_fight = 0.155744
-worth_fight = 0.155318
 info:     end player 3
 info: end round 117
 info: start round 118
@@ -4165,23 +1194,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.156682
-worth_fight = 0.138734
-worth_fight = 0.141852
-worth_fight = 0.195598
-worth_fight = 0.210106
-worth_fight = 0.148775
-worth_fight = 0.228409
-worth_fight = 0.212149
-worth_fight = 0.394245
-worth_fight = 0.249343
-worth_fight = 0.252516
-worth_fight = 0.28341
-worth_fight = 0.232397
-worth_fight = 0.259828
-worth_fight = 0.150012
-worth_fight = 0.148775
-worth_fight = 0.16433
 info:     end player 3
 info: end round 118
 info: start round 119
@@ -4192,27 +1204,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.156848
-worth_fight = 0.134169
-worth_fight = 0.161672
-worth_fight = 0.195794
-worth_fight = 0.602349
-worth_fight = 0.602349
-worth_fight = 0.210317
-worth_fight = 0.425925
-worth_fight = 0.151663
-worth_fight = 0.228638
-worth_fight = 0.171969
-worth_fight = 0.347642
-worth_fight = 0.249683
-worth_fight = 0.228638
-worth_fight = 0.253057
-worth_fight = 0.624974
-worth_fight = 0.212373
-worth_fight = 0.232643
-worth_fight = 0.150171
-worth_fight = 0.14388
-worth_fight = 0.164504
 info:     end player 3
 info: end round 119
 info: start round 120
@@ -4223,27 +1214,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.167978
-worth_fight = 0.134405
-worth_fight = 0.168825
-worth_fight = 0.175058
-worth_fight = 0.617886
-worth_fight = 0.617886
-worth_fight = 0.217952
-worth_fight = 0.356737
-worth_fight = 0.15193
-worth_fight = 0.238754
-worth_fight = 0.186076
-worth_fight = 0.307597
-worth_fight = 0.248207
-worth_fight = 0.251669
-worth_fight = 0.307597
-worth_fight = 0.675008
-worth_fight = 0.216858
-worth_fight = 0.237556
-worth_fight = 0.160161
-worth_fight = 0.144134
-worth_fight = 0.177064
 info:     end player 3
 info: end round 120
 info: start round 121
@@ -4254,27 +1224,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.168147
-worth_fight = 0.139299
-worth_fight = 0.167671
-worth_fight = 0.159184
-worth_fight = 0.618642
-worth_fight = 0.618642
-worth_fight = 0.180236
-worth_fight = 0.309321
-worth_fight = 0.157462
-worth_fight = 0.24995
-worth_fight = 0.192851
-worth_fight = 0.416516
-worth_fight = 0.275714
-worth_fight = 0.24995
-worth_fight = 0.303949
-worth_fight = 0.669849
-worth_fight = 0.217077
-worth_fight = 0.217077
-worth_fight = 0.160322
-worth_fight = 0.149382
-worth_fight = 0.177242
 info:     end player 3
 info: end round 121
 info: start round 122
@@ -4285,27 +1234,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.17742
-worth_fight = 0.139459
-worth_fight = 0.167604
-worth_fight = 0.159106
-worth_fight = 0.619394
-worth_fight = 0.619394
-worth_fight = 0.170908
-worth_fight = 0.309697
-worth_fight = 0.157643
-worth_fight = 0.216517
-worth_fight = 0.217294
-worth_fight = 0.42955
-worth_fight = 0.306002
-worth_fight = 0.24985
-worth_fight = 0.303737
-worth_fight = 0.437978
-worth_fight = 0.238033
-worth_fight = 0.238033
-worth_fight = 0.168315
-worth_fight = 0.149553
-worth_fight = 0.188182
 info:     end player 3
 info: end round 122
 info: start round 123
@@ -4316,27 +1244,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.187706
-worth_fight = 0.136679
-worth_fight = 0.146115
-worth_fight = 0.1593
-worth_fight = 0.617491
-worth_fight = 0.617491
-worth_fight = 0.171116
-worth_fight = 0.306523
-worth_fight = 0.157823
-worth_fight = 0.216766
-worth_fight = 0.237432
-worth_fight = 0.430299
-worth_fight = 0.290823
-worth_fight = 0.265271
-worth_fight = 0.304268
-worth_fight = 0.590825
-worth_fight = 0.237432
-worth_fight = 0.237432
-worth_fight = 0.176971
-worth_fight = 0.149724
-worth_fight = 0.200666
 info:     end player 3
 info: end round 123
 info: start round 124
@@ -4347,29 +1254,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.195992
-worth_fight = 0.134264
-worth_fight = 0.143534
-worth_fight = 0.189346
-worth_fight = 0.37998
-worth_fight = 0.658145
-worth_fight = 0.154919
-worth_fight = 0.273953
-worth_fight = 0.155035
-worth_fight = 0.329073
-worth_fight = 0.190957
-worth_fight = 0.259272
-worth_fight = 0.4
-worth_fight = 0.465379
-worth_fight = 0.277174
-worth_fight = 0.2319
-worth_fight = 0.292271
-worth_fight = 0.37998
-worth_fight = 0.2319
-worth_fight = 0.2319
-worth_fight = 0.183333
-worth_fight = 0.147079
-worth_fight = 0.211695
 info:     end player 3
 info: end round 124
 info: start round 125
@@ -4380,30 +1264,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.188252
-worth_fight = 0.133249
-worth_fight = 0.142449
-worth_fight = 0.187649
-worth_fight = 0.256949
-worth_fight = 0.27469
-worth_fight = 0.176265
-worth_fight = 0.229822
-worth_fight = 0.153863
-worth_fight = 0.28924
-worth_fight = 0.178925
-worth_fight = 0.222742
-worth_fight = 0.278195
-worth_fight = 0.299462
-worth_fight = 0.242254
-worth_fight = 0.219127
-worth_fight = 0.287623
-worth_fight = 0.27469
-worth_fight = 0.203335
-worth_fight = 0.296699
-worth_fight = 0.203335
-worth_fight = 0.176093
-worth_fight = 0.149759
-worth_fight = 0.195358
 info:     end player 3
 info: end round 125
 info: start round 126
@@ -4414,30 +1274,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.195358
-worth_fight = 0.148038
-worth_fight = 0.158259
-worth_fight = 0.143557
-worth_fight = 0.229339
-worth_fight = 0.241745
-worth_fight = 0.175895
-worth_fight = 0.256409
-worth_fight = 0.163196
-worth_fight = 0.288557
-worth_fight = 0.170867
-worth_fight = 0.222742
-worth_fight = 0.277115
-worth_fight = 0.274113
-worth_fight = 0.218666
-worth_fight = 0.218666
-worth_fight = 0.286543
-worth_fight = 0.256409
-worth_fight = 0.212377
-worth_fight = 0.274113
-worth_fight = 0.222742
-worth_fight = 0.188252
-worth_fight = 0.153863
-worth_fight = 0.203335
 info:     end player 3
 info: end round 126
 info: start round 127
@@ -4448,30 +1284,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.20383
-worth_fight = 0.148076
-worth_fight = 0.1583
-worth_fight = 0.12054
-worth_fight = 0.209412
-worth_fight = 0.218723
-worth_fight = 0.143603
-worth_fight = 0.296153
-worth_fight = 0.187304
-worth_fight = 0.288642
-worth_fight = 0.170922
-worth_fight = 0.235362
-worth_fight = 0.405424
-worth_fight = 0.241808
-worth_fight = 0.218723
-worth_fight = 0.209412
-worth_fight = 0.212712
-worth_fight = 0.241808
-worth_fight = 0.223284
-worth_fight = 0.241808
-worth_fight = 0.249639
-worth_fight = 0.195833
-worth_fight = 0.163614
-worth_fight = 0.223284
 info:     end player 3
 info: end round 127
 info: start round 128
@@ -4482,30 +1294,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.22382
-worth_fight = 0.148114
-worth_fight = 0.158341
-worth_fight = 0.120583
-worth_fight = 0.229458
-worth_fight = 0.21878
-worth_fight = 0.166466
-worth_fight = 0.296229
-worth_fight = 0.201248
-worth_fight = 0.274255
-worth_fight = 0.170975
-worth_fight = 0.267516
-worth_fight = 0.392276
-worth_fight = 0.21878
-worth_fight = 0.229458
-worth_fight = 0.229458
-worth_fight = 0.212805
-worth_fight = 0.24187
-worth_fight = 0.235927
-worth_fight = 0.21878
-worth_fight = 0.28895
-worth_fight = 0.204319
-worth_fight = 0.187352
-worth_fight = 0.250238
 info:     end player 3
 info: end round 128
 info: start round 129
@@ -4516,29 +1304,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.252567
-worth_fight = 0.149047
-worth_fight = 0.159338
-worth_fight = 0.257973
-worth_fight = 0.230902
-worth_fight = 0.220157
-worth_fight = 0.205791
-worth_fight = 0.258157
-worth_fight = 0.220157
-worth_fight = 0.243393
-worth_fight = 0.183066
-worth_fight = 0.283697
-worth_fight = 0.202515
-worth_fight = 0.230902
-worth_fight = 0.258157
-worth_fight = 0.215089
-worth_fight = 0.220157
-worth_fight = 0.270005
-worth_fight = 0.202515
-worth_fight = 0.307183
-worth_fight = 0.225902
-worth_fight = 0.202515
-worth_fight = 0.291639
 info:     end player 3
 info: end round 129
 info: start round 130
@@ -4549,29 +1314,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.291379
-worth_fight = 0.150155
-worth_fight = 0.160523
-worth_fight = 0.236612
-worth_fight = 0.260077
-worth_fight = 0.245203
-worth_fight = 0.220804
-worth_fight = 0.300311
-worth_fight = 0.245203
-worth_fight = 0.245203
-worth_fight = 0.220804
-worth_fight = 0.354338
-worth_fight = 0.221794
-worth_fight = 0.260077
-worth_fight = 0.300311
-worth_fight = 0.217804
-worth_fight = 0.204021
-worth_fight = 0.259562
-worth_fight = 0.221794
-worth_fight = 0.306865
-worth_fight = 0.252342
-worth_fight = 0.221794
-worth_fight = 0.316865
 info:     end player 3
 info: end round 130
 info: start round 131
@@ -4582,29 +1324,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.292024
-worth_fight = 0.150372
-worth_fight = 0.160755
-worth_fight = 0.237309
-worth_fight = 0.277416
-worth_fight = 0.278436
-worth_fight = 0.250958
-worth_fight = 0.335002
-worth_fight = 0.278436
-worth_fight = 0.245557
-worth_fight = 0.22804
-worth_fight = 0.61531
-worth_fight = 0.245557
-worth_fight = 0.225097
-worth_fight = 0.300745
-worth_fight = 0.218336
-worth_fight = 0.222115
-worth_fight = 0.336005
-worth_fight = 0.245557
-worth_fight = 0.426625
-worth_fight = 0.292024
-worth_fight = 0.245557
-worth_fight = 0.307655
 info:     end player 3
 info: end round 131
 info: start round 132
@@ -4615,29 +1334,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.283875
-worth_fight = 0.157484
-worth_fight = 0.16119
-worth_fight = 0.237309
-worth_fight = 0.340762
-worth_fight = 0.304787
-worth_fight = 0.237309
-worth_fight = 0.336
-worth_fight = 0.240899
-worth_fight = 0.27919
-worth_fight = 0.228794
-worth_fight = 0.562016
-worth_fight = 0.27919
-worth_fight = 0.261158
-worth_fight = 0.301559
-worth_fight = 0.219333
-worth_fight = 0.246222
-worth_fight = 0.297674
-worth_fight = 0.27919
-worth_fight = 0.380895
-worth_fight = 0.262817
-worth_fight = 0.27919
-worth_fight = 0.297674
 info:     end player 3
 info: end round 132
 info: start round 133
@@ -4648,29 +1344,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.298458
-worth_fight = 0.157388
-worth_fight = 0.161091
-worth_fight = 0.238
-worth_fight = 0.48159
-worth_fight = 0.304584
-worth_fight = 0.307257
-worth_fight = 0.335774
-worth_fight = 0.279019
-worth_fight = 0.279019
-worth_fight = 0.279019
-worth_fight = 0.563582
-worth_fight = 0.304584
-worth_fight = 0.279019
-worth_fight = 0.260998
-worth_fight = 0.219107
-worth_fight = 0.279019
-worth_fight = 0.238
-worth_fight = 0.279019
-worth_fight = 0.35229
-worth_fight = 0.284514
-worth_fight = 0.279019
-worth_fight = 0.298458
 info:     end player 3
 info: end round 133
 info: start round 134
@@ -4681,29 +1354,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.423179
-worth_fight = 0.16508
-worth_fight = 0.169369
-worth_fight = 0.30814
-worth_fight = 0.465461
-worth_fight = 0.279036
-worth_fight = 0.533715
-worth_fight = 0.335797
-worth_fight = 0.25212
-worth_fight = 0.279036
-worth_fight = 0.279036
-worth_fight = 0.565132
-worth_fight = 0.279036
-worth_fight = 0.285439
-worth_fight = 0.279036
-worth_fight = 0.309897
-worth_fight = 0.246087
-worth_fight = 0.282566
-worth_fight = 0.246087
-worth_fight = 0.333467
-worth_fight = 0.282566
-worth_fight = 0.240718
-worth_fight = 0.26913
 info:     end player 3
 info: end round 134
 info: start round 135
@@ -4714,27 +1364,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.400694
-worth_fight = 0.173792
-worth_fight = 0.178831
-worth_fight = 0.309016
-worth_fight = 0.450667
-worth_fight = 0.278688
-worth_fight = 0.378466
-worth_fight = 0.302003
-worth_fight = 0.252694
-worth_fight = 0.278688
-worth_fight = 0.27012
-worth_fight = 0.566667
-worth_fight = 0.24578
-worth_fight = 0.285027
-worth_fight = 0.278688
-worth_fight = 0.437339
-worth_fight = 0.222316
-worth_fight = 0.327165
-worth_fight = 0.233167
-worth_fight = 0.283333
-worth_fight = 0.240305
 info:     end player 3
 info: end round 135
 info: start round 136
@@ -4745,31 +1374,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.401564
-worth_fight = 0.169664
-worth_fight = 0.174583
-worth_fight = 0.368688
-worth_fight = 0.247467
-worth_fight = 0.395855
-worth_fight = 0.292101
-worth_fight = 0.521404
-worth_fight = 0.414711
-worth_fight = 0.247467
-worth_fight = 0.232472
-worth_fight = 0.232472
-worth_fight = 0.262287
-worth_fight = 0.267295
-worth_fight = 0.272068
-worth_fight = 0.262287
-worth_fight = 0.232472
-worth_fight = 0.453157
-worth_fight = 0.199643
-worth_fight = 0.248086
-worth_fight = 0.239941
-worth_fight = 0.339287
-worth_fight = 0.401564
-worth_fight = 0.232472
-worth_fight = 0.30012
 info:     end player 3
 info: end round 136
 info: start round 137
@@ -4780,29 +1384,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.169333
-worth_fight = 0.164817
-worth_fight = 0.368688
-worth_fight = 0.247467
-worth_fight = 0.322405
-worth_fight = 0.337801
-worth_fight = 0.521404
-worth_fight = 0.413719
-worth_fight = 0.247467
-worth_fight = 0.260821
-worth_fight = 0.231845
-worth_fight = 0.261659
-worth_fight = 0.267295
-worth_fight = 0.285511
-worth_fight = 0.261659
-worth_fight = 0.299311
-worth_fight = 0.319439
-worth_fight = 0.199254
-worth_fight = 0.248086
-worth_fight = 0.239474
-worth_fight = 0.478421
-worth_fight = 0.299311
-worth_fight = 0.338295
 info:     end player 3
 info: end round 137
 info: start round 138
@@ -4813,28 +1394,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.377993
-worth_fight = 0.160127
-worth_fight = 0.142875
-worth_fight = 0.301032
-worth_fight = 0.247467
-worth_fight = 0.368688
-worth_fight = 0.253183
-worth_fight = 0.449444
-worth_fight = 0.230812
-worth_fight = 0.258055
-worth_fight = 0.267295
-worth_fight = 0.292351
-worth_fight = 0.258055
-worth_fight = 0.297976
-worth_fight = 0.317805
-worth_fight = 0.198613
-worth_fight = 0.248086
-worth_fight = 0.270664
-worth_fight = 0.449444
-worth_fight = 0.534563
-worth_fight = 0.51611
-worth_fight = 0.274882
 info:     end player 3
 info: end round 138
 info: start round 139
@@ -4845,31 +1404,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.543653
-worth_fight = 0.159684
-worth_fight = 0.15189
-worth_fight = 0.200931
-worth_fight = 0.234984
-worth_fight = 0.209866
-worth_fight = 0.324883
-worth_fight = 0.28416
-worth_fight = 0.396047
-worth_fight = 0.221839
-worth_fight = 0.248023
-worth_fight = 0.28416
-worth_fight = 0.233316
-worth_fight = 0.220109
-worth_fight = 0.263081
-worth_fight = 0.397899
-worth_fight = 0.286393
-worth_fight = 0.303618
-worth_fight = 0.193049
-worth_fight = 0.218409
-worth_fight = 0.251653
-worth_fight = 0.496047
-worth_fight = 0.543653
-worth_fight = 0.496047
-worth_fight = 0.397899
 info:     end player 3
 info: end round 139
 info: start round 140
@@ -4880,31 +1414,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.555585
-worth_fight = 0.155852
-worth_fight = 0.155852
-worth_fight = 0.206173
-worth_fight = 0.28125
-worth_fight = 0.27468
-worth_fight = 0.283625
-worth_fight = 0.215341
-worth_fight = 0.335366
-worth_fight = 0.257102
-worth_fight = 0.414204
-worth_fight = 0.200145
-worth_fight = 0.200145
-worth_fight = 0.252509
-worth_fight = 0.223448
-worth_fight = 0.238068
-worth_fight = 0.283625
-worth_fight = 0.514204
-worth_fight = 0.296876
-worth_fight = 0.215341
-worth_fight = 0.239243
-worth_fight = 0.296876
-worth_fight = 0.555585
-worth_fight = 0.363597
-worth_fight = 0.447537
 info:     end player 3
 info: end round 140
 info: start round 141
@@ -4915,30 +1424,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.554573
-worth_fight = 0.155914
-worth_fight = 0.163915
-worth_fight = 0.215426
-worth_fight = 0.260004
-worth_fight = 0.274808
-worth_fight = 0.289715
-worth_fight = 0.238163
-worth_fight = 0.268419
-worth_fight = 0.363798
-worth_fight = 0.414489
-worth_fight = 0.25855
-worth_fight = 0.200272
-worth_fight = 0.225941
-worth_fight = 0.239831
-worth_fight = 0.270051
-worth_fight = 0.283752
-worth_fight = 0.410939
-worth_fight = 0.33553
-worth_fight = 0.215426
-worth_fight = 0.239831
-worth_fight = 0.366322
-worth_fight = 0.554573
-worth_fight = 0.259047
 info:     end player 3
 info: end round 141
 info: start round 142
@@ -4949,30 +1434,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.556188
-worth_fight = 0.164081
-worth_fight = 0.173464
-worth_fight = 0.215644
-worth_fight = 0.243783
-worth_fight = 0.230409
-worth_fight = 0.284075
-worth_fight = 0.22617
-worth_fight = 0.260224
-worth_fight = 0.364309
-worth_fight = 0.415211
-worth_fight = 0.258967
-worth_fight = 0.297457
-worth_fight = 0.206464
-worth_fight = 0.281496
-worth_fight = 0.238404
-worth_fight = 0.335947
-worth_fight = 0.364309
-worth_fight = 0.297457
-worth_fight = 0.238404
-worth_fight = 0.211367
-worth_fight = 0.366739
-worth_fight = 0.556188
-worth_fight = 0.21705
 info:     end player 3
 info: end round 142
 info: start round 143
@@ -4983,33 +1444,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.244571
-worth_fight = 0.167774
-worth_fight = 0.178609
-worth_fight = 0.208571
-worth_fight = 0.282406
-worth_fight = 0.212542
-worth_fight = 0.265876
-worth_fight = 0.218751
-worth_fight = 0.307007
-worth_fight = 0.30058
-worth_fight = 0.27701
-worth_fight = 0.245423
-worth_fight = 0.283913
-worth_fight = 0.199691
-worth_fight = 0.244571
-worth_fight = 0.218751
-worth_fight = 0.491751
-worth_fight = 0.245876
-worth_fight = 0.283913
-worth_fight = 0.230584
-worth_fight = 0.186176
-worth_fight = 0.322403
-worth_fight = 0.218751
-worth_fight = 0.2952
-worth_fight = 0.282406
-worth_fight = 0.230584
-worth_fight = 0.208738
 info:     end player 3
 info: end round 143
 info: start round 144
@@ -5020,29 +1454,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.250821
-worth_fight = 0.183174
-worth_fight = 0.19676
-worth_fight = 0.224341
-worth_fight = 0.289623
-worth_fight = 0.221381
-worth_fight = 0.254714
-worth_fight = 0.250821
-worth_fight = 0.294119
-worth_fight = 0.31308
-worth_fight = 0.409429
-worth_fight = 0.254714
-worth_fight = 0.294119
-worth_fight = 0.213901
-worth_fight = 0.250821
-worth_fight = 0.224341
-worth_fight = 0.509429
-worth_fight = 0.294119
-worth_fight = 0.250821
-worth_fight = 0.174043
-worth_fight = 0.19844
-worth_fight = 0.221862
-worth_fight = 0.213761
 info:     end player 3
 info: end round 144
 info: start round 145
@@ -5053,31 +1464,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.250354
-worth_fight = 0.196394
-worth_fight = 0.213503
-worth_fight = 0.250354
-worth_fight = 0.287387
-worth_fight = 0.312146
-worth_fight = 0.293356
-worth_fight = 0.289084
-worth_fight = 0.293356
-worth_fight = 0.468108
-worth_fight = 0.408108
-worth_fight = 0.254054
-worth_fight = 0.293356
-worth_fight = 0.236036
-worth_fight = 0.289084
-worth_fight = 0.223923
-worth_fight = 0.359287
-worth_fight = 0.293356
-worth_fight = 0.289084
-worth_fight = 0.18925
-worth_fight = 0.293356
-worth_fight = 0.19844
-worth_fight = 0.246829
-worth_fight = 0.221862
-worth_fight = 0.213761
 info:     end player 3
 info: end round 145
 info: start round 146
@@ -5088,32 +1474,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.250023
-worth_fight = 0.213221
-worth_fight = 0.235724
-worth_fight = 0.267286
-worth_fight = 0.405766
-worth_fight = 0.311485
-worth_fight = 0.292816
-worth_fight = 0.30313
-worth_fight = 0.271536
-worth_fight = 0.292816
-worth_fight = 0.467173
-worth_fight = 0.287915
-worth_fight = 0.28692
-worth_fight = 0.253586
-worth_fight = 0.235724
-worth_fight = 0.28692
-worth_fight = 0.235724
-worth_fight = 0.358625
-worth_fight = 0.208409
-worth_fight = 0.253586
-worth_fight = 0.204143
-worth_fight = 0.253586
-worth_fight = 0.222276
-worth_fight = 0.247505
-worth_fight = 0.222276
-worth_fight = 0.256662
 info:     end player 3
 info: end round 146
 info: start round 147
@@ -5124,32 +1484,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.249995
-worth_fight = 0.235698
-worth_fight = 0.267256
-worth_fight = 0.235698
-worth_fight = 0.405709
-worth_fight = 0.311429
-worth_fight = 0.256593
-worth_fight = 0.302712
-worth_fight = 0.256593
-worth_fight = 0.256593
-worth_fight = 0.330285
-worth_fight = 0.407093
-worth_fight = 0.28688
-worth_fight = 0.358569
-worth_fight = 0.213197
-worth_fight = 0.405709
-worth_fight = 0.213197
-worth_fight = 0.358569
-worth_fight = 0.26999
-worth_fight = 0.358569
-worth_fight = 0.223602
-worth_fight = 0.29277
-worth_fight = 0.25642
-worth_fight = 0.247163
-worth_fight = 0.222067
-worth_fight = 0.222067
 info:     end player 3
 info: end round 147
 info: start round 148
@@ -5160,32 +1494,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.222338
-worth_fight = 0.267081
-worth_fight = 0.271293
-worth_fight = 0.235543
-worth_fight = 0.405382
-worth_fight = 0.311101
-worth_fight = 0.267081
-worth_fight = 0.303254
-worth_fight = 0.292503
-worth_fight = 0.267081
-worth_fight = 0.46663
-worth_fight = 0.287531
-worth_fight = 0.286648
-worth_fight = 0.358241
-worth_fight = 0.152755
-worth_fight = 0.405382
-worth_fight = 0.235543
-worth_fight = 0.358241
-worth_fight = 0.466187
-worth_fight = 0.358241
-worth_fight = 0.249831
-worth_fight = 0.358241
-worth_fight = 0.264433
-worth_fight = 0.247606
-worth_fight = 0.256733
-worth_fight = 0.198865
 info:     end player 3
 info: end round 148
 info: start round 149
@@ -5196,32 +1504,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.246447
-worth_fight = 0.272439
-worth_fight = 0.272439
-worth_fight = 0.236397
-worth_fight = 0.407194
-worth_fight = 0.312913
-worth_fight = 0.268049
-worth_fight = 0.250737
-worth_fight = 0.509192
-worth_fight = 0.268049
-worth_fight = 0.331769
-worth_fight = 0.250737
-worth_fight = 0.287929
-worth_fight = 0.331769
-worth_fight = 0.169731
-worth_fight = 0.332472
-worth_fight = 0.268049
-worth_fight = 0.444906
-worth_fight = 0.466187
-worth_fight = 0.407194
-worth_fight = 0.289527
-worth_fight = 0.575859
-worth_fight = 0.251835
-worth_fight = 0.268049
-worth_fight = 0.246447
-worth_fight = 0.174264
 info:     end player 3
 info: end round 149
 info: start round 150
@@ -5232,31 +1514,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.248499
-worth_fight = 0.355927
-worth_fight = 0.308242
-worth_fight = 0.270805
-worth_fight = 0.412349
-worth_fight = 0.318069
-worth_fight = 0.270805
-worth_fight = 0.253315
-worth_fight = 0.449817
-worth_fight = 0.292503
-worth_fight = 0.270805
-worth_fight = 0.260793
-worth_fight = 0.294498
-worth_fight = 0.195212
-worth_fight = 0.355927
-worth_fight = 0.260793
-worth_fight = 0.43592
-worth_fight = 0.471698
-worth_fight = 0.58315
-worth_fight = 0.253315
-worth_fight = 0.516484
-worth_fight = 0.227496
-worth_fight = 0.292503
-worth_fight = 0.215206
-worth_fight = 0.175715
 info:     end player 3
 info: end round 150
 info: start round 151
@@ -5267,31 +1524,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.237354
-worth_fight = 0.561429
-worth_fight = 0.358782
-worth_fight = 0.272674
-worth_fight = 0.415846
-worth_fight = 0.262557
-worth_fight = 0.294522
-worth_fight = 0.255064
-worth_fight = 0.321565
-worth_fight = 0.263004
-worth_fight = 0.294522
-worth_fight = 0.263004
-worth_fight = 0.297995
-worth_fight = 0.23319
-worth_fight = 0.339537
-worth_fight = 0.263004
-worth_fight = 0.358782
-worth_fight = 0.335172
-worth_fight = 0.588095
-worth_fight = 0.193798
-worth_fight = 0.621429
-worth_fight = 0.250698
-worth_fight = 0.294522
-worth_fight = 0.205554
-worth_fight = 0.155384
 info:     end player 3
 info: end round 151
 info: start round 152
@@ -5302,30 +1534,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.21815
-worth_fight = 0.565965
-worth_fight = 0.312983
-worth_fight = 0.265033
-worth_fight = 0.442624
-worth_fight = 0.265176
-worth_fight = 0.274389
-worth_fight = 0.296374
-worth_fight = 0.324773
-worth_fight = 0.265033
-worth_fight = 0.27994
-worth_fight = 0.265176
-worth_fight = 0.301203
-worth_fight = 0.342156
-worth_fight = 0.342156
-worth_fight = 0.303666
-worth_fight = 0.361401
-worth_fight = 0.480734
-worth_fight = 0.525965
-worth_fight = 0.251898
-worth_fight = 0.419054
-worth_fight = 0.296374
-worth_fight = 0.21815
-worth_fight = 0.164906
 info:     end player 3
 info: end round 152
 info: start round 153
@@ -5336,31 +1544,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.203837
-worth_fight = 0.363763
-worth_fight = 0.277219
-worth_fight = 0.291668
-worth_fight = 0.366293
-worth_fight = 0.434474
-worth_fight = 0.258521
-worth_fight = 0.270032
-worth_fight = 0.291668
-worth_fight = 0.434474
-worth_fight = 0.270032
-worth_fight = 0.291668
-worth_fight = 0.297011
-worth_fight = 0.27891
-worth_fight = 0.335501
-worth_fight = 0.354746
-worth_fight = 0.258521
-worth_fight = 0.307219
-worth_fight = 0.474766
-worth_fight = 0.363763
-worth_fight = 0.249648
-worth_fight = 0.274785
-worth_fight = 0.193333
-worth_fight = 0.216202
-worth_fight = 0.163433
 info:     end player 3
 info: end round 153
 info: start round 154
@@ -5371,32 +1554,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.202066
-worth_fight = 0.54
-worth_fight = 0.381838
-worth_fight = 0.264575
-worth_fight = 0.194145
-worth_fight = 0.424264
-worth_fight = 0.250185
-worth_fight = 0.202073
-worth_fight = 0.264575
-worth_fight = 0.247487
-worth_fight = 0.211058
-worth_fight = 0.264575
-worth_fight = 0.191325
-worth_fight = 0.223607
-worth_fight = 0.268701
-worth_fight = 0.34641
-worth_fight = 0.62
-worth_fight = 0.250185
-worth_fight = 0.211058
-worth_fight = 0.247487
-worth_fight = 0.24748
-worth_fight = 0.211058
-worth_fight = 0.206655
-worth_fight = 0.221359
-worth_fight = 0.191697
-worth_fight = 0.162013
 info:     end player 3
 info: end round 154
 info: start round 155
@@ -5407,28 +1564,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.231656
-worth_fight = 0.513871
-worth_fight = 0.363361
-worth_fight = 0.269818
-worth_fight = 0.206077
-worth_fight = 0.258193
-worth_fight = 0.197992
-worth_fight = 0.237957
-worth_fight = 0.237957
-worth_fight = 0.21524
-worth_fight = 0.237957
-worth_fight = 0.252391
-worth_fight = 0.269818
-worth_fight = 0.278509
-worth_fight = 0.258193
-worth_fight = 0.21524
-worth_fight = 0.291436
-worth_fight = 0.206452
-worth_fight = 0.225746
-worth_fight = 0.193859
-worth_fight = 0.252391
-worth_fight = 0.153226
 info:     end player 3
 info: end round 155
 info: start round 156
@@ -5439,29 +1574,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.184966
-worth_fight = 0.552975
-worth_fight = 0.256488
-worth_fight = 0.237658
-worth_fight = 0.205818
-worth_fight = 0.257676
-worth_fight = 0.197744
-worth_fight = 0.238577
-worth_fight = 0.252075
-worth_fight = 0.21497
-worth_fight = 0.238577
-worth_fight = 0.204532
-worth_fight = 0.237658
-worth_fight = 0.292017
-worth_fight = 0.433439
-worth_fight = 0.257676
-worth_fight = 0.21497
-worth_fight = 0.289821
-worth_fight = 0.206798
-worth_fight = 0.237658
-worth_fight = 0.231917
-worth_fight = 0.291071
-worth_fight = 0.153399
 info:     end player 3
 info: end round 156
 info: start round 157
@@ -5472,30 +1584,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.173465
-worth_fight = 0.516291
-worth_fight = 0.260707
-worth_fight = 0.238764
-worth_fight = 0.206776
-worth_fight = 0.355816
-worth_fight = 0.298081
-worth_fight = 0.198663
-worth_fight = 0.292425
-worth_fight = 0.292425
-worth_fight = 0.21597
-worth_fight = 0.292425
-worth_fight = 0.231917
-worth_fight = 0.238764
-worth_fight = 0.294362
-worth_fight = 0.435784
-worth_fight = 0.298081
-worth_fight = 0.21597
-worth_fight = 0.291479
-worth_fight = 0.250499
-worth_fight = 0.270733
-worth_fight = 0.231917
-worth_fight = 0.292425
-worth_fight = 0.153399
 info:     end player 3
 info: end round 157
 info: start round 158
@@ -5506,31 +1594,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.292944
-worth_fight = 0.416623
-worth_fight = 0.186319
-worth_fight = 0.238874
-worth_fight = 0.206871
-worth_fight = 0.356007
-worth_fight = 0.298272
-worth_fight = 0.198755
-worth_fight = 0.260855
-worth_fight = 0.29256
-worth_fight = 0.21607
-worth_fight = 0.260855
-worth_fight = 0.229996
-worth_fight = 0.226616
-worth_fight = 0.294597
-worth_fight = 0.275762
-worth_fight = 0.436018
-worth_fight = 0.298272
-worth_fight = 0.21607
-worth_fight = 0.291645
-worth_fight = 0.258311
-worth_fight = 0.231041
-worth_fight = 0.229996
-worth_fight = 0.29256
-worth_fight = 0.164175
 info:     end player 3
 info: end round 158
 info: start round 159
@@ -5541,31 +1604,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.311888
-worth_fight = 0.315183
-worth_fight = 0.334326
-worth_fight = 0.237468
-worth_fight = 0.205653
-worth_fight = 0.365118
-worth_fight = 0.295836
-worth_fight = 0.197585
-worth_fight = 0.295836
-worth_fight = 0.241977
-worth_fight = 0.214798
-worth_fight = 0.256202
-worth_fight = 0.220538
-worth_fight = 0.251873
-worth_fight = 0.315183
-worth_fight = 0.273875
-worth_fight = 0.447177
-worth_fight = 0.512403
-worth_fight = 0.214798
-worth_fight = 0.289535
-worth_fight = 0.433034
-worth_fight = 0.295836
-worth_fight = 0.312391
-worth_fight = 0.290837
-worth_fight = 0.171335
 info:     end player 3
 info: end round 159
 info: start round 160
@@ -5576,31 +1614,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.270156
-worth_fight = 0.293284
-worth_fight = 0.4481
-worth_fight = 0.252708
-worth_fight = 0.21551
-worth_fight = 0.366483
-worth_fight = 0.297201
-worth_fight = 0.191029
-worth_fight = 0.514767
-worth_fight = 0.215464
-worth_fight = 0.206335
-worth_fight = 0.297201
-worth_fight = 0.278162
-worth_fight = 0.252708
-worth_fight = 0.257929
-worth_fight = 0.283876
-worth_fight = 0.448848
-worth_fight = 0.4481
-worth_fight = 0.198241
-worth_fight = 0.291802
-worth_fight = 0.448848
-worth_fight = 0.230211
-worth_fight = 0.481791
-worth_fight = 0.252708
-worth_fight = 0.171526
 info:     end player 3
 info: end round 160
 info: start round 161
@@ -5611,27 +1624,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.230358
-worth_fight = 0.317088
-worth_fight = 0.515097
-worth_fight = 0.291937
-worth_fight = 0.238366
-worth_fight = 0.635097
-worth_fight = 0.297391
-worth_fight = 0.191118
-worth_fight = 0.206431
-worth_fight = 0.270281
-worth_fight = 0.258162
-worth_fight = 0.366673
-worth_fight = 0.449081
-worth_fight = 0.364228
-worth_fight = 0.21561
-worth_fight = 0.291937
-worth_fight = 0.366673
-worth_fight = 0.200544
-worth_fight = 0.482502
-worth_fight = 0.252825
-worth_fight = 0.178198
 info:     end player 3
 info: end round 161
 info: start round 162
@@ -5642,28 +1634,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.22748
-worth_fight = 0.312537
-worth_fight = 0.468661
-worth_fight = 0.28931
-worth_fight = 0.23622
-worth_fight = 0.628661
-worth_fight = 0.332166
-worth_fight = 0.189398
-worth_fight = 0.293676
-worth_fight = 0.316624
-worth_fight = 0.204573
-worth_fight = 0.447774
-worth_fight = 0.267849
-worth_fight = 0.281111
-worth_fight = 0.359678
-worth_fight = 0.213669
-worth_fight = 0.28931
-worth_fight = 0.293676
-worth_fight = 0.25055
-worth_fight = 0.447774
-worth_fight = 0.25055
-worth_fight = 0.162434
 info:     end player 3
 info: end round 162
 info: start round 163
@@ -5674,26 +1644,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.226939
-worth_fight = 0.311682
-worth_fight = 0.440784
-worth_fight = 0.250122
-worth_fight = 0.213304
-worth_fight = 0.627451
-worth_fight = 0.331467
-worth_fight = 0.189074
-worth_fight = 0.358822
-worth_fight = 0.204224
-worth_fight = 0.292977
-worth_fight = 0.267391
-worth_fight = 0.280255
-worth_fight = 0.358822
-worth_fight = 0.196212
-worth_fight = 0.288816
-worth_fight = 0.467451
-worth_fight = 0.250122
-worth_fight = 0.250122
-worth_fight = 0.162434
 info:     end player 3
 info: end round 163
 info: start round 164
@@ -5704,29 +1654,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.19309
-worth_fight = 0.448429
-worth_fight = 0.448429
-worth_fight = 0.263981
-worth_fight = 0.180334
-worth_fight = 0.164621
-worth_fight = 0.160231
-worth_fight = 0.498429
-worth_fight = 0.313652
-worth_fight = 0.169394
-worth_fight = 0.287768
-worth_fight = 0.443571
-worth_fight = 0.263981
-worth_fight = 0.295874
-worth_fight = 0.437296
-worth_fight = 0.285133
-worth_fight = 0.164621
-worth_fight = 0.285133
-worth_fight = 0.618429
-worth_fight = 0.246932
-worth_fight = 0.443571
-worth_fight = 0.246932
-worth_fight = 0.161311
 info:     end player 3
 info: end round 164
 info: start round 165
@@ -5737,28 +1664,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.243837
-worth_fight = 0.258788
-worth_fight = 0.248504
-worth_fight = 0.1779
-worth_fight = 0.167108
-worth_fight = 0.430632
-worth_fight = 0.158069
-worth_fight = 0.219639
-worth_fight = 0.167108
-worth_fight = 0.21869
-worth_fight = 0.399278
-worth_fight = 0.281285
-worth_fight = 0.430632
-worth_fight = 0.277836
-worth_fight = 0.154066
-worth_fight = 0.281285
-worth_fight = 0.609005
-worth_fight = 0.282327
-worth_fight = 0.2436
-worth_fight = 0.399278
-worth_fight = 0.2436
-worth_fight = 0.160164
 info:     end player 3
 info: end round 165
 info: start round 166
@@ -5769,31 +1674,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.427179
-worth_fight = 0.256255
-worth_fight = 0.369405
-worth_fight = 0.323612
-worth_fight = 0.17915
-worth_fight = 0.168282
-worth_fight = 0.613846
-worth_fight = 0.250669
-worth_fight = 0.159179
-worth_fight = 0.560513
-worth_fight = 0.389659
-worth_fight = 0.168282
-worth_fight = 0.308216
-worth_fight = 0.362993
-worth_fight = 0.262249
-worth_fight = 0.434055
-worth_fight = 0.306923
-worth_fight = 0.349202
-worth_fight = 0.155149
-worth_fight = 0.283262
-worth_fight = 0.613846
-worth_fight = 0.250669
-worth_fight = 0.219413
-worth_fight = 0.245312
-worth_fight = 0.168284
 info:     end player 3
 info: end round 166
 info: start round 167
@@ -5804,33 +1684,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.488372
-worth_fight = 0.309976
-worth_fight = 0.365534
-worth_fight = 0.283351
-worth_fight = 0.488372
-worth_fight = 0.177737
-worth_fight = 0.166955
-worth_fight = 0.608372
-worth_fight = 0.26018
-worth_fight = 0.157923
-worth_fight = 0.392472
-worth_fight = 0.400719
-worth_fight = 0.166955
-worth_fight = 0.218407
-worth_fight = 0.231355
-worth_fight = 0.229457
-worth_fight = 0.459801
-worth_fight = 0.304186
-worth_fight = 0.304186
-worth_fight = 0.345331
-worth_fight = 0.153925
-worth_fight = 0.243376
-worth_fight = 0.430184
-worth_fight = 0.26018
-worth_fight = 0.217682
-worth_fight = 0.217682
-worth_fight = 0.160549
 info:     end player 3
 info: end round 167
 info: start round 168
@@ -5841,27 +1694,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.344283
-worth_fight = 0.400719
-worth_fight = 0.190509
-worth_fight = 0.177354
-worth_fight = 0.429136
-worth_fight = 0.228963
-worth_fight = 0.166595
-worth_fight = 0.391423
-worth_fight = 0.177354
-worth_fight = 0.553556
-worth_fight = 0.247558
-worth_fight = 0.228963
-worth_fight = 0.271409
-worth_fight = 0.271409
-worth_fight = 0.161901
-worth_fight = 0.242852
-worth_fight = 0.303445
-worth_fight = 0.228963
-worth_fight = 0.207105
-worth_fight = 0.242852
-worth_fight = 0.160549
 info:     end player 3
 info: end round 168
 info: start round 169
@@ -5872,30 +1704,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.337236
-worth_fight = 0.30188
-worth_fight = 0.448352
-worth_fight = 0.436923
-worth_fight = 0.2041
-worth_fight = 0.187745
-worth_fight = 0.214062
-worth_fight = 0.2041
-worth_fight = 0.174781
-worth_fight = 0.384376
-worth_fight = 0.187745
-worth_fight = 0.54359
-worth_fight = 0.213286
-worth_fight = 0.225641
-worth_fight = 0.174781
-worth_fight = 0.174781
-worth_fight = 0.169231
-worth_fight = 0.225641
-worth_fight = 0.239328
-worth_fight = 0.187745
-worth_fight = 0.214062
-worth_fight = 0.2041
-worth_fight = 0.276353
-worth_fight = 0.159385
 info:     end player 3
 info: end round 169
 info: start round 170
@@ -5906,33 +1714,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.290137
-worth_fight = 0.426982
-worth_fight = 0.39673
-worth_fight = 0.337277
-worth_fight = 0.225661
-worth_fight = 0.204118
-worth_fight = 0.195428
-worth_fight = 0.225661
-worth_fight = 0.187761
-worth_fight = 0.384418
-worth_fight = 0.280531
-worth_fight = 0.204118
-worth_fight = 0.543649
-worth_fight = 0.255875
-worth_fight = 0.39673
-worth_fight = 0.239349
-worth_fight = 0.164192
-worth_fight = 0.164192
-worth_fight = 0.275386
-worth_fight = 0.180931
-worth_fight = 0.214081
-worth_fight = 0.276377
-worth_fight = 0.174796
-worth_fight = 0.225661
-worth_fight = 0.225661
-worth_fight = 0.218491
-worth_fight = 0.172261
 info:     end player 3
 info: end round 170
 info: start round 171
@@ -5943,33 +1724,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.326456
-worth_fight = 0.326456
-worth_fight = 0.364839
-worth_fight = 0.321536
-worth_fight = 0.26089
-worth_fight = 0.230083
-worth_fight = 0.199258
-worth_fight = 0.26089
-worth_fight = 0.208118
-worth_fight = 0.3938
-worth_fight = 0.364839
-worth_fight = 0.230083
-worth_fight = 0.556917
-worth_fight = 0.24404
-worth_fight = 0.26089
-worth_fight = 0.44025
-worth_fight = 0.16741
-worth_fight = 0.16741
-worth_fight = 0.556917
-worth_fight = 0.199258
-worth_fight = 0.218276
-worth_fight = 0.281793
-worth_fight = 0.178222
-worth_fight = 0.230083
-worth_fight = 0.24404
-worth_fight = 0.225125
-worth_fight = 0.1823
 info:     end player 3
 info: end round 171
 info: start round 172
@@ -5980,34 +1734,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.340047
-worth_fight = 0.452327
-worth_fight = 0.360377
-worth_fight = 0.316137
-worth_fight = 0.274693
-worth_fight = 0.257356
-worth_fight = 0.181978
-worth_fight = 0.257356
-worth_fight = 0.226966
-worth_fight = 0.240734
-worth_fight = 0.360377
-worth_fight = 0.257356
-worth_fight = 0.257356
-worth_fight = 0.277976
-worth_fight = 0.257356
-worth_fight = 0.430899
-worth_fight = 0.156209
-worth_fight = 0.156209
-worth_fight = 0.387187
-worth_fight = 0.215319
-worth_fight = 0.240734
-worth_fight = 0.196559
-worth_fight = 0.244879
-worth_fight = 0.165142
-worth_fight = 0.226966
-worth_fight = 0.257356
-worth_fight = 0.254553
-worth_fight = 0.181012
 info:     end player 3
 info: end round 172
 info: start round 173
@@ -6018,32 +1744,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.401794
-worth_fight = 0.276828
-worth_fight = 0.358144
-worth_fight = 0.277417
-worth_fight = 0.183606
-worth_fight = 0.271454
-worth_fight = 0.259658
-worth_fight = 0.284111
-worth_fight = 0.228997
-worth_fight = 0.284111
-worth_fight = 0.277417
-worth_fight = 0.259658
-worth_fight = 0.280462
-worth_fight = 0.259658
-worth_fight = 0.157606
-worth_fight = 0.157606
-worth_fight = 0.391494
-worth_fight = 0.242888
-worth_fight = 0.259658
-worth_fight = 0.217245
-worth_fight = 0.247603
-worth_fight = 0.166619
-worth_fight = 0.259658
-worth_fight = 0.259658
-worth_fight = 0.25807
-worth_fight = 0.173723
 info:     end player 3
 info: end round 173
 info: start round 174
@@ -6054,32 +1754,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.411252
-worth_fight = 0.23968
-worth_fight = 0.352907
-worth_fight = 0.352907
-worth_fight = 0.181181
-worth_fight = 0.267397
-worth_fight = 0.27336
-worth_fight = 0.225973
-worth_fight = 0.219313
-worth_fight = 0.27336
-worth_fight = 0.23968
-worth_fight = 0.238959
-worth_fight = 0.256229
-worth_fight = 0.27733
-worth_fight = 0.155525
-worth_fight = 0.155525
-worth_fight = 0.193416
-worth_fight = 0.276759
-worth_fight = 0.214377
-worth_fight = 0.23968
-worth_fight = 0.243546
-worth_fight = 0.164419
-worth_fight = 0.27336
-worth_fight = 0.256229
-worth_fight = 0.252833
-worth_fight = 0.172683
 info:     end player 3
 info: end round 174
 info: start round 175
@@ -6090,33 +1764,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.416605
-worth_fight = 0.362621
-worth_fight = 0.241573
-worth_fight = 0.275754
-worth_fight = 0.361495
-worth_fight = 0.182612
-worth_fight = 0.254458
-worth_fight = 0.275754
-worth_fight = 0.258252
-worth_fight = 0.221375
-worth_fight = 0.278944
-worth_fight = 0.227757
-worth_fight = 0.341724
-worth_fight = 0.275754
-worth_fight = 0.281115
-worth_fight = 0.156753
-worth_fight = 0.156753
-worth_fight = 0.241573
-worth_fight = 0.258532
-worth_fight = 0.169078
-worth_fight = 0.278944
-worth_fight = 0.258252
-worth_fight = 0.165718
-worth_fight = 0.254458
-worth_fight = 0.258252
-worth_fight = 0.24594
-worth_fight = 0.18166
 info:     end player 3
 info: end round 175
 info: start round 176
@@ -6127,34 +1774,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.481527
-worth_fight = 0.362621
-worth_fight = 0.240956
-worth_fight = 0.274974
-worth_fight = 0.360488
-worth_fight = 0.182146
-worth_fight = 0.327497
-worth_fight = 0.312192
-worth_fight = 0.362621
-worth_fight = 0.257593
-worth_fight = 0.172491
-worth_fight = 0.278232
-worth_fight = 0.227176
-worth_fight = 0.340491
-worth_fight = 0.257593
-worth_fight = 0.293351
-worth_fight = 0.156353
-worth_fight = 0.156353
-worth_fight = 0.240956
-worth_fight = 0.312192
-worth_fight = 0.169078
-worth_fight = 0.240764
-worth_fight = 0.227176
-worth_fight = 0.165295
-worth_fight = 0.253678
-worth_fight = 0.257593
-worth_fight = 0.257593
-worth_fight = 0.168184
 info:     end player 3
 info: end round 176
 info: start round 177
@@ -6165,32 +1784,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.367591
-worth_fight = 0.367393
-worth_fight = 0.229197
-worth_fight = 0.277686
-worth_fight = 0.36399
-worth_fight = 0.183766
-worth_fight = 0.607591
-worth_fight = 0.315224
-worth_fight = 0.229197
-worth_fight = 0.223011
-worth_fight = 0.280708
-worth_fight = 0.229197
-worth_fight = 0.243796
-worth_fight = 0.259885
-worth_fight = 0.157744
-worth_fight = 0.157744
-worth_fight = 0.217435
-worth_fight = 0.43906
-worth_fight = 0.170328
-worth_fight = 0.344779
-worth_fight = 0.184753
-worth_fight = 0.166765
-worth_fight = 0.259885
-worth_fight = 0.259885
-worth_fight = 0.247872
-worth_fight = 0.158515
 info:     end player 3
 info: end round 177
 info: start round 178
@@ -6201,30 +1794,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.37345
-worth_fight = 0.263347
-worth_fight = 0.284447
-worth_fight = 0.319804
-worth_fight = 0.174188
-worth_fight = 0.281782
-worth_fight = 0.37345
-worth_fight = 0.179568
-worth_fight = 0.2251
-worth_fight = 0.263347
-worth_fight = 0.246339
-worth_fight = 0.284447
-worth_fight = 0.263347
-worth_fight = 0.143134
-worth_fight = 0.143134
-worth_fight = 0.179568
-worth_fight = 0.210078
-worth_fight = 0.248375
-worth_fight = 0.23225
-worth_fight = 0.159846
-worth_fight = 0.246339
-worth_fight = 0.263347
-worth_fight = 0.222154
-worth_fight = 0.150877
 info:     end player 3
 info: end round 178
 info: start round 179
@@ -6235,32 +1804,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.374498
-worth_fight = 0.222482
-worth_fight = 0.263625
-worth_fight = 0.28637
-worth_fight = 0.18009
-worth_fight = 0.422486
-worth_fight = 0.284747
-worth_fight = 0.26481
-worth_fight = 0.2103
-worth_fight = 0.19884
-worth_fight = 0.246598
-worth_fight = 0.263625
-worth_fight = 0.246598
-worth_fight = 0.267203
-worth_fight = 0.155962
-worth_fight = 0.155962
-worth_fight = 0.2103
-worth_fight = 0.617485
-worth_fight = 0.220564
-worth_fight = 0.284747
-worth_fight = 0.263625
-worth_fight = 0.164399
-worth_fight = 0.263625
-worth_fight = 0.267203
-worth_fight = 0.287223
-worth_fight = 0.174371
 info:     end player 3
 info: end round 179
 info: start round 180
@@ -6271,32 +1814,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.26481
-worth_fight = 0.286608
-worth_fight = 0.263222
-worth_fight = 0.285893
-worth_fight = 0.193152
-worth_fight = 0.325098
-worth_fight = 0.284312
-worth_fight = 0.187249
-worth_fight = 0.23214
-worth_fight = 0.198224
-worth_fight = 0.246222
-worth_fight = 0.275671
-worth_fight = 0.246222
-worth_fight = 0.239894
-worth_fight = 0.164148
-worth_fight = 0.136828
-worth_fight = 0.23214
-worth_fight = 0.421733
-worth_fight = 0.246222
-worth_fight = 0.246222
-worth_fight = 0.222006
-worth_fight = 0.174105
-worth_fight = 0.266727
-worth_fight = 0.344343
-worth_fight = 0.45642
-worth_fight = 0.186126
 info:     end player 3
 info: end round 180
 info: start round 181
@@ -6307,30 +1824,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.265792
-worth_fight = 0.497156
-worth_fight = 0.286223
-worth_fight = 0.289417
-worth_fight = 0.210201
-worth_fight = 0.252149
-worth_fight = 0.284613
-worth_fight = 0.221277
-worth_fight = 0.2635
-worth_fight = 0.179682
-worth_fight = 0.2635
-worth_fight = 0.364013
-worth_fight = 0.284613
-worth_fight = 0.267056
-worth_fight = 0.174289
-worth_fight = 0.140751
-worth_fight = 0.2635
-worth_fight = 0.436395
-worth_fight = 0.284613
-worth_fight = 0.22046
-worth_fight = 0.186323
-worth_fight = 0.267056
-worth_fight = 0.310127
-worth_fight = 0.180005
 info:     end player 3
 info: end round 181
 info: start round 182
@@ -6341,29 +1834,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.518202
-worth_fight = 0.298829
-worth_fight = 0.298829
-worth_fight = 0.239401
-worth_fight = 0.298829
-worth_fight = 0.261561
-worth_fight = 0.227115
-worth_fight = 0.293205
-worth_fight = 0.661059
-worth_fight = 0.292434
-worth_fight = 0.276468
-worth_fight = 0.191948
-worth_fight = 0.154551
-worth_fight = 0.293205
-worth_fight = 0.413565
-worth_fight = 0.334101
-worth_fight = 0.239401
-worth_fight = 0.239101
-worth_fight = 0.207327
-worth_fight = 0.271455
-worth_fight = 0.322278
-worth_fight = 0.478202
-worth_fight = 0.185439
 info:     end player 3
 info: end round 182
 info: start round 183
@@ -6374,26 +1844,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.372202
-worth_fight = 0.318742
-worth_fight = 0.313187
-worth_fight = 0.274543
-worth_fight = 0.313187
-worth_fight = 0.256812
-worth_fight = 0.296541
-worth_fight = 0.372202
-worth_fight = 0.280123
-worth_fight = 0.209686
-worth_fight = 0.167405
-worth_fight = 0.296541
-worth_fight = 0.368052
-worth_fight = 0.274543
-worth_fight = 0.343918
-worth_fight = 0.2297
-worth_fight = 0.274543
-worth_fight = 0.326996
-worth_fight = 0.343918
-worth_fight = 0.187549
 info:     end player 3
 info: end round 183
 info: start round 184
@@ -6404,27 +1854,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.370941
-worth_fight = 0.298492
-worth_fight = 0.312295
-worth_fight = 0.288269
-worth_fight = 0.360607
-worth_fight = 0.295813
-worth_fight = 0.298492
-worth_fight = 0.325966
-worth_fight = 0.323801
-worth_fight = 0.279325
-worth_fight = 0.229136
-worth_fight = 0.180304
-worth_fight = 0.295813
-worth_fight = 0.360607
-worth_fight = 0.295813
-worth_fight = 0.342657
-worth_fight = 0.256181
-worth_fight = 0.273869
-worth_fight = 0.325966
-worth_fight = 0.48459
-worth_fight = 0.200965
 info:     end player 3
 info: end round 184
 info: start round 185
@@ -6435,27 +1864,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.42386
-worth_fight = 0.302146
-worth_fight = 0.299149
-worth_fight = 0.291924
-worth_fight = 0.316381
-worth_fight = 0.268073
-worth_fight = 0.266381
-worth_fight = 0.302146
-worth_fight = 0.286381
-worth_fight = 0.329579
-worth_fight = 0.28298
-worth_fight = 0.23172
-worth_fight = 0.21153
-worth_fight = 0.276958
-worth_fight = 0.316381
-worth_fight = 0.28298
-worth_fight = 0.412762
-worth_fight = 0.259071
-worth_fight = 0.268073
-worth_fight = 0.30759
-worth_fight = 0.203232
 info:     end player 3
 info: end round 185
 info: start round 186
@@ -6466,28 +1874,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.228578
-worth_fight = 0.295093
-worth_fight = 0.255558
-worth_fight = 0.287481
-worth_fight = 0.297703
-worth_fight = 0.273203
-worth_fight = 0.369694
-worth_fight = 0.228578
-worth_fight = 0.263629
-worth_fight = 0.322553
-worth_fight = 0.263629
-worth_fight = 0.228578
-worth_fight = 0.208662
-worth_fight = 0.273203
-worth_fight = 0.293443
-worth_fight = 0.359589
-worth_fight = 0.21794
-worth_fight = 0.402826
-worth_fight = 0.255558
-worth_fight = 0.301854
-worth_fight = 0.301854
-worth_fight = 0.200476
 info:     end player 3
 info: end round 186
 info: start round 187
@@ -6498,28 +1884,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.22872
-worth_fight = 0.273373
-worth_fight = 0.241092
-worth_fight = 0.287682
-worth_fight = 0.293645
-worth_fight = 0.241092
-worth_fight = 0.261638
-worth_fight = 0.218076
-worth_fight = 0.273373
-worth_fight = 0.322871
-worth_fight = 0.302113
-worth_fight = 0.22872
-worth_fight = 0.208792
-worth_fight = 0.241092
-worth_fight = 0.273373
-worth_fight = 0.359848
-worth_fight = 0.241092
-worth_fight = 0.403276
-worth_fight = 0.255717
-worth_fight = 0.523276
-worth_fight = 0.370012
-worth_fight = 0.200601
 info:     end player 3
 info: end round 187
 info: start round 188
@@ -6530,28 +1894,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.240514
-worth_fight = 0.240514
-worth_fight = 0.217554
-worth_fight = 0.286907
-worth_fight = 0.272718
-worth_fight = 0.217554
-worth_fight = 0.294569
-worth_fight = 0.217554
-worth_fight = 0.240514
-worth_fight = 0.321646
-worth_fight = 0.521543
-worth_fight = 0.228172
-worth_fight = 0.208292
-worth_fight = 0.228172
-worth_fight = 0.240514
-worth_fight = 0.358848
-worth_fight = 0.217554
-worth_fight = 0.401543
-worth_fight = 0.255104
-worth_fight = 0.521543
-worth_fight = 0.368787
-worth_fight = 0.20012
 info:     end player 3
 info: end round 188
 info: start round 189
@@ -6562,28 +1904,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.218286
-worth_fight = 0.218286
-worth_fight = 0.200794
-worth_fight = 0.287994
-worth_fight = 0.241325
-worth_fight = 0.218286
-worth_fight = 0.255963
-worth_fight = 0.218286
-worth_fight = 0.218286
-worth_fight = 0.323365
-worth_fight = 0.523974
-worth_fight = 0.228941
-worth_fight = 0.208993
-worth_fight = 0.218286
-worth_fight = 0.228941
-worth_fight = 0.360252
-worth_fight = 0.218286
-worth_fight = 0.403974
-worth_fight = 0.255963
-worth_fight = 0.370506
-worth_fight = 0.523974
-worth_fight = 0.208993
 info:     end player 3
 info: end round 189
 info: start round 190
@@ -6594,28 +1914,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.218466
-worth_fight = 0.200959
-worth_fight = 0.165364
-worth_fight = 0.294223
-worth_fight = 0.218466
-worth_fight = 0.218466
-worth_fight = 0.229129
-worth_fight = 0.200959
-worth_fight = 0.200959
-worth_fight = 0.323786
-worth_fight = 0.524569
-worth_fight = 0.256174
-worth_fight = 0.229129
-worth_fight = 0.209165
-worth_fight = 0.218466
-worth_fight = 0.372142
-worth_fight = 0.241523
-worth_fight = 0.404569
-worth_fight = 0.273861
-worth_fight = 0.370926
-worth_fight = 0.524569
-worth_fight = 0.229129
 info:     end player 3
 info: end round 190
 info: start round 191
@@ -6626,28 +1924,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.241256
-worth_fight = 0.165512
-worth_fight = 0.178773
-worth_fight = 0.293865
-worth_fight = 0.200737
-worth_fight = 0.178773
-worth_fight = 0.228876
-worth_fight = 0.165512
-worth_fight = 0.165512
-worth_fight = 0.32322
-worth_fight = 0.523769
-worth_fight = 0.255891
-worth_fight = 0.228876
-worth_fight = 0.200737
-worth_fight = 0.208934
-worth_fight = 0.379378
-worth_fight = 0.273559
-worth_fight = 0.285508
-worth_fight = 0.273559
-worth_fight = 0.523769
-worth_fight = 0.523769
-worth_fight = 0.255891
 info:     end player 3
 info: end round 191
 info: start round 192
@@ -6658,28 +1934,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.273704
-worth_fight = 0.17925
-worth_fight = 0.196358
-worth_fight = 0.3796
-worth_fight = 0.165953
-worth_fight = 0.18722
-worth_fight = 0.256027
-worth_fight = 0.17925
-worth_fight = 0.172217
-worth_fight = 0.370632
-worth_fight = 0.524153
-worth_fight = 0.256027
-worth_fight = 0.228997
-worth_fight = 0.193538
-worth_fight = 0.200844
-worth_fight = 0.3796
-worth_fight = 0.27913
-worth_fight = 0.273704
-worth_fight = 0.273704
-worth_fight = 0.524153
-worth_fight = 0.256027
-worth_fight = 0.295634
 info:     end player 3
 info: end round 192
 info: start round 193
@@ -6690,30 +1944,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.203471
-worth_fight = 0.266406
-worth_fight = 0.192389
-worth_fight = 0.215098
-worth_fight = 0.212518
-worth_fight = 0.285402
-worth_fight = 0.175627
-worth_fight = 0.192389
-worth_fight = 0.287751
-worth_fight = 0.192389
-worth_fight = 0.175627
-worth_fight = 0.385263
-worth_fight = 0.212518
-worth_fight = 0.2492
-worth_fight = 0.222891
-worth_fight = 0.162599
-worth_fight = 0.162599
-worth_fight = 0.368452
-worth_fight = 0.243662
-worth_fight = 0.266406
-worth_fight = 0.266406
-worth_fight = 0.222891
-worth_fight = 0.2492
-worth_fight = 0.287751
 info:     end player 3
 info: end round 193
 info: start round 194
@@ -6724,30 +1954,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.212512
-worth_fight = 0.266398
-worth_fight = 0.192571
-worth_fight = 0.215301
-worth_fight = 0.222885
-worth_fight = 0.285392
-worth_fight = 0.162752
-worth_fight = 0.192571
-worth_fight = 0.252412
-worth_fight = 0.175793
-worth_fight = 0.175793
-worth_fight = 0.238126
-worth_fight = 0.222885
-worth_fight = 0.249193
-worth_fight = 0.222885
-worth_fight = 0.162752
-worth_fight = 0.195483
-worth_fight = 0.36844
-worth_fight = 0.243652
-worth_fight = 0.266398
-worth_fight = 0.287743
-worth_fight = 0.249193
-worth_fight = 0.266398
-worth_fight = 0.287743
 info:     end player 3
 info: end round 194
 info: start round 195
@@ -6758,30 +1964,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.222576
-worth_fight = 0.266029
-worth_fight = 0.192571
-worth_fight = 0.215301
-worth_fight = 0.248847
-worth_fight = 0.284955
-worth_fight = 0.195212
-worth_fight = 0.192571
-worth_fight = 0.251923
-worth_fight = 0.162752
-worth_fight = 0.175793
-worth_fight = 0.320918
-worth_fight = 0.234615
-worth_fight = 0.248847
-worth_fight = 0.222576
-worth_fight = 0.195212
-worth_fight = 0.203183
-worth_fight = 0.367876
-worth_fight = 0.243215
-worth_fight = 0.266029
-worth_fight = 0.248847
-worth_fight = 0.287344
-worth_fight = 0.234615
-worth_fight = 0.287344
 info:     end player 3
 info: end round 195
 info: start round 196
@@ -6792,30 +1974,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.248956
-worth_fight = 0.266145
-worth_fight = 0.192753
-worth_fight = 0.215504
-worth_fight = 0.287469
-worth_fight = 0.285093
-worth_fight = 0.203272
-worth_fight = 0.192753
-worth_fight = 0.287469
-worth_fight = 0.203272
-worth_fight = 0.175958
-worth_fight = 0.30935
-worth_fight = 0.248956
-worth_fight = 0.248956
-worth_fight = 0.222673
-worth_fight = 0.195297
-worth_fight = 0.195297
-worth_fight = 0.368053
-worth_fight = 0.237791
-worth_fight = 0.266145
-worth_fight = 0.248956
-worth_fight = 0.302077
-worth_fight = 0.234718
-worth_fight = 0.287469
 info:     end player 3
 info: end round 196
 info: start round 197
@@ -6826,30 +1984,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.287594
-worth_fight = 0.26626
-worth_fight = 0.192934
-worth_fight = 0.215706
-worth_fight = 0.312229
-worth_fight = 0.285229
-worth_fight = 0.20336
-worth_fight = 0.192934
-worth_fight = 0.287594
-worth_fight = 0.20336
-worth_fight = 0.176124
-worth_fight = 0.418744
-worth_fight = 0.249064
-worth_fight = 0.249064
-worth_fight = 0.222769
-worth_fight = 0.18189
-worth_fight = 0.188274
-worth_fight = 0.368229
-worth_fight = 0.309566
-worth_fight = 0.26626
-worth_fight = 0.23482
-worth_fight = 0.302229
-worth_fight = 0.212402
-worth_fight = 0.287594
 info:     end player 3
 info: end round 197
 info: start round 198
@@ -6860,30 +1994,6 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.287193
-worth_fight = 0.265889
-worth_fight = 0.176288
-worth_fight = 0.215908
-worth_fight = 0.301739
-worth_fight = 0.367663
-worth_fight = 0.203076
-worth_fight = 0.193114
-worth_fight = 0.287193
-worth_fight = 0.203076
-worth_fight = 0.176288
-worth_fight = 0.403477
-worth_fight = 0.248717
-worth_fight = 0.265889
-worth_fight = 0.222459
-worth_fight = 0.19511
-worth_fight = 0.188012
-worth_fight = 0.450293
-worth_fight = 0.308872
-worth_fight = 0.287193
-worth_fight = 0.234492
-worth_fight = 0.287193
-worth_fight = 0.212106
-worth_fight = 0.318405
 info:     end player 3
 info: end round 198
 info: start round 199
@@ -6894,31 +2004,11 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
-worth_fight = 0.287441
-worth_fight = 0.266119
-worth_fight = 0.163515
-worth_fight = 0.21631
-worth_fight = 0.287441
-worth_fight = 0.203251
-worth_fight = 0.193473
-worth_fight = 0.248931
-worth_fight = 0.195278
-worth_fight = 0.176616
-worth_fight = 0.287441
-worth_fight = 0.248931
-worth_fight = 0.212289
-worth_fight = 0.195278
-worth_fight = 0.188174
-worth_fight = 0.266119
-worth_fight = 0.234695
-worth_fight = 0.266119
-worth_fight = 0.212289
-worth_fight = 0.285062
 info:     end player 3
 info: end round 199
-info: player Dummy got score 2460
-info: player Dummy got score 2155
-info: player MARTA_12 got score 8689
-info: player Harry got score 6055
+info: player Dummy got score 3620
+info: player Dummy got score 2905
+info: player MARTA_12 got score 6081
+info: player Harry got score 5029
 info: player(s) got top score
 info: game played
