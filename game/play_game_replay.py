@@ -6,7 +6,10 @@ import time
 # ===================== CONFIG ========================
 
 #bots = ["Dummy", "Dummy", "Dummy", "Harry"]
-bots = ["Ron2", "Harry3", "Harry2", "Harry"]
+#bots = ["Ron2", "Dummy", "Dummy", "Harry"]
+bots = ["HarryBet", "Dummy", "Dummy", "Harry"]
+#bots = ["Martinet", "Dummy", "Dummy", "Harry"]
+#bots = ["Null", "Harry3", "Harry2", "Harry"]
 
 fsanitize = False
 

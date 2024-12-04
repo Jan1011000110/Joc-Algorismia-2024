@@ -1,10 +1,10 @@
-info: seed 280068
+info: seed 11044
 info: loading game
 info: loaded game
-info: loading player Null
-info: loading player Null
+info: loading player HarryBet
+info: loading player Dummy
+info: loading player Dummy
 info: loading player Harry
-info: loading player Ron2
 info: players loaded
 info: start round 0
 info:     start player 0
@@ -14,6 +14,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 0
 info: start round 1
@@ -24,6 +25,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 1
 info: start round 2
@@ -34,6 +36,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 2
 info: start round 3
@@ -44,6 +47,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 3
 info: start round 4
@@ -54,6 +58,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 4
 info: start round 5
@@ -64,6 +69,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 5
 info: start round 6
@@ -74,6 +80,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 6
 info: start round 7
@@ -84,6 +91,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 7
 info: start round 8
@@ -94,6 +102,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 8
 info: start round 9
@@ -104,6 +113,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 9
 info: start round 10
@@ -114,6 +124,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 10
 info: start round 11
@@ -124,6 +135,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 11
 info: start round 12
@@ -134,6 +146,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 12
 info: start round 13
@@ -144,6 +157,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 13
 info: start round 14
@@ -154,6 +168,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 14
 info: start round 15
@@ -164,6 +179,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 15
 info: start round 16
@@ -174,6 +190,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 16
 info: start round 17
@@ -184,6 +201,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 17
 info: start round 18
@@ -194,6 +212,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 18
 info: start round 19
@@ -204,6 +223,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 19
 info: start round 20
@@ -214,6 +234,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 20
 info: start round 21
@@ -224,6 +245,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 21
 info: start round 22
@@ -234,6 +256,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 22
 info: start round 23
@@ -244,6 +267,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 23
 info: start round 24
@@ -254,6 +278,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 24
 info: start round 25
@@ -264,6 +289,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 25
 info: start round 26
@@ -274,6 +300,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 26
 info: start round 27
@@ -284,6 +311,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 27
 info: start round 28
@@ -294,6 +322,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 28
 info: start round 29
@@ -304,6 +333,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 29
 info: start round 30
@@ -314,6 +344,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 30
 info: start round 31
@@ -324,6 +355,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 31
 info: start round 32
@@ -334,6 +366,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 32
 info: start round 33
@@ -344,6 +377,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 33
 info: start round 34
@@ -354,6 +388,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 34
 info: start round 35
@@ -364,6 +399,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = 39
 info:     end player 3
 info: end round 35
 info: start round 36
@@ -374,6 +410,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 36
 info: start round 37
@@ -384,6 +421,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = 70
 info:     end player 3
 info: end round 37
 info: start round 38
@@ -394,6 +432,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 38
 info: start round 39
@@ -404,6 +443,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 39
 info: start round 40
@@ -414,6 +454,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 40
 info: start round 41
@@ -424,6 +465,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 41
 info: start round 42
@@ -434,6 +476,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 42
 info: start round 43
@@ -444,6 +487,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 43
 info: start round 44
@@ -454,6 +498,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 44
 info: start round 45
@@ -464,6 +509,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 45
 info: start round 46
@@ -474,6 +520,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 46
 info: start round 47
@@ -484,6 +531,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 47
 info: start round 48
@@ -494,6 +542,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 48
 info: start round 49
@@ -504,6 +553,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 49
 info: start round 50
@@ -514,6 +564,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 50
 info: start round 51
@@ -524,6 +575,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 51
 info: start round 52
@@ -534,6 +586,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 52
 info: start round 53
@@ -544,6 +597,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 53
 info: start round 54
@@ -554,6 +608,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 54
 info: start round 55
@@ -564,6 +619,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 55
 info: start round 56
@@ -574,6 +630,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 56
 info: start round 57
@@ -584,6 +641,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 57
 info: start round 58
@@ -594,6 +652,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 58
 info: start round 59
@@ -604,6 +663,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 59
 info: start round 60
@@ -614,6 +674,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 60
 info: start round 61
@@ -624,6 +685,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 61
 info: start round 62
@@ -634,6 +696,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 62
 info: start round 63
@@ -644,6 +707,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 63
 info: start round 64
@@ -654,6 +718,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 64
 info: start round 65
@@ -664,6 +729,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 65
 info: start round 66
@@ -674,6 +740,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 66
 info: start round 67
@@ -684,6 +751,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 67
 info: start round 68
@@ -694,6 +762,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 68
 info: start round 69
@@ -704,6 +773,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 69
 info: start round 70
@@ -714,6 +784,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 70
 info: start round 71
@@ -724,6 +795,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 71
 info: start round 72
@@ -734,6 +806,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 72
 info: start round 73
@@ -744,6 +817,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 73
 info: start round 74
@@ -754,6 +828,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 74
 info: start round 75
@@ -764,6 +839,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 75
 info: start round 76
@@ -774,6 +850,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 76
 info: start round 77
@@ -784,6 +861,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 77
 info: start round 78
@@ -794,6 +872,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 78
 info: start round 79
@@ -804,6 +883,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 79
 info: start round 80
@@ -814,6 +894,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 80
 info: start round 81
@@ -824,6 +905,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 81
 info: start round 82
@@ -834,6 +916,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 82
 info: start round 83
@@ -844,6 +927,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = 65
 info:     end player 3
 info: end round 83
 info: start round 84
@@ -854,6 +938,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = 65
 info:     end player 3
 info: end round 84
 info: start round 85
@@ -864,6 +949,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 85
 info: start round 86
@@ -874,6 +960,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 86
 info: start round 87
@@ -884,6 +971,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 87
 info: start round 88
@@ -894,6 +982,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 88
 info: start round 89
@@ -904,6 +993,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 89
 info: start round 90
@@ -914,6 +1004,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 90
 info: start round 91
@@ -924,6 +1015,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 91
 info: start round 92
@@ -934,6 +1026,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 92
 info: start round 93
@@ -944,6 +1037,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 93
 info: start round 94
@@ -954,6 +1048,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 94
 info: start round 95
@@ -964,6 +1059,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 95
 info: start round 96
@@ -974,6 +1070,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 96
 info: start round 97
@@ -984,6 +1081,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 97
 info: start round 98
@@ -994,6 +1092,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 98
 info: start round 99
@@ -1004,6 +1103,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 99
 info: start round 100
@@ -1014,6 +1114,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 100
 info: start round 101
@@ -1024,6 +1125,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 101
 info: start round 102
@@ -1034,6 +1136,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 102
 info: start round 103
@@ -1044,6 +1147,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 103
 info: start round 104
@@ -1054,6 +1158,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 104
 info: start round 105
@@ -1064,6 +1169,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 105
 info: start round 106
@@ -1074,6 +1180,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 106
 info: start round 107
@@ -1084,6 +1191,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 107
 info: start round 108
@@ -1094,6 +1202,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 108
 info: start round 109
@@ -1104,6 +1213,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 109
 info: start round 110
@@ -1114,6 +1224,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 110
 info: start round 111
@@ -1124,6 +1235,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 111
 info: start round 112
@@ -1134,6 +1246,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 112
 info: start round 113
@@ -1144,6 +1257,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 113
 info: start round 114
@@ -1154,6 +1268,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 114
 info: start round 115
@@ -1164,6 +1279,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 115
 info: start round 116
@@ -1174,6 +1290,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 116
 info: start round 117
@@ -1184,6 +1301,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 117
 info: start round 118
@@ -1194,6 +1312,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 118
 info: start round 119
@@ -1204,6 +1323,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 119
 info: start round 120
@@ -1214,6 +1334,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 120
 info: start round 121
@@ -1224,6 +1345,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 121
 info: start round 122
@@ -1234,6 +1356,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 122
 info: start round 123
@@ -1244,6 +1367,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 123
 info: start round 124
@@ -1254,6 +1378,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 124
 info: start round 125
@@ -1264,6 +1389,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 125
 info: start round 126
@@ -1274,6 +1400,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 126
 info: start round 127
@@ -1284,6 +1411,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 127
 info: start round 128
@@ -1294,6 +1422,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 128
 info: start round 129
@@ -1304,6 +1433,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 129
 info: start round 130
@@ -1314,6 +1444,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 130
 info: start round 131
@@ -1324,6 +1455,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 131
 info: start round 132
@@ -1334,6 +1466,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 132
 info: start round 133
@@ -1344,6 +1477,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 133
 info: start round 134
@@ -1354,6 +1488,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 134
 info: start round 135
@@ -1364,6 +1499,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 135
 info: start round 136
@@ -1374,6 +1510,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 136
 info: start round 137
@@ -1384,6 +1521,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 137
 info: start round 138
@@ -1394,6 +1532,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 138
 info: start round 139
@@ -1404,6 +1543,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 139
 info: start round 140
@@ -1414,6 +1554,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 140
 info: start round 141
@@ -1424,6 +1565,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 141
 info: start round 142
@@ -1434,6 +1576,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 142
 info: start round 143
@@ -1444,6 +1587,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 143
 info: start round 144
@@ -1454,6 +1598,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 144
 info: start round 145
@@ -1464,6 +1609,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 145
 info: start round 146
@@ -1474,6 +1620,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 146
 info: start round 147
@@ -1484,6 +1631,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 147
 info: start round 148
@@ -1494,6 +1642,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 148
 info: start round 149
@@ -1504,6 +1653,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 149
 info: start round 150
@@ -1514,6 +1664,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 150
 info: start round 151
@@ -1524,6 +1675,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 151
 info: start round 152
@@ -1534,6 +1686,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 152
 info: start round 153
@@ -1544,6 +1697,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 153
 info: start round 154
@@ -1554,6 +1708,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 154
 info: start round 155
@@ -1564,6 +1719,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 155
 info: start round 156
@@ -1574,6 +1730,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 156
 info: start round 157
@@ -1584,6 +1741,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 157
 info: start round 158
@@ -1594,6 +1752,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 158
 info: start round 159
@@ -1604,6 +1763,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 159
 info: start round 160
@@ -1614,6 +1774,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 160
 info: start round 161
@@ -1624,6 +1785,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 161
 info: start round 162
@@ -1634,6 +1796,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 162
 info: start round 163
@@ -1644,6 +1807,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 163
 info: start round 164
@@ -1654,6 +1818,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 164
 info: start round 165
@@ -1664,6 +1829,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 165
 info: start round 166
@@ -1674,6 +1840,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 166
 info: start round 167
@@ -1684,6 +1851,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 167
 info: start round 168
@@ -1694,6 +1862,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 168
 info: start round 169
@@ -1704,6 +1873,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 169
 info: start round 170
@@ -1714,6 +1884,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 170
 info: start round 171
@@ -1724,6 +1895,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 171
 info: start round 172
@@ -1734,6 +1906,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 172
 info: start round 173
@@ -1744,6 +1917,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 173
 info: start round 174
@@ -1754,6 +1928,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 174
 info: start round 175
@@ -1764,6 +1939,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 175
 info: start round 176
@@ -1774,6 +1950,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 176
 info: start round 177
@@ -1784,6 +1961,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 177
 info: start round 178
@@ -1794,6 +1972,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 178
 info: start round 179
@@ -1804,6 +1983,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 179
 info: start round 180
@@ -1814,6 +1994,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 180
 info: start round 181
@@ -1824,6 +2005,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 181
 info: start round 182
@@ -1834,6 +2016,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 182
 info: start round 183
@@ -1844,6 +2027,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 183
 info: start round 184
@@ -1854,6 +2038,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 184
 info: start round 185
@@ -1864,6 +2049,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 185
 info: start round 186
@@ -1874,6 +2060,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 186
 info: start round 187
@@ -1884,6 +2071,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 187
 info: start round 188
@@ -1894,6 +2082,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 188
 info: start round 189
@@ -1904,6 +2093,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 189
 info: start round 190
@@ -1914,6 +2104,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 190
 info: start round 191
@@ -1924,6 +2115,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 191
 info: start round 192
@@ -1934,6 +2126,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 192
 info: start round 193
@@ -1944,6 +2137,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 193
 info: start round 194
@@ -1954,6 +2148,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 194
 info: start round 195
@@ -1964,6 +2159,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 195
 info: start round 196
@@ -1974,6 +2170,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 196
 info: start round 197
@@ -1984,6 +2181,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 197
 info: start round 198
@@ -1994,6 +2192,7 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 198
 info: start round 199
@@ -2004,11 +2203,12 @@ info:     end player 1
 info:     start player 2
 info:     end player 2
 info:     start player 3
+cell(Pos(0,3)).id = -1
 info:     end player 3
 info: end round 199
-info: player Null got score 305
-info: player Null got score 105
-info: player Harry got score 7416
-info: player Ron2 got score 8920
+info: player HarryBet got score 8387
+info: player Dummy got score 3576
+info: player Dummy got score 2917
+info: player Harry got score 4125
 info: player(s) got top score
 info: game played

@@ -9,7 +9,7 @@
  * Write the name of your player and save this file
  * with the same name and .cc extension.
  */
-#define PLAYER_NAME Harry
+#define PLAYER_NAME HarryBet
 
 struct PLAYER_NAME : public Player {
 
@@ -132,7 +132,12 @@ struct PLAYER_NAME : public Player {
 
 
   bool valid_pos(Pos p) {
+    // if (not (cell(p).id == -1 or unit(cell(p).id).player != me() or unit(cell(p).id).is_in_conversion_process())) {
+    //   dbg(p) dbg(cell(p).id) dbg(unit(cell(p).id).player)
+    // }
+
     return pos_ok(p) and cell(p).type == Corridor;
+    //and (cell(p).id == -1 or unit(cell(p).id).player != me() or unit(cell(p).id).is_in_conversion_process());
   }
 
   bool empty_pos(Pos p) {

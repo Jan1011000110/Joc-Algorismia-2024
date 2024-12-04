@@ -7,8 +7,10 @@ import threading
 # ===================== CONFIG ========================
 
 #bots = ["Dummy", "Dummy", "Dummy", "Harry"]
-#bots = ["Ron2", "Null", "Null", "Harry"]
-bots = ["Null", "Harry3", "Harry2", "Harry"]
+#bots = ["Ron2", "Dummy", "Dummy", "Harry"]
+#bots = ["Martinet", "Dummy", "Dummy", "Harry"]
+#bots = ["HarryBet", "Ron2", "Martinet", "Harry"]
+bots = ["HarryBet", "Harry3", "Harry2", "Harry"]
 
 in_file = "default.cnf" 
 out_file = "default.out"

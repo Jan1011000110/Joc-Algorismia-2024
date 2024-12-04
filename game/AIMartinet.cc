@@ -47,11 +47,11 @@ struct PLAYER_NAME : public Player {
 		
 	virtual void play () {
 		//parametres
-		int precaucio = 15;
-		int ronda_kamikaze = 170;
-		int ronda_datacs = 130;
-		int ganes_de_llibre = 25;
-		int buscar_altres = 15;
+		int precaucio = 3;
+		int ronda_kamikaze = 200;
+		int ronda_datacs = 50;
+		int ganes_de_llibre = 30;
+		int buscar_altres = 6;
 		int fantasmes_rivals = 0;
 		
 		

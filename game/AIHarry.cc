@@ -9,7 +9,7 @@
  * Write the name of your player and save this file
  * with the same name and .cc extension.
  */
-#define PLAYER_NAME Harry2
+#define PLAYER_NAME Harry
 
 struct PLAYER_NAME : public Player {
 
@@ -132,16 +132,19 @@ struct PLAYER_NAME : public Player {
 
 
   bool valid_pos(Pos p) {
-    // if (not (cell(p).id == -1 or unit(cell(p).id).player != me() or unit(cell(p).id).is_in_conversion_process())) {
-    //   dbg(p) dbg(cell(p).id) dbg(unit(cell(p).id).player)
-    // }
-
     return pos_ok(p) and cell(p).type == Corridor;
-    //and (cell(p).id == -1 or unit(cell(p).id).player != me() or unit(cell(p).id).is_in_conversion_process());
+  }
+
+  bool valid_pos_move(Pos p) {
+    return valid_pos(p) and (cell(p).id == -1 or unit(cell(p).id).player != me() or unit(cell(p).id).is_in_conversion_process());
   }
 
   bool empty_pos(Pos p) {
-    return valid_pos(p) and (cell(p).is_empty() or cell(p).book);
+    return valid_pos(p) and cell(p).id == -1;
+  }
+
+  bool empty_pos_move(Pos p) {
+    return valid_pos(p) and (cell(p).id == -1 or unit(cell(p).id).player != me() or unit(cell(p).id).is_in_conversion_process());
   }
 
   vector<Pos> get_books_pos() {
@@ -163,7 +166,9 @@ struct PLAYER_NAME : public Player {
     queue<pair<Pos, S>> q;
     for (int id : ids) {
       Pos p = unit(id).pos;
-      q.push({p, S(id, 0, p, Up)});
+      S s = S(id, 0, p, Up);
+      q.push({p, s});
+      M[p.i][p.j] = s;
     }
     while (not q.empty()) {
       auto [p, s] = q.front();
@@ -185,7 +190,9 @@ struct PLAYER_NAME : public Player {
     queue<pair<Pos, S>> q;
     int id = 0;
     for (Pos p : pos) {
-      q.push({p, S(id++, 0, p, Up)});
+      S s = S(id++, 0, p, Up);
+      q.push({p, s});
+      M[p.i][p.j] = s;
     }
     while (not q.empty()) {
       auto [p, s] = q.front();
@@ -201,19 +208,32 @@ struct PLAYER_NAME : public Player {
     return M;
   }
 
+//   bool find_escape(Pos p, int d, vector<vector<bool>> &U) {
+//     if ((d != 0 and not empty_pos(p)) or dist(p, pos_voldemort()) == 0 or U[p.i][p.j]) return false;
+//     if (d > THRESHOLD_ESCAPE or cell(p).book) return true;
+//     U[p.i][p.j] = true;
+//     for (Dir dir : ALL_DIRS) {
+//         if (find_escape(p + dir, d + 1, U)) {
+//             if (d == 0) move(ghost(me()), dir);
+//             return true;
+//         }
+//     }
+//     return false;
+//   }
+
   bool try_move(int id, bool all_dirs, bool attack, bool get_closer, vector<vector<int>> &D) {
     vector<Dir> dirs = (all_dirs ? ALL_DIRS : DIRS);
     Pos p = unit(id).pos;
     for (Dir dir : dirs) {
       Pos new_p = p + dir;
-      if ((attack ? valid_pos(new_p) : empty_pos(new_p)) and (get_closer ? D[new_p.i][new_p.j] < D[p.i][p.j] : D[new_p.i][new_p.j] > D[p.i][p.j])) {
+      if ((attack ? valid_pos_move(new_p) : empty_pos(new_p)) and (get_closer ? D[new_p.i][new_p.j] < D[p.i][p.j] : D[new_p.i][new_p.j] > D[p.i][p.j])) {
         move(id, dir);
         return true;
       }
     }
     for (Dir dir : dirs) {
       Pos new_p = p + dir;
-      if ((attack ? valid_pos(new_p) : empty_pos(new_p) and D[new_p.i][new_p.j] == D[p.i][p.j])) {
+      if ((attack ? valid_pos_move(new_p) : empty_pos(new_p) and D[new_p.i][new_p.j] == D[p.i][p.j])) {
         move(id, dir);
         return true;
       }
@@ -229,7 +249,6 @@ struct PLAYER_NAME : public Player {
   }
 
   void move_wizards() {
-    // TODO: HELP NEARBY WIZARDS THAT ARE CONVERTING
     vector<int> my_wizards = wizards(me());
     map<int, bool> used_wizards;
 
@@ -295,7 +314,7 @@ struct PLAYER_NAME : public Player {
       }
       Pos p = unit(wizard_id).pos;
       auto [book_id, d, book_p, dir] = M_books[p.i][p.j];
-      if (valid_pos(p + INVERSE_DIR[dir])) {
+      if (valid_pos_move(p + INVERSE_DIR[dir])) {
         move(wizard_id, INVERSE_DIR[dir]);
         used_wizards[wizard_id] = true;
       }
@@ -317,17 +336,23 @@ struct PLAYER_NAME : public Player {
         D[i][j] = min(M[i][j].d, dist(Pos(i, j), pos_voldemort()));
       }
     }
-    // POSSIBLE PROBLEM, THE GHOST MAY NOT MOVE
     Pos p = unit(ghost(me())).pos;
     if (D[p.i][p.j] < THRESHOLD_ESCAPE) {
       try_move(ghost(me()), true, false, false, D);
     }
     else {
       // LOOK FOR BOOKS
+      vector<Pos> books_pos = get_books_pos();
+      vector<vector<S>> M_books = BFS_pos(books_pos, true);
+      try_move(ghost(me()), true, false, true, M_books);
     }
+
+    //vector<vector<bool>> U(BOARD_ROWS, vector<bool>(BOARD_COLS));
+    //find_escape(p, 0, U);
   }
 
   void move_units() {
+    dbg(cell(Pos(0,3)).id)
     move_ghost();
     move_wizards();
   }
