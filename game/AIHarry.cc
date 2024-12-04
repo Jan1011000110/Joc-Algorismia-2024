@@ -370,20 +370,20 @@ struct PLAYER_NAME : public Player {
     }
   }
 
-  void attack_adjacent_enemies() {
-    vector<int> my_wizards = wizards(me());
+//   void attack_adjacent_enemies() {
+//     vector<int> my_wizards = wizards(me());
 
-    // MOVE WIZARDS TO ATTACK OTHER WIZARDS
-    vector<int> other_wizards = get_other_wizards();
-    vector<vector<S>> M = BFS_id(other_wizards, false); 
-    for (int wizard_id : my_wizards) {
-      Pos p = unit(wizard_id).pos;
-      auto [enemy_id, d, enemy_p, dir] = M[p.i][p.j];
-      if (d == 1) {
-        move(wizard_id, INVERSE_DIR[dir]);
-      }
-    }
-  }
+//     // MOVE WIZARDS TO ATTACK OTHER WIZARDS
+//     vector<int> other_wizards = get_other_wizards();
+//     vector<vector<S>> M = BFS_id(other_wizards, false); 
+//     for (int wizard_id : my_wizards) {
+//       Pos p = unit(wizard_id).pos;
+//       auto [enemy_id, d, enemy_p, dir] = M[p.i][p.j];
+//       if (d == 1) {
+//         move(wizard_id, INVERSE_DIR[dir]);
+//       }
+//     }
+//   }
 
   void attack_enemies() {
     vector<int> my_wizards = wizards(me());
@@ -443,7 +443,7 @@ struct PLAYER_NAME : public Player {
 
   void move_wizards() {
     heal_wizards();
-    attack_adjacent_enemies();
+    //attack_adjacent_enemies();
     attack_ghosts();
     attack_enemies();
     collect_books();
