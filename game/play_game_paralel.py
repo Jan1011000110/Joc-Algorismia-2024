@@ -6,11 +6,14 @@ import threading
 
 # ===================== CONFIG ========================
 
+bots = []
 #bots = ["Dummy", "Dummy", "Dummy", "Harry"]
 #bots = ["Ron2", "Dummy", "Dummy", "Harry"]
 #bots = ["Martinet", "Dummy", "Dummy", "Harry"]
-#bots = ["HarryBet", "Ron2", "Martinet", "Harry"]
-bots = ["HarryBet", "Harry3", "Harry2", "Harry"]
+#bots = ["Harry3", "Ron2", "Martinet", "Harry"]
+#bots = ["HarryBet", "Harry3", "Harry2", "Harry"]
+#bots = ["Dummy", "Harry3", "Dummy", "Harry"]
+#bots = ["AIRex_0_2_1", "Dummy", "Dummy", "Harry"]
 
 in_file = "default.cnf" 
 out_file = "default.out"
@@ -30,6 +33,9 @@ if lst_st != "turbo":
 os.system("bash -c \"export GOFAST='-DGOFAST';export DEBUGFLG='';make\"")
 
 n = int(sys.argv[1])
+for i in range(2, 6):
+    bot_name = sys.argv[i]
+    bots.append(bot_name)
 
 scores = [0 for x in bots]
 wins = [0 for x in bots]

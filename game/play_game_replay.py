@@ -5,11 +5,13 @@ import time
 
 # ===================== CONFIG ========================
 
+bots = []
 #bots = ["Dummy", "Dummy", "Dummy", "Harry"]
 #bots = ["Ron2", "Dummy", "Dummy", "Harry"]
-bots = ["HarryBet", "Dummy", "Dummy", "Harry"]
+#bots = ["HarryBet", "Dummy", "Dummy", "Harry"]
 #bots = ["Martinet", "Dummy", "Dummy", "Harry"]
-#bots = ["Null", "Harry3", "Harry2", "Harry"]
+#bots = ["HarryBet", "Harry3", "Harry2", "Harry"]
+#bots = ["AIRex_0_1_3", "Dummy", "Dummy", "Harry"]
 
 fsanitize = False
 
@@ -32,6 +34,11 @@ else:
     os.system("bash -c \"export GOFAST='';export DEBUGFLG='';make\"")
 
 n = int(sys.argv[1])
+
+for i in range(2, 6):
+    bot_name = sys.argv[i]
+    bots.append(bot_name)
+
 
 scores = [0 for x in bots]
 wins = [0 for x in bots]

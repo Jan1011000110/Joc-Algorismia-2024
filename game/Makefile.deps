@@ -8,11 +8,7 @@ AIHarry3.o: AIHarry3.cc Player.hh Info.hh Settings.hh Structs.hh Utils.hh \
  Defs.hh State.hh Action.hh Random.hh Registry.hh
 AIHarryBetter.o: AIHarryBetter.cc Player.hh Info.hh Settings.hh \
  Structs.hh Utils.hh Defs.hh State.hh Action.hh Random.hh Registry.hh
-AIMartinet.o: AIMartinet.cc Player.hh Info.hh Settings.hh Structs.hh \
- Utils.hh Defs.hh State.hh Action.hh Random.hh Registry.hh
 AINull.o: AINull.cc Player.hh Info.hh Settings.hh Structs.hh Utils.hh \
- Defs.hh State.hh Action.hh Random.hh Registry.hh
-AIRon2.o: AIRon2.cc Player.hh Info.hh Settings.hh Structs.hh Utils.hh \
  Defs.hh State.hh Action.hh Random.hh Registry.hh
 Action.o: Action.cc Action.hh Structs.hh Utils.hh Defs.hh
 Board.o: Board.cc Board.hh Info.hh Settings.hh Structs.hh Utils.hh \

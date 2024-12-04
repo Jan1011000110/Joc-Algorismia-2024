@@ -41,12 +41,18 @@ struct PLAYER_NAME : public Player {
   const int ROUNDS_SPELL_RESTING_GHOST = 60;	
   const int ROUNDS_NO_ATTACK_GHOST = 5;
 
-  const int THRESHOLD_ESCAPE = 7;
-  const int THRESHOLD_ATTACK_GHOST = 5;
-
   const int NUM_INGREDIENTS = 15;
   const int NUM_GROUPS = 5;
   const int NUM_INGREDIENTS_IN_GROUP = NUM_INGREDIENTS/NUM_GROUPS;
+
+  const int THRESHOLD_ESCAPE = 7;
+  const int THRESHOLD_ATTACK_GHOST = 5;
+
+  const int RADIUS = 5;
+  
+  const double THRESHOLD_FIGHT = 0.4;
+  const double COEF_PROB_WIN = 0.6;
+  const double COEF_RATE = 1 - COEF_PROB_WIN;
 
   const vector<Dir> ALL_DIRS = {Down, DR, Right, RU, Up, UL, Left, LD};
   const vector<Dir> DIRS = {Down, Right, Up, Left};
@@ -147,6 +153,36 @@ struct PLAYER_NAME : public Player {
     return valid_pos(p) and (cell(p).id == -1 or unit(cell(p).id).player != me() or unit(cell(p).id).is_in_conversion_process());
   }
 
+  double calculate_fight(Pos p, int enemy_id, int d) {
+    double rate = calculate_rate(p, enemy_id);
+    double prob_win = calculate_prob_win(me(), enemy_id);
+    return (COEF_PROB_WIN*prob_win+COEF_RATE*rate)/sqrt(d);
+  }
+
+  double calculate_prob_win(int id1, int id2) {
+    int N = magic_strength(unit(id1).player), M = magic_strength(unit(id2).player);
+    return (double)N/(N+M);
+  }
+
+  double calculate_rate(Pos p, int enemy_id) {
+    int mine = 0, other = 0;
+    for (int i = -RADIUS; i <= +RADIUS; ++i) {
+      for (int j = -RADIUS; j <= +RADIUS; ++j) {
+        if (abs(i) + abs(j) <= RADIUS) {
+          Pos new_p = Pos(p.i + i, p.j + j);
+          int player = unit(cell(new_p).id).player;
+          if (player == me()) {
+            mine += 1;
+          }
+          else if (player == enemy_id) {
+            other += 1;
+          }
+        }
+      }
+    }
+    return (double)mine/(mine+other);
+  }
+
   vector<Pos> get_books_pos() {
     vector<Pos> books_pos;
     for (int i = 0; i < BOARD_ROWS; ++i) {
@@ -158,6 +194,41 @@ struct PLAYER_NAME : public Player {
       }
     }
     return books_pos;
+  }
+
+  vector<int> get_other_wizards() {
+    vector<int> other_wizards;
+    for (int pl = 0; pl < 4; ++pl) {
+      if (pl != me()) {
+        vector<int> wz = wizards(pl);
+        for (auto id : wz) other_wizards.push_back(id);
+      }
+    }
+    return other_wizards;
+  }
+
+  vector<int> get_good_wizards() {
+    vector<int> my_wizards = wizards(me()), good_wizards;
+    for (int wizard_id : my_wizards) {
+      if (unit(wizard_id).is_in_conversion_process()) {
+      }
+      else {
+        good_wizards.push_back(wizard_id);
+      }
+    }
+    return good_wizards;
+  }
+
+  vector<int> get_bad_wizards() {
+    vector<int> my_wizards = wizards(me()), bad_wizards;
+    for (int wizard_id : my_wizards) {
+      if (unit(wizard_id).is_in_conversion_process()) {
+        bad_wizards.push_back(wizard_id);
+      }
+      else {
+      }
+    }
+    return bad_wizards;
   }
 
   vector<vector<S>> BFS_id(vector<int> ids, bool all_dirs) {
@@ -190,7 +261,7 @@ struct PLAYER_NAME : public Player {
     queue<pair<Pos, S>> q;
     int id = 0;
     for (Pos p : pos) {
-      S s = S(id++, 0, p, Up);
+      S s = S(id++  , 0, p, Up);
       q.push({p, s});
       M[p.i][p.j] = s;
     }
@@ -253,15 +324,7 @@ struct PLAYER_NAME : public Player {
     map<int, bool> used_wizards;
 
     // MOVE WIZARDS IN CONVERTING PROCESS TO GOOD WIZARDS SO THEY HEAL, MAYBE MOVE GOOD WIZARDS TO GET CLOSER
-    vector<int> bad_wizards, good_wizards;
-    for (int wizard_id : my_wizards) {
-      if (unit(wizard_id).is_in_conversion_process()) {
-        bad_wizards.push_back(wizard_id);
-      }
-      else {
-        good_wizards.push_back(wizard_id);
-      }
-    }
+    vector<int> bad_wizards = get_bad_wizards(), good_wizards = get_good_wizards();
     vector<vector<S>> M_good = BFS_id(good_wizards, false);
     vector<vector<S>> M_bad = BFS_id(bad_wizards, false);
     for (int wizard_id : bad_wizards) {
@@ -304,6 +367,23 @@ struct PLAYER_NAME : public Player {
       }
     }
 
+    // MOVE WIZARDS TO ATTACK OTHER WIZARDS
+    vector<int> other_wizards = get_other_wizards();
+    vector<vector<S>> M_enemy = BFS_id(other_wizards, false); 
+    for (int wizard_id : my_wizards) {
+      if (used_wizards.count(wizard_id)) {
+        continue;
+      }
+      Pos p = unit(wizard_id).pos;
+      auto [enemy_id, d, enemy_p, dir] = M_enemy[p.i][p.j];
+      double worth_fight = calculate_fight(p, unit(enemy_id).player, d);
+      dbg(worth_fight)
+      if (worth_fight > THRESHOLD_FIGHT and try_move(wizard_id, false, true, true, M_enemy)) {
+        used_wizards[wizard_id] = true;
+      }
+    }
+
+
     // MOVE WIZARDS TO COLLECT BOOKS
     // TODO: CHECK IF SOME ENEMY WIZARD WILL REACH BEFORE ME
     vector<Pos> books_pos = get_books_pos();
@@ -322,13 +402,7 @@ struct PLAYER_NAME : public Player {
   }
 
   void move_ghost() {
-    vector<int> other_wizards;
-    for (int pl = 0; pl < 4; ++pl) {
-      if (pl != me()) {
-        vector<int> wz = wizards(pl);
-        for (auto id : wz) other_wizards.push_back(id);
-      }
-    }
+    vector<int> other_wizards = get_other_wizards();
     vector<vector<S>> M = BFS_id(other_wizards, false);
     vector<vector<int>> D(BOARD_ROWS, vector<int>(BOARD_COLS));
     for (int i = 0; i < BOARD_ROWS; ++i) {
@@ -352,7 +426,6 @@ struct PLAYER_NAME : public Player {
   }
 
   void move_units() {
-    dbg(cell(Pos(0,3)).id)
     move_ghost();
     move_wizards();
   }
