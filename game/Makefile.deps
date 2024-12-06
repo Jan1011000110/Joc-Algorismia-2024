@@ -16,7 +16,7 @@ Board.o: Board.cc Board.hh Info.hh Settings.hh Structs.hh Utils.hh \
 Game.o: Game.cc Game.hh Player.hh Info.hh Settings.hh Structs.hh Utils.hh \
  Defs.hh State.hh Action.hh Random.hh Registry.hh Board.hh
 Info.o: Info.cc Info.hh Settings.hh Structs.hh Utils.hh Defs.hh State.hh
-Main.o: Main.cc Game.hh Player.hh Info.hh Settings.hh Structs.hh Utils.hh \
+Make.o: Make.cc Game.hh Player.hh Info.hh Settings.hh Structs.hh Utils.hh \
  Defs.hh State.hh Action.hh Random.hh Registry.hh Board.hh
 Player.o: Player.cc Player.hh Info.hh Settings.hh Structs.hh Utils.hh \
  Defs.hh State.hh Action.hh Random.hh Registry.hh

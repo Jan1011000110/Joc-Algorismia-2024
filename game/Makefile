@@ -1,7 +1,7 @@
 DUMMY_OBJ = AIDummy.o
 
 # Add here any extra .o player files you want to link to the executable
-EXTRA_OBJ = AIABetterBot.o AIUriBerruezo0.o AIMARTA_12.o
+EXTRA_OBJ = 
 
 # Configuration
 OPTIMIZE = 3 # Optimization level    (0 to 3)
@@ -38,9 +38,6 @@ all: setup Game
 
 setup:
 	cp AIDummy.o.Linux64 AIDummy.o
-	cp AIABetterBot.o.tmp AIABetterBot.o
-	cp AIUriBerruezo0.o.tmp AIUriBerruezo0.o
-	cp AIMARTA_12.o.tmp AIMARTA_12.o
 
 clean:
 	rm -rf Game  *.o *.exe Makefile.deps

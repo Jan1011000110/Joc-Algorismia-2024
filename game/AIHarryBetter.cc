@@ -51,7 +51,7 @@ struct PLAYER_NAME : public Player {
   const int RADIUS = 6;
   
   const double THRESHOLD_FIGHT = 0.4;
-  const double COEF_PROB_WIN = 0.6;
+  const double COEF_PROB_WIN = 0.9;
   const double COEF_RATE = 1 - COEF_PROB_WIN;
 
   const vector<Dir> ALL_DIRS = {Down, DR, Right, RU, Up, UL, Left, LD};
@@ -161,10 +161,12 @@ struct PLAYER_NAME : public Player {
 
   double calculate_prob_win(int id1, int id2, bool attack_first = false) {
     int N = magic_strength(unit(id1).player), M = magic_strength(unit(id2).player);
-    if (N > 2 * M) return 1.0;
-    else if (2 * N < M) return 0.0;
-    if (attack_first) return 0.3 + 0.7*N/(N+M);
-    return (double)N/(N+M);
+    if (1.0*N > 1.5*M) return 1.0;
+    else return 0.0;
+    // if (N > 2 * M) return 1.0;
+    // else if (2 * N < M) return 0.0;
+    // if (attack_first) return 0.3 + 0.7*N/(N+M);
+    // return (double)N/(N+M);
   }
 
   double calculate_rate(Pos p, int enemy_id) {
@@ -455,10 +457,10 @@ struct PLAYER_NAME : public Player {
     vector<vector<S>> M_good = BFS_id(good_wizards, false);
     vector<vector<S>> M_bad = BFS_id(bad_wizards, false);
     vector<pair<double, int>> order;
-    const double X = 4.0;
-    const double Y = 5.0;
-    const double Z = 5.0;
-    const double K = 4.0;
+    const double X = 3.0;
+    const double Y = 2.0;
+    const double Z = 4.3;
+    const double K = 3.5;
     for (auto wizard_id : wizards(me())) {
       double x = X*heal_wizards(wizard_id, M_good, M_bad, unit(wizard_id).is_in_conversion_process());
       double y = Y*attack_ghosts(wizard_id, attacked_ghosts, M_ghosts);

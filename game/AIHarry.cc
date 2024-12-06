@@ -347,7 +347,7 @@ struct PLAYER_NAME : public Player {
   }
 
   void attack_ghosts() {
-    if (round() > NUM_ROUNDS - 50) return;
+    if (round() < 50 or round() > NUM_ROUNDS - 50) return;
     vector<int> my_wizards = wizards(me());
 
     // MOVE WIZARDS TO ATTACK GHOST  
