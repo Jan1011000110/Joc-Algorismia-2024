@@ -9,7 +9,7 @@
  * Write the name of your player and save this file
  * with the same name and .cc extension.
  */
-#define PLAYER_NAME HarryBet
+#define PLAYER_NAME HarryBetter
 
 struct PLAYER_NAME : public Player {
 
@@ -47,11 +47,13 @@ struct PLAYER_NAME : public Player {
 
   const int THRESHOLD_ESCAPE = 7;
   const int THRESHOLD_ATTACK_GHOST = 5;
+  const int THRESHOLD_UNITS = 5;
+  const int THRESHOLD_REACH = 4;
 
   const int RADIUS = 6;
   
-  const double THRESHOLD_FIGHT = 0.4;
-  const double COEF_PROB_WIN = 0.9;
+  double THRESHOLD_FIGHT = 0.43;
+  const double COEF_PROB_WIN = 0.4;
   const double COEF_RATE = 1 - COEF_PROB_WIN;
 
   const vector<Dir> ALL_DIRS = {Down, DR, Right, RU, Up, UL, Left, LD};
@@ -161,31 +163,34 @@ struct PLAYER_NAME : public Player {
 
   double calculate_prob_win(int id1, int id2, bool attack_first = false) {
     int N = magic_strength(unit(id1).player), M = magic_strength(unit(id2).player);
-    if (1.0*N > 1.5*M) return 1.0;
-    else return 0.0;
-    // if (N > 2 * M) return 1.0;
-    // else if (2 * N < M) return 0.0;
-    // if (attack_first) return 0.3 + 0.7*N/(N+M);
-    // return (double)N/(N+M);
+    if (N > 2 * M) return 1.0;
+    else if (2 * N < M) return 0.0;
+    if (attack_first) return 0.3 + 0.7*N/(N+M);
+    return (double)N/(N+M);
   }
 
   double calculate_rate(Pos p, int enemy_id) {
-    int mine = 0, other = 0;
+    int mine = count(p, true), other = count(p, false);
+    return (double)mine/(mine+other);
+  }
+
+  int count(Pos p, bool is_me) {
+    int c = 0;
     for (int i = -RADIUS; i <= +RADIUS; ++i) {
       for (int j = -RADIUS; j <= +RADIUS; ++j) {
         if (abs(i) + abs(j) <= RADIUS) {
           Pos new_p = Pos(p.i + i, p.j + j);
           int player = unit(cell(new_p).id).player;
-          if (player == me()) {
-            mine += 1;
+          if (is_me and player == me()) {
+            c += 1;
           }
-          else if (player == enemy_id) {
-            other += 1;
+          else if (not is_me and player == me()) {
+            c += 1;
           }
         }
       }
     }
-    return (double)mine/(mine+other);
+    return c;
   }
 
   vector<Pos> get_books_pos() {
@@ -330,7 +335,7 @@ struct PLAYER_NAME : public Player {
     if (is_bad) {
       Pos p = unit(wizard_id).pos;
       auto [good_id, d, good_p, dir] = M_good[p.i][p.j];
-      bool reachable = unit(wizard_id).rounds_pending >= M_good[p.i][p.j].d;
+      bool reachable = unit(wizard_id).rounds_pending+THRESHOLD_REACH >= M_good[p.i][p.j].d;
       if (reachable) {
         if (act) {
           try_move(wizard_id, false, false, true, M_good);
@@ -344,7 +349,7 @@ struct PLAYER_NAME : public Player {
     else {
       Pos p = unit(wizard_id).pos;
       auto [bad_id, d, bad_p, dir] = M_bad[p.i][p.j];
-      bool reachable = unit(bad_id).rounds_pending >= M_bad[p.i][p.j].d;
+      bool reachable = unit(bad_id).rounds_pending+THRESHOLD_REACH >= M_bad[p.i][p.j].d;
       if (reachable) {
         if (act) {
           try_move(wizard_id, false, true, true, M_bad);
@@ -457,10 +462,10 @@ struct PLAYER_NAME : public Player {
     vector<vector<S>> M_good = BFS_id(good_wizards, false);
     vector<vector<S>> M_bad = BFS_id(bad_wizards, false);
     vector<pair<double, int>> order;
-    const double X = 3.0;
-    const double Y = 2.0;
-    const double Z = 4.3;
-    const double K = 3.5;
+    const double X = 10.0;
+    const double Y = 8.0;
+    const double Z = 2.0;
+    const double K = 5.0;
     for (auto wizard_id : wizards(me())) {
       double x = X*heal_wizards(wizard_id, M_good, M_bad, unit(wizard_id).is_in_conversion_process());
       double y = Y*attack_ghosts(wizard_id, attacked_ghosts, M_ghosts);

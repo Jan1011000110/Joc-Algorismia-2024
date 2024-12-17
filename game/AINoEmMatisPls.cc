@@ -9,7 +9,7 @@
  * Write the name of your player and save this file
  * with the same name and .cc extension.
  */
-#define PLAYER_NAME Harry2
+#define PLAYER_NAME NoEmMatisPls
 
 struct PLAYER_NAME : public Player {
 
@@ -48,6 +48,7 @@ struct PLAYER_NAME : public Player {
   const int THRESHOLD_ESCAPE = 7;
   const int THRESHOLD_ATTACK_GHOST = 5;
   const int THRESHOLD_UNITS = 5;
+  const int THRESHOLD_REACH = 4;
 
   const int RADIUS = 6;
   
@@ -163,7 +164,7 @@ struct PLAYER_NAME : public Player {
   double calculate_prob_win(int id1, int id2, bool attack_first = false) {
     int N = magic_strength(unit(id1).player), M = magic_strength(unit(id2).player);
     if (N > 2 * M) return 1.0;
-    else if (2 * N < M) return 0.0;
+    else if (2 * N < M) return -100.0;
     if (attack_first) return 0.3 + 0.7*N/(N+M);
     return (double)N/(N+M);
   }
@@ -313,7 +314,7 @@ struct PLAYER_NAME : public Player {
     }
     for (Dir dir : dirs) {
       Pos new_p = p + dir;
-      if ((attack ? valid_pos_move(new_p) : empty_pos(new_p) and D[new_p.i][new_p.j] == D[p.i][p.j])) {
+      if ((attack ? valid_pos_move(new_p) : empty_pos(new_p)) and D[new_p.i][new_p.j] == D[p.i][p.j]) {
         move(id, dir);
         return true;
       }
@@ -337,7 +338,7 @@ struct PLAYER_NAME : public Player {
     vector<vector<S>> M_bad = BFS_id(bad_wizards, false);
     for (int wizard_id : bad_wizards) {
       Pos p = unit(wizard_id).pos;
-      bool reachable = unit(wizard_id).rounds_pending+2 >= M_good[p.i][p.j].d;
+      bool reachable = unit(wizard_id).rounds_pending+THRESHOLD_REACH >= M_good[p.i][p.j].d;
       if (reachable) {
         try_move(wizard_id, false, false, true, M_good);
       }
@@ -345,7 +346,7 @@ struct PLAYER_NAME : public Player {
     for (int wizard_id : good_wizards) {
       Pos p = unit(wizard_id).pos;
       auto [bad_id, d, bad_p, dir] = M_bad[p.i][p.j];
-      bool reachable = unit(bad_id).rounds_pending+2 >= M_bad[p.i][p.j].d;
+      bool reachable = unit(bad_id).rounds_pending+THRESHOLD_REACH >= M_bad[p.i][p.j].d;
       if (reachable) {
         try_move(wizard_id, false, true, true, M_bad);
       }
@@ -397,6 +398,10 @@ struct PLAYER_NAME : public Player {
     // MOVE WIZARDS TO ATTACK OTHER WIZARDS
     vector<int> other_wizards = get_other_wizards();
     vector<vector<S>> M = BFS_id(other_wizards, false); 
+    sort(my_wizards.begin(), my_wizards.end(), [&](int i, int j) {
+      Pos p = unit(i).pos, q = unit(j).pos;
+      return M[p.i][p.j].d < M[q.i][q.j].d;
+    });
     for (int wizard_id : my_wizards) {
       Pos p = unit(wizard_id).pos;
       auto [enemy_id, d, enemy_p, dir] = M[p.i][p.j];
@@ -464,6 +469,9 @@ struct PLAYER_NAME : public Player {
     if (round() > NUM_ROUNDS - 50) {
       THRESHOLD_FIGHT = 0.1;
     }
+    // if (round() > NUM_ROUNDS - 20) {
+    //   THRESHOLD_FIGHT = 0.1;
+    // }
     heal_wizards();
     //attack_adjacent_enemies();
     //attack_group();

@@ -9,7 +9,7 @@
  * Write the name of your player and save this file
  * with the same name and .cc extension.
  */
-#define PLAYER_NAME Harry2
+#define PLAYER_NAME ElMatasdor2
 
 struct PLAYER_NAME : public Player {
 
@@ -48,6 +48,7 @@ struct PLAYER_NAME : public Player {
   const int THRESHOLD_ESCAPE = 7;
   const int THRESHOLD_ATTACK_GHOST = 5;
   const int THRESHOLD_UNITS = 5;
+  const int THRESHOLD_REACH = 4;
 
   const int RADIUS = 6;
   
@@ -337,7 +338,7 @@ struct PLAYER_NAME : public Player {
     vector<vector<S>> M_bad = BFS_id(bad_wizards, false);
     for (int wizard_id : bad_wizards) {
       Pos p = unit(wizard_id).pos;
-      bool reachable = unit(wizard_id).rounds_pending+2 >= M_good[p.i][p.j].d;
+      bool reachable = unit(wizard_id).rounds_pending+THRESHOLD_REACH >= M_good[p.i][p.j].d;
       if (reachable) {
         try_move(wizard_id, false, false, true, M_good);
       }
@@ -345,7 +346,7 @@ struct PLAYER_NAME : public Player {
     for (int wizard_id : good_wizards) {
       Pos p = unit(wizard_id).pos;
       auto [bad_id, d, bad_p, dir] = M_bad[p.i][p.j];
-      bool reachable = unit(bad_id).rounds_pending+2 >= M_bad[p.i][p.j].d;
+      bool reachable = unit(bad_id).rounds_pending+THRESHOLD_REACH >= M_bad[p.i][p.j].d;
       if (reachable) {
         try_move(wizard_id, false, true, true, M_bad);
       }

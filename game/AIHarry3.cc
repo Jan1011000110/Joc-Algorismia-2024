@@ -9,7 +9,7 @@
  * Write the name of your player and save this file
  * with the same name and .cc extension.
  */
-#define PLAYER_NAME Harry3
+#define PLAYER_NAME RonPelano
 
 struct PLAYER_NAME : public Player {
 
@@ -41,12 +41,20 @@ struct PLAYER_NAME : public Player {
   const int ROUNDS_SPELL_RESTING_GHOST = 60;	
   const int ROUNDS_NO_ATTACK_GHOST = 5;
 
-  const int THRESHOLD_ESCAPE = 7;
-  const int THRESHOLD_ATTACK_GHOST = 5;
-
   const int NUM_INGREDIENTS = 15;
   const int NUM_GROUPS = 5;
   const int NUM_INGREDIENTS_IN_GROUP = NUM_INGREDIENTS/NUM_GROUPS;
+
+  const int THRESHOLD_ESCAPE = 7;
+  const int THRESHOLD_ATTACK_GHOST = 5;
+  const int THRESHOLD_UNITS = 5;
+  const int THRESHOLD_REACH = 4;
+
+  const int RADIUS = 6;
+  
+  double THRESHOLD_FIGHT = 0.43;
+  const double COEF_PROB_WIN = 0.4;
+  const double COEF_RATE = 1 - COEF_PROB_WIN;
 
   const vector<Dir> ALL_DIRS = {Down, DR, Right, RU, Up, UL, Left, LD};
   const vector<Dir> DIRS = {Down, Right, Up, Left};
@@ -147,8 +155,42 @@ struct PLAYER_NAME : public Player {
     return valid_pos(p) and (cell(p).id == -1 or unit(cell(p).id).player != me() or unit(cell(p).id).is_in_conversion_process());
   }
 
-  double prob_win(int id1, int id2) {
-    return 0.0;
+  double calculate_fight(Pos p, int enemy_id, int d, bool attack_first = false) {
+    double rate = calculate_rate(p, enemy_id);
+    double prob_win = calculate_prob_win(me(), enemy_id, attack_first);
+    return (COEF_PROB_WIN*prob_win+COEF_RATE*rate)/sqrt(d);
+  }
+
+  double calculate_prob_win(int id1, int id2, bool attack_first = false) {
+    int N = magic_strength(unit(id1).player), M = magic_strength(unit(id2).player);
+    if (N > 2 * M) return 1.0;
+    else if (2 * N < M) return -100.0;
+    if (attack_first) return 0.3 + 0.7*N/(N+M);
+    return (double)N/(N+M);
+  }
+
+  double calculate_rate(Pos p, int enemy_id) {
+    int mine = count(p, true), other = count(p, false);
+    return (double)mine/(mine+other);
+  }
+
+  int count(Pos p, bool is_me) {
+    int c = 0;
+    for (int i = -RADIUS; i <= +RADIUS; ++i) {
+      for (int j = -RADIUS; j <= +RADIUS; ++j) {
+        if (abs(i) + abs(j) <= RADIUS) {
+          Pos new_p = Pos(p.i + i, p.j + j);
+          int player = unit(cell(new_p).id).player;
+          if (is_me and player == me()) {
+            c += 1;
+          }
+          else if (not is_me and player == me()) {
+            c += 1;
+          }
+        }
+      }
+    }
+    return c;
   }
 
   vector<Pos> get_books_pos() {
@@ -229,7 +271,33 @@ struct PLAYER_NAME : public Player {
     queue<pair<Pos, S>> q;
     int id = 0;
     for (Pos p : pos) {
-      S s = S(id++, 0, p, Up);
+      S s = S(id++  , 0, p, Up);
+      q.push({p, s});
+      M[p.i][p.j] = s;
+    }
+    while (not q.empty()) {
+      auto [p, s] = q.front();
+      q.pop();
+      for (Dir dir : DIRS) {
+        Pos new_p = p + dir;
+        if (valid_pos(new_p) and M[new_p.i][new_p.j].d == INF) {
+          M[new_p.i][new_p.j] = S(s.id, s.d + 1, s.pos, dir);
+          q.push({new_p, M[new_p.i][new_p.j]});
+        }
+      }
+    }
+    return M;
+  }
+
+  vector<vector<S>> BFS_rare(vector<Pos> pos, vector<int> ids, bool all_dirs = false) {
+    vector<Dir> dirs = (all_dirs ? ALL_DIRS : DIRS);
+    vector<vector<S>> M(BOARD_ROWS, vector<S>(BOARD_COLS));
+    queue<pair<Pos, S>> q;
+    int id = 0;
+    for (int i = 0; i < sz(pos); ++i) {
+      Pos p = pos[i];
+      int id = ids[i];
+      S s = S(id, 0, p, Up);
       q.push({p, s});
       M[p.i][p.j] = s;
     }
@@ -260,96 +328,152 @@ struct PLAYER_NAME : public Player {
 //     return false;
 //   }
 
-  bool try_move(int id, bool all_dirs, bool attack, bool get_closer, vector<vector<int>> &D) {
+  pair<bool, Dir> try_move(int id, bool all_dirs, bool attack, bool get_closer, vector<vector<int>> &D) {
     vector<Dir> dirs = (all_dirs ? ALL_DIRS : DIRS);
     Pos p = unit(id).pos;
     for (Dir dir : dirs) {
       Pos new_p = p + dir;
       if ((attack ? valid_pos_move(new_p) : empty_pos(new_p)) and (get_closer ? D[new_p.i][new_p.j] < D[p.i][p.j] : D[new_p.i][new_p.j] > D[p.i][p.j])) {
         move(id, dir);
-        return true;
+        return {true, dir};
       }
     }
     for (Dir dir : dirs) {
       Pos new_p = p + dir;
-      if ((attack ? valid_pos_move(new_p) : empty_pos(new_p) and D[new_p.i][new_p.j] == D[p.i][p.j])) {
+      if ((attack ? valid_pos_move(new_p) : empty_pos(new_p)) and D[new_p.i][new_p.j] == D[p.i][p.j]) {
         move(id, dir);
-        return true;
+        return {true, dir};
       }
     }
-    return false;
+    return {false, Up};
   }
 
 
-  bool try_move(int id, bool all_dirs, bool attack, bool get_closer, vector<vector<S>> &M) {
+  pair<bool, Dir> try_move(int id, bool all_dirs, bool attack, bool get_closer, vector<vector<S>> &M) {
     vector<vector<int>> D(BOARD_ROWS, vector<int>(BOARD_COLS));
     for (int i = 0; i < BOARD_ROWS; ++i) for (int j = 0; j < BOARD_COLS; ++j) D[i][j] = M[i][j].d;
     return try_move(id, all_dirs, attack, get_closer, D);
   }
 
-  void move_wizards() {
+  void heal_wizards() {
     vector<int> my_wizards = wizards(me());
-    map<int, bool> used_wizards;
 
     // MOVE WIZARDS IN CONVERTING PROCESS TO GOOD WIZARDS SO THEY HEAL, MAYBE MOVE GOOD WIZARDS TO GET CLOSER
     vector<int> bad_wizards = get_bad_wizards(), good_wizards = get_good_wizards();
     vector<vector<S>> M_good = BFS_id(good_wizards, false);
-    vector<vector<S>> M_bad = BFS_id(bad_wizards, false);
+    //vector<vector<S>> M_bad = BFS_id(bad_wizards, false);
+    vector<Pos> pos;
+    vector<int> ids;
     for (int wizard_id : bad_wizards) {
-      if (used_wizards.count(wizard_id)) {
-        continue;
-      }
       Pos p = unit(wizard_id).pos;
-      bool reachable = unit(wizard_id).rounds_pending > M_good[p.i][p.j].d;
-      if (reachable and try_move(wizard_id, false, false, true, M_good)) {
-        used_wizards[wizard_id] = true;
+      bool reachable = unit(wizard_id).rounds_pending+THRESHOLD_REACH >= M_good[p.i][p.j].d;
+      if (reachable) {
+        auto x = try_move(wizard_id, false, false, true, M_good);
+        if (x.first) {
+          pos.push_back(p + x.second);
+          ids.push_back(wizard_id);
+        }
+        else {
+          pos.push_back(p);
+          ids.push_back(wizard_id);
+        }
       }
-    }
+    }  
+    vector<vector<S>> M_bad = BFS_rare(pos, ids); 
     for (int wizard_id : good_wizards) {
-      if (used_wizards.count(wizard_id)) {
-        continue;
-      }
       Pos p = unit(wizard_id).pos;
       auto [bad_id, d, bad_p, dir] = M_bad[p.i][p.j];
-      bool reachable = unit(bad_id).rounds_pending > M_bad[p.i][p.j].d;
-      if (reachable and try_move(wizard_id, false, true, true, M_bad)) {
-        used_wizards[wizard_id] = true;
+      bool reachable = unit(bad_id).rounds_pending+THRESHOLD_REACH >= M_bad[p.i][p.j].d;
+      if (reachable) {
+        try_move(wizard_id, false, true, true, M_bad);
       }
     }
+  }
+
+  void attack_ghosts() {
+    if (round() < 50 or round() > NUM_ROUNDS - 50) return;
+    vector<int> my_wizards = wizards(me());
 
     // MOVE WIZARDS TO ATTACK GHOST  
     vector<int> other_ghosts;
     map<int, bool> attacked_ghosts;
     for (int pl = 0; pl < 4; ++pl) if (pl != me()) other_ghosts.push_back(ghost(pl));
-    vector<vector<S>> M_ghosts = BFS_id(other_ghosts, false);
+    vector<vector<S>> M = BFS_id(other_ghosts, false);
+    sort(my_wizards.begin(), my_wizards.end(), [&](int i, int j) {
+        Pos p = unit(i).pos, q = unit(j).pos;
+        return M[p.i][p.j].d < M[q.i][q.j].d;
+    });
     for (int wizard_id : my_wizards) {
-      if (used_wizards.count(wizard_id)) {
-        continue;
-      }
       Pos p = unit(wizard_id).pos;
-      auto [ghost_id, d, ghost_p, dir] = M_ghosts[p.i][p.j];
+      auto [ghost_id, d, ghost_p, dir] = M[p.i][p.j];
       bool reachable = d < THRESHOLD_ATTACK_GHOST and not attacked_ghosts.count(ghost_id);
-      if (reachable and unit(ghost_id).resting_rounds() == 0 and try_move(wizard_id, false, true, true, M_ghosts)) {
-        used_wizards[wizard_id] = true;
+      if (reachable and round() - unit(ghost_id).last_attack_received() > ROUNDS_NO_ATTACK_GHOST) {
+        try_move(wizard_id, false, true, true, M);
         attacked_ghosts[ghost_id] = true;
       }
     }
+  }
+
+//   void attack_adjacent_enemies() {
+//     vector<int> my_wizards = wizards(me());
+
+//     // MOVE WIZARDS TO ATTACK OTHER WIZARDS
+//     vector<int> other_wizards = get_other_wizards();
+//     vector<vector<S>> M = BFS_id(other_wizards, false); 
+//     for (int wizard_id : my_wizards) {
+//       Pos p = unit(wizard_id).pos;
+//       auto [enemy_id, d, enemy_p, dir] = M[p.i][p.j];
+//       if (d == 1) {
+//         move(wizard_id, INVERSE_DIR[dir]);
+//       }
+//     }
+//   }
+
+  void attack_enemies() {
+    vector<int> my_wizards = wizards(me());
 
     // MOVE WIZARDS TO ATTACK OTHER WIZARDS
+    vector<int> other_wizards = get_other_wizards();
+    vector<vector<S>> M = BFS_id(other_wizards, false); 
+    sort(my_wizards.begin(), my_wizards.end(), [&](int i, int j) {
+      Pos p = unit(i).pos, q = unit(j).pos;
+      return M[p.i][p.j].d < M[q.i][q.j].d;
+    });
+    for (int wizard_id : my_wizards) {
+      Pos p = unit(wizard_id).pos;
+      auto [enemy_id, d, enemy_p, dir] = M[p.i][p.j];
+      double worth_fight = calculate_fight(p, unit(enemy_id).player, d);
+      if (worth_fight > THRESHOLD_FIGHT) {
+        try_move(wizard_id, false, true, true, M);
+      }
+    }
+  }
+
+  void attack_group() {
+    vector<int> my_wizards = wizards(me());
+    vector<int> other_wizards = get_other_wizards();
+    vector<vector<S>> M = BFS_id(other_wizards, false); 
+    for (int wizard_id : my_wizards) {
+      Pos p = unit(wizard_id).pos;
+      //auto [enemy_id, d, enemy_p, dir] = M[p.i][p.j];
+      if (count(p, true) >= THRESHOLD_UNITS) {
+        try_move(wizard_id, false, true, true, M);
+      }
+    }
+  }
+
+  void collect_books() {
+    vector<int> my_wizards = wizards(me());
 
     // MOVE WIZARDS TO COLLECT BOOKS
     // TODO: CHECK IF SOME ENEMY WIZARD WILL REACH BEFORE ME
     vector<Pos> books_pos = get_books_pos();
-    vector<vector<S>> M_books = BFS_pos(books_pos, false);
+    vector<vector<S>> M = BFS_pos(books_pos, false);
     for (int wizard_id : my_wizards) {
-      if (used_wizards.count(wizard_id)) {
-        continue;
-      }
       Pos p = unit(wizard_id).pos;
-      auto [book_id, d, book_p, dir] = M_books[p.i][p.j];
+      auto [book_id, d, book_p, dir] = M[p.i][p.j];
       if (valid_pos_move(p + INVERSE_DIR[dir])) {
         move(wizard_id, INVERSE_DIR[dir]);
-        used_wizards[wizard_id] = true;
       }
     }
   }
@@ -376,6 +500,22 @@ struct PLAYER_NAME : public Player {
 
     //vector<vector<bool>> U(BOARD_ROWS, vector<bool>(BOARD_COLS));
     //find_escape(p, 0, U);
+  }
+
+  void move_wizards() {
+    if (round() > NUM_ROUNDS - 50) {
+      THRESHOLD_FIGHT = 0.1;
+    }
+    // if (round() > NUM_ROUNDS - 20) {
+    //   THRESHOLD_FIGHT = 0.1;
+    // }
+    heal_wizards();
+    //attack_adjacent_enemies();
+    //attack_group();
+    attack_enemies();
+    attack_ghosts();
+    collect_books();
+    
   }
 
   void move_units() {

@@ -8,11 +8,15 @@ AIHarry3.o: AIHarry3.cc Player.hh Info.hh Settings.hh Structs.hh Utils.hh \
  Defs.hh State.hh Action.hh Random.hh Registry.hh
 AIHarryBetter.o: AIHarryBetter.cc Player.hh Info.hh Settings.hh \
  Structs.hh Utils.hh Defs.hh State.hh Action.hh Random.hh Registry.hh
+AINoEmMatisPls.o: AINoEmMatisPls.cc Player.hh Info.hh Settings.hh \
+ Structs.hh Utils.hh Defs.hh State.hh Action.hh Random.hh Registry.hh
 AINull.o: AINull.cc Player.hh Info.hh Settings.hh Structs.hh Utils.hh \
  Defs.hh State.hh Action.hh Random.hh Registry.hh
 Action.o: Action.cc Action.hh Structs.hh Utils.hh Defs.hh
 Board.o: Board.cc Board.hh Info.hh Settings.hh Structs.hh Utils.hh \
  Defs.hh State.hh Action.hh Random.hh
+ElMatasdor2.o: ElMatasdor2.cc Player.hh Info.hh Settings.hh Structs.hh \
+ Utils.hh Defs.hh State.hh Action.hh Random.hh Registry.hh
 Game.o: Game.cc Game.hh Player.hh Info.hh Settings.hh Structs.hh Utils.hh \
  Defs.hh State.hh Action.hh Random.hh Registry.hh Board.hh
 Info.o: Info.cc Info.hh Settings.hh Structs.hh Utils.hh Defs.hh State.hh

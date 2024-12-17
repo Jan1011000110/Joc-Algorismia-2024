@@ -71,4 +71,3 @@ for i in range(1, n+1):
         print(f'{"Games 1.."+str(i)+":":<20}\t{"Average score":^31}{"Winrate":>18}')
         for bi in range(len(bots)):
             print(f'\t{bots[bi]+":":<20} {scores[bi]/i:^20.0f} {wins[bi]*100/i:>20.0f}%')
-        
